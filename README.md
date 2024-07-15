@@ -8,6 +8,8 @@ The dataset corresponds to the paper "TGIF: Text-Guided Inpainting Forgery Datas
 
 We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
 
+![TGIF Creation](./readme-images/TGIF_diagram.png)
+
 ## TODOs
 - [ ] Separate download links for training/validation and test set
 - [ ] Add GIQA scores to metadata
@@ -30,3 +32,4 @@ We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecomm
 * Metadata
   * [SD2](https://cloud.ilabt.imec.be/index.php/s/PBezTRictoX3iLa])
   * [SDXL](https://cloud.ilabt.imec.be/index.php/s/DXEq5s5dY77Bm7D)
+
