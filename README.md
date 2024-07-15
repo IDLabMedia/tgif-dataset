@@ -1,16 +1,19 @@
 # TGIF: Text-Guided Inpainting Forgery Dataset
 
 This dataset contains approximately 80k fake images, manipulated by text-guided inpainting methods (SD2, SDXL, and Adobe Firefly).
-The authentic images originate from [MS-COCO](https://cocodataset.org/), and have resolutions up to 1024x1024 px.
+The authentic images originate from [MS-COCO](https://cocodataset.org/), with a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/), and have resolutions up to 1024x1024 px.
 We provide both the manipulated image where the inpainted area is spliced in the original image (SD2-sp, PS-sp), as well as the fully-regenerated image (SD2-fr, SDXL-fr), when possible.
 
 The dataset corresponds to the paper "TGIF: Text-Guided Inpainting Forgery Dataset", which is currently submitted and under review.
 
+We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
+
 ## TODOs
 - [ ] Separate download links for training/validation and test set
-- [ ] Add GIQA scores
-- [ ] Add benchmark results (individual & summary)
+- [ ] Add GIQA scores to metadata
+- [ ] Add benchmark results (per image)
 - [ ] Add code used for generation (SD python script & Photoshop script)
+- [ ] Add paper pdf and BibTex code
 
 ## Downloadlinks
 * Fake images
