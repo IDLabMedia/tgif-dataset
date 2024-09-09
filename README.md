@@ -17,6 +17,19 @@ We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecomm
 - [ ] Add code used for generation (SD python script & Photoshop script)
 - [ ] Add paper pdf and BibTex code
 
+## Dataset specifications
+| **Manipulation types**                             |                                    |
+|----------------------------------------------------|------------------------------------|
+| **# masks**                                        | 2 (segmentation & bounding box)    |
+| **# variations**                                   | 3 per generation                   |
+| **# sub-datasets**                                 | 4 (SD2-sp, PS-sp, SD2-fr, SDXL-fr) |
+| **Total # manipulated images per authentic image** | 2 * 3 * 4 = 24                     |
+
+| **Dataset size**         | **Training** | **Validation** | **Testing** | **Total** |
+|--------------------------|--------------|----------------|-------------|-----------|
+| **# authentic images**   | 2 440        | 341            | 343         | 3 124     |
+| **# manipulated images** | 58 560       | 8 184          | 8 232       | 74 976    |
+
 ## Downloadlinks
 * Fake images
   * [SD2](https://cloud.ilabt.imec.be/index.php/s/LketizMaLoKBdaH) (46 GB)
