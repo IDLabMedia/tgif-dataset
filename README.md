@@ -43,6 +43,6 @@ We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecomm
   * [SDXL](https://cloud.ilabt.imec.be/index.php/s/mTzPq5KM64WcHg6)
   * [Photoshop masks](https://cloud.ilabt.imec.be/index.php/s/LEid5QGPzfHTaKg)
 * Metadata
-  * [SD2](https://cloud.ilabt.imec.be/index.php/s/PBezTRictoX3iLa])
+  * [SD2](https://cloud.ilabt.imec.be/index.php/s/PBezTRictoX3iLa)
   * [SDXL](https://cloud.ilabt.imec.be/index.php/s/DXEq5s5dY77Bm7D)
 
