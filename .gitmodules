@@ -1,0 +1,6 @@
+[submodule "code/NIMA"]
+	path = code/NIMA
+	url = https://github.com/IDLabMedia/NIMA
+[submodule "code/GIQA"]
+	path = code/GIQA
+	url = git@github.com:IDLabMedia/GIQA.git

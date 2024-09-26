@@ -1,0 +1,10 @@
+torch==2.4.0+cu121
+diffusers==0.26.3
+transformers
+accelerate
+scipy
+safetensors
+pycocotools
+
+#NIMA
+torchvision==0.19.0+cu121
