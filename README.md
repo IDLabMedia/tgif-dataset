@@ -14,7 +14,7 @@ We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecomm
 | **Manipulation types**                             |                                    |
 |----------------------------------------------------|------------------------------------|
 | **# masks**                                        | 2 (segmentation & bounding box)    |
-| **# variations** (num_images_per_prompt)           | 3 per generation                   |
+| **# variations** (num_images_per_prompt)           | 3 per generation (in batch)        |
 | **# sub-datasets**                                 | 4 (SD2-sp, PS-sp, SD2-fr, SDXL-fr) |
 | **Total # manipulated images per authentic image** | 2 * 3 * 4 = 24                     |
 
