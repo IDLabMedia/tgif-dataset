@@ -11,7 +11,6 @@ We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecomm
 ![TGIF Creation](./readme-images/TGIF_diagram.png)
 
 ## TODOs
-- [ ] Separate download links for training/validation and test set
 - [ ] Add benchmark results (per image)
 - [ ] Add code for image compression
 - [ ] Add paper pdf and BibTex code
@@ -30,18 +29,7 @@ We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecomm
 | **# manipulated images** | 58 560       | 8 184          | 8 232       | 74 976    |
 
 ## Downloadlinks
-* Fake images
-  * [SD2](https://cloud.ilabt.imec.be/index.php/s/LketizMaLoKBdaH) (46 GB)
-  * [SDXL](https://cloud.ilabt.imec.be/index.php/s/3HipNJHob2WyZaW) (41 GB)
-  * [Adobe Firefly](https://cloud.ilabt.imec.be/index.php/s/R7dgjNg4tNWEybR) (17.8 GB)
-* Real images
-  * [SD2](https://cloud.ilabt.imec.be/index.php/s/naMSpLxEd9fMqyR) (4 GB)
-  * [SDXL crops](https://cloud.ilabt.imec.be/index.php/s/nf7am5P5tCC7Xjf) (3 GB)
-* Masks
-  * [SD2](https://cloud.ilabt.imec.be/index.php/s/HHo8bj4xdrcDb3Q)
-  * [SDXL](https://cloud.ilabt.imec.be/index.php/s/mTzPq5KM64WcHg6)
-  * [Photoshop masks](https://cloud.ilabt.imec.be/index.php/s/LEid5QGPzfHTaKg)
-* Metadata
-  * [SD2](https://cloud.ilabt.imec.be/index.php/s/PBezTRictoX3iLa)
-  * [SDXL](https://cloud.ilabt.imec.be/index.php/s/DXEq5s5dY77Bm7D)
+[Download all images](https://cloud.ilabt.imec.be/index.php/s/xEeAzrY7ES9KA8o)
+
+The downloads are organized in masks, original, SD2-sp, PS-sp, SD2-fr, SDXL-fr. And each of those are separated in training, validation, and testing, respectively.
 
