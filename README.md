@@ -4,7 +4,7 @@ This dataset contains approximately 75k fake images, manipulated by text-guided 
 The authentic images originate from [MS-COCO](https://cocodataset.org/), with a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/), and have resolutions up to 1024x1024 px.
 We provide both the manipulated image where the inpainted area is spliced in the original image (SD2-sp, PS-sp), as well as the fully-regenerated image (SD2-fr, SDXL-fr), when possible.
 
-The dataset corresponds to the paper "TGIF: Text-Guided Inpainting Forgery Dataset", which is currently submitted and under review.
+The dataset corresponds to the paper "TGIF: Text-Guided Inpainting Forgery Dataset", which was accepted at the [IEEE International Workshop on Information Forensics & Security 2024](https://wifs2024.uniroma3.it/).
 
 We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -12,8 +12,6 @@ We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecomm
 
 ## TODOs
 - [ ] Add benchmark results (per image)
-- [ ] Add code for image compression
-- [ ] Add paper pdf and BibTex code
 
 ## Dataset specifications
 | **Manipulation types**                             |                                    |
@@ -33,3 +31,18 @@ We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecomm
 
 The downloads are organized in masks, original, SD2-sp, PS-sp, SD2-fr, SDXL-fr. And each of those are separated in training, validation, and testing, respectively.
 
+Metadata (incl. NIMA, GIQA & ITM scores) is available in this repository (_metadata_).
+
+Code to compress images is available in _code/postprocess_images.py_.
+
+## Reference
+This work will be presented in the [IEEE International Workshop on Information Forensics & Security 2024](https://wifs2024.uniroma3.it/). The preprint can be downloaded [on arXiv](https://arxiv.org/abs/2407.11566).
+
+```js
+@InProceedings{mareen2024tgif,
+  author="Mareen, Hannes and Karageorgiou, Dimitrios and Van Wallendael, Glenn and Lambert, Peter and Papadopoulos, Symeon",
+  title="TGIF: Text-Guided Inpainting Forgery Dataset",
+  booktitle="Proc. Int. Workshop on Information Forensics and Security (WIFS) 2024",
+  year="2024"
+}
+```
