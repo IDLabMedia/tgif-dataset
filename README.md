@@ -10,9 +10,6 @@ We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecomm
 
 ![TGIF Creation](./readme-images/TGIF_diagram.png)
 
-## TODOs
-- [ ] Add benchmark results (per image)
-
 ## Dataset specifications
 | **Manipulation types**                             |                                    |
 |----------------------------------------------------|------------------------------------|
