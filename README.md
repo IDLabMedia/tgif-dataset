@@ -10,7 +10,7 @@ We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecomm
 
 
 ## Visual explanation of our insights
-![Authors on skis in Greece](./readme-images/fake-skis.png)
+![Authors on skis in Greece](./readme-images/fake-skis.png)<br>
 *Did the authors really go skiing on Greece's iconic Mt. Athos?*
 
 The image above is fake - the skis were added using text-guided inpainting. Can current forensic methods detect this manipulation?
@@ -20,7 +20,7 @@ Find out in our [**blog post**](https://media.idlab.ugent.be/tgif-dataset), wher
 
 ## Dataset specifications
 
-![TGIF Creation](./readme-images/TGIF_diagram.png)
+![TGIF Creation](./readme-images/TGIF_diagram.png)<br>
 *How we created 75k fake images using SD2, SDXL, and Adobe Photoshop/Firefly. We used 2 types of masks, and differentiate between spliced and fully regenerated inpainted images. Note seen in the diagram: each inpainting operation creates 3 variations in batch.*
 
 | **Manipulation types**                             |                                    |
