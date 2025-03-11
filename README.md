@@ -43,7 +43,9 @@ The manipulated image filenames are as follows:
 
 Metadata (incl. NIMA, GIQA & ITM scores) is available in this repository (_metadata_), as well as the benchmark results (_benchmark-results_).
 
-Code to perform text-guided inpainting with SD2, SDXL & Adobe Photoshop/Firefly is added in the _code_ folder of this repository, as well as code to calculate NIMA, GIQA, and ITM scores, and to  compress images using JPEG and WEBP. 
+Code to perform text-guided inpainting with SD2, SDXL & Adobe Photoshop/Firefly is added in the _code_ folder of this repository, as well as code to calculate NIMA, GIQA, and ITM scores, and to compress images using JPEG and WEBP.
+
+The [NIMA](https://github.com/yunxiaoshi/Neural-IMage-Assessment) and [GIQA](https://github.com/cientgu/GIQA) checkpoints are archived [here](https://cloud.ilabt.imec.be/index.php/s/DQwTjE6A3ydgxjq). The ITM, SD2 and SDXL weights are downloaded automatically.
 
 ## Filenaming
 The files are named as follows:
