@@ -1,0 +1,33 @@
+CUDNN:
+  BENCHMARK: true
+  DETERMINISTIC: false
+  ENABLED: true
+WORKERS: 4
+BATCH_SIZE: 9
+ACCUMULATE_ITERS: 2
+DATASET:
+  NUM_CLASSES: 2
+  TRAIN:
+    - '/path/to/train/dataset1.txt'
+    - '/path/to/train/dataset2.txt'
+  VAL:
+    - '/path/to/val/dataset1.txt'
+    - '/path/to/val/dataset2.txt'
+  IMG_SIZE: 512
+  CLASS_WEIGHTS: [0.5, 2.5]
+MODEL:
+  NAME: example_name
+  MODS: ('RGB','NP++')
+  PRETRAINED: 'pretrained/segformer/mit_b2.pth'
+  EXTRA:
+      BACKBONE: mit_b2
+      NP_WEIGHTS: 'pretrained/noiseprint/np++.pth'
+      DECODER: MLPDecoder
+      DECODER_EMBED_DIM: 512
+      PREPRC: 'imagenet'
+      BN_EPS: 0.001
+      BN_MOMENTUM: 0.1
+      DETECTION: 'confpool'
+      CONF: true 
+TEST:
+  MODEL_FILE: '../weights/trufor.pth.tar'
