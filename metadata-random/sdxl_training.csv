@@ -1,0 +1,7321 @@
+category,image_id,mask_variation,gen_variation_id
+apple,193926,random,0
+apple,193926,random,1
+apple,193926,random,2
+apple,389381,random,0
+apple,389381,random,1
+apple,389381,random,2
+apple,116362,random,0
+apple,116362,random,1
+apple,116362,random,2
+apple,562059,random,0
+apple,562059,random,1
+apple,562059,random,2
+apple,322959,random,0
+apple,322959,random,1
+apple,322959,random,2
+apple,424721,random,0
+apple,424721,random,1
+apple,424721,random,2
+apple,407825,random,0
+apple,407825,random,1
+apple,407825,random,2
+apple,189078,random,0
+apple,189078,random,1
+apple,189078,random,2
+apple,522007,random,0
+apple,522007,random,1
+apple,522007,random,2
+apple,110999,random,0
+apple,110999,random,1
+apple,110999,random,2
+apple,548506,random,0
+apple,548506,random,1
+apple,548506,random,2
+apple,217753,random,0
+apple,217753,random,1
+apple,217753,random,2
+apple,482719,random,0
+apple,482719,random,1
+apple,482719,random,2
+apple,119452,random,0
+apple,119452,random,1
+apple,119452,random,2
+apple,386210,random,0
+apple,386210,random,1
+apple,386210,random,2
+apple,173091,random,0
+apple,173091,random,1
+apple,173091,random,2
+apple,388903,random,0
+apple,388903,random,1
+apple,388903,random,2
+apple,188592,random,0
+apple,188592,random,1
+apple,188592,random,2
+apple,177714,random,0
+apple,177714,random,1
+apple,177714,random,2
+apple,113589,random,0
+apple,113589,random,1
+apple,113589,random,2
+apple,60855,random,0
+apple,60855,random,1
+apple,60855,random,2
+apple,280891,random,0
+apple,280891,random,1
+apple,280891,random,2
+apple,473406,random,0
+apple,473406,random,1
+apple,473406,random,2
+apple,158660,random,0
+apple,158660,random,1
+apple,158660,random,2
+apple,138954,random,0
+apple,138954,random,1
+apple,138954,random,2
+apple,509131,random,0
+apple,509131,random,1
+apple,509131,random,2
+apple,303566,random,0
+apple,303566,random,1
+apple,303566,random,2
+apple,409424,random,0
+apple,409424,random,1
+apple,409424,random,2
+apple,461009,random,0
+apple,461009,random,1
+apple,461009,random,2
+apple,216277,random,0
+apple,216277,random,1
+apple,216277,random,2
+apple,203095,random,0
+apple,203095,random,1
+apple,203095,random,2
+apple,128598,random,0
+apple,128598,random,1
+apple,128598,random,2
+apple,479596,random,0
+apple,479596,random,1
+apple,479596,random,2
+apple,376307,random,0
+apple,376307,random,1
+apple,376307,random,2
+apple,185599,random,0
+apple,185599,random,1
+apple,185599,random,2
+backpack,549390,random,0
+backpack,549390,random,1
+backpack,549390,random,2
+backpack,74256,random,0
+backpack,74256,random,1
+backpack,74256,random,2
+backpack,490515,random,0
+backpack,490515,random,1
+backpack,490515,random,2
+backpack,534041,random,0
+backpack,534041,random,1
+backpack,534041,random,2
+backpack,434204,random,0
+backpack,434204,random,1
+backpack,434204,random,2
+backpack,24610,random,0
+backpack,24610,random,1
+backpack,24610,random,2
+backpack,455716,random,0
+backpack,455716,random,1
+backpack,455716,random,2
+backpack,115245,random,0
+backpack,115245,random,1
+backpack,115245,random,2
+backpack,572462,random,0
+backpack,572462,random,1
+backpack,572462,random,2
+backpack,420916,random,0
+backpack,420916,random,1
+backpack,420916,random,2
+backpack,172595,random,0
+backpack,172595,random,1
+backpack,172595,random,2
+backpack,89648,random,0
+backpack,89648,random,1
+backpack,89648,random,2
+backpack,413247,random,0
+backpack,413247,random,1
+backpack,413247,random,2
+backpack,351810,random,0
+backpack,351810,random,1
+backpack,351810,random,2
+backpack,16451,random,0
+backpack,16451,random,1
+backpack,16451,random,2
+backpack,180296,random,0
+backpack,180296,random,1
+backpack,180296,random,2
+backpack,356427,random,0
+backpack,356427,random,1
+backpack,356427,random,2
+backpack,361551,random,0
+backpack,361551,random,1
+backpack,361551,random,2
+backpack,186449,random,0
+backpack,186449,random,1
+backpack,186449,random,2
+backpack,230993,random,0
+backpack,230993,random,1
+backpack,230993,random,2
+backpack,107094,random,0
+backpack,107094,random,1
+backpack,107094,random,2
+backpack,303713,random,0
+backpack,303713,random,1
+backpack,303713,random,2
+backpack,30828,random,0
+backpack,30828,random,1
+backpack,30828,random,2
+backpack,403565,random,0
+backpack,403565,random,1
+backpack,403565,random,2
+backpack,361586,random,0
+backpack,361586,random,1
+backpack,361586,random,2
+backpack,568439,random,0
+backpack,568439,random,1
+backpack,568439,random,2
+backpack,346232,random,0
+backpack,346232,random,1
+backpack,346232,random,2
+backpack,32887,random,0
+backpack,32887,random,1
+backpack,32887,random,2
+backpack,203389,random,0
+backpack,203389,random,1
+backpack,203389,random,2
+backpack,568981,random,0
+backpack,568981,random,1
+backpack,568981,random,2
+backpack,9891,random,0
+backpack,9891,random,1
+backpack,9891,random,2
+backpack,84650,random,0
+backpack,84650,random,1
+backpack,84650,random,2
+backpack,363188,random,0
+backpack,363188,random,1
+backpack,363188,random,2
+backpack,179898,random,0
+backpack,179898,random,1
+backpack,179898,random,2
+backpack,192699,random,0
+backpack,192699,random,1
+backpack,192699,random,2
+backpack,132796,random,0
+backpack,132796,random,1
+backpack,132796,random,2
+backpack,280779,random,0
+backpack,280779,random,1
+backpack,280779,random,2
+backpack,309964,random,0
+backpack,309964,random,1
+backpack,309964,random,2
+backpack,466125,random,0
+backpack,466125,random,1
+backpack,466125,random,2
+backpack,150224,random,0
+backpack,150224,random,1
+backpack,150224,random,2
+backpack,156372,random,0
+backpack,156372,random,1
+backpack,156372,random,2
+backpack,424162,random,0
+backpack,424162,random,1
+backpack,424162,random,2
+backpack,325347,random,0
+backpack,325347,random,1
+backpack,325347,random,2
+backpack,157928,random,0
+backpack,157928,random,1
+backpack,157928,random,2
+backpack,579307,random,0
+backpack,579307,random,1
+backpack,579307,random,2
+backpack,492284,random,0
+backpack,492284,random,1
+backpack,492284,random,2
+backpack,250619,random,0
+backpack,250619,random,1
+backpack,250619,random,2
+backpack,261888,random,0
+backpack,261888,random,1
+backpack,261888,random,2
+backpack,368900,random,0
+backpack,368900,random,1
+backpack,368900,random,2
+backpack,235784,random,0
+backpack,235784,random,1
+backpack,235784,random,2
+banana,269314,random,0
+banana,269314,random,1
+banana,269314,random,2
+banana,575500,random,0
+banana,575500,random,1
+banana,575500,random,2
+banana,480275,random,0
+banana,480275,random,1
+banana,480275,random,2
+banana,407574,random,0
+banana,407574,random,1
+banana,407574,random,2
+banana,457262,random,0
+banana,457262,random,1
+banana,457262,random,2
+banana,453708,random,0
+banana,453708,random,1
+banana,453708,random,2
+banana,312406,random,0
+banana,312406,random,1
+banana,312406,random,2
+banana,271471,random,0
+banana,271471,random,1
+banana,271471,random,2
+banana,163951,random,0
+banana,163951,random,1
+banana,163951,random,2
+banana,78959,random,0
+banana,78959,random,1
+banana,78959,random,2
+banana,560256,random,0
+banana,560256,random,1
+banana,560256,random,2
+banana,8844,random,0
+banana,8844,random,1
+banana,8844,random,2
+banana,128658,random,0
+banana,128658,random,1
+banana,128658,random,2
+banana,378515,random,0
+banana,378515,random,1
+banana,378515,random,2
+banana,581781,random,0
+banana,581781,random,1
+banana,581781,random,2
+banana,189078,random,0
+banana,189078,random,1
+banana,189078,random,2
+banana,66706,random,0
+banana,66706,random,1
+banana,66706,random,2
+banana,548506,random,0
+banana,548506,random,1
+banana,548506,random,2
+banana,236721,random,0
+banana,236721,random,1
+banana,236721,random,2
+banana,389812,random,0
+banana,389812,random,1
+banana,389812,random,2
+banana,66231,random,0
+banana,66231,random,1
+banana,66231,random,2
+banana,509131,random,0
+banana,509131,random,1
+banana,509131,random,2
+banana,13004,random,0
+banana,13004,random,1
+banana,13004,random,2
+banana,535253,random,0
+banana,535253,random,1
+banana,535253,random,2
+banana,479448,random,0
+banana,479448,random,1
+banana,479448,random,2
+banana,279769,random,0
+banana,279769,random,1
+banana,279769,random,2
+banana,313562,random,0
+banana,313562,random,1
+banana,313562,random,2
+banana,429281,random,0
+banana,429281,random,1
+banana,429281,random,2
+banana,474854,random,0
+banana,474854,random,1
+banana,474854,random,2
+banana,69356,random,0
+banana,69356,random,1
+banana,69356,random,2
+banana,112378,random,0
+banana,112378,random,1
+banana,112378,random,2
+banana,63740,random,0
+banana,63740,random,1
+banana,63740,random,2
+banana,90891,random,0
+banana,90891,random,1
+banana,90891,random,2
+banana,147740,random,0
+banana,147740,random,1
+banana,147740,random,2
+banana,349480,random,0
+banana,349480,random,1
+banana,349480,random,2
+banana,499031,random,0
+banana,499031,random,1
+banana,499031,random,2
+banana,352618,random,0
+banana,352618,random,1
+banana,352618,random,2
+banana,227187,random,0
+banana,227187,random,1
+banana,227187,random,2
+banana,480122,random,0
+banana,480122,random,1
+banana,480122,random,2
+banana,12667,random,0
+banana,12667,random,1
+banana,12667,random,2
+banana,193926,random,0
+banana,193926,random,1
+banana,193926,random,2
+banana,465806,random,0
+banana,465806,random,1
+banana,465806,random,2
+banana,322959,random,0
+banana,322959,random,1
+banana,322959,random,2
+banana,293794,random,0
+banana,293794,random,1
+banana,293794,random,2
+banana,113589,random,0
+banana,113589,random,1
+banana,113589,random,2
+banana,468925,random,0
+banana,468925,random,1
+banana,468925,random,2
+banana,158660,random,0
+banana,158660,random,1
+banana,158660,random,2
+banana,173008,random,0
+banana,173008,random,1
+banana,173008,random,2
+baseball bat,514586,random,0
+baseball bat,514586,random,1
+baseball bat,514586,random,2
+baseball bat,153669,random,0
+baseball bat,153669,random,1
+baseball bat,153669,random,2
+baseball bat,427077,random,0
+baseball bat,427077,random,1
+baseball bat,427077,random,2
+baseball bat,284743,random,0
+baseball bat,284743,random,1
+baseball bat,284743,random,2
+baseball bat,160864,random,0
+baseball bat,160864,random,1
+baseball bat,160864,random,2
+baseball bat,2153,random,0
+baseball bat,2153,random,1
+baseball bat,2153,random,2
+baseball bat,259690,random,0
+baseball bat,259690,random,1
+baseball bat,259690,random,2
+baseball bat,447088,random,0
+baseball bat,447088,random,1
+baseball bat,447088,random,2
+baseball bat,429690,random,0
+baseball bat,429690,random,1
+baseball bat,429690,random,2
+baseball bat,510095,random,0
+baseball bat,510095,random,1
+baseball bat,510095,random,2
+baseball bat,203931,random,0
+baseball bat,203931,random,1
+baseball bat,203931,random,2
+baseball bat,239773,random,0
+baseball bat,239773,random,1
+baseball bat,239773,random,2
+baseball bat,305309,random,0
+baseball bat,305309,random,1
+baseball bat,305309,random,2
+baseball bat,217285,random,0
+baseball bat,217285,random,1
+baseball bat,217285,random,2
+baseball bat,370375,random,0
+baseball bat,370375,random,1
+baseball bat,370375,random,2
+baseball bat,462031,random,0
+baseball bat,462031,random,1
+baseball bat,462031,random,2
+baseball bat,89296,random,0
+baseball bat,89296,random,1
+baseball bat,89296,random,2
+baseball bat,136915,random,0
+baseball bat,136915,random,1
+baseball bat,136915,random,2
+baseball bat,447187,random,0
+baseball bat,447187,random,1
+baseball bat,447187,random,2
+baseball bat,464089,random,0
+baseball bat,464089,random,1
+baseball bat,464089,random,2
+baseball bat,311002,random,0
+baseball bat,311002,random,1
+baseball bat,311002,random,2
+baseball bat,279774,random,0
+baseball bat,279774,random,1
+baseball bat,279774,random,2
+baseball bat,474344,random,0
+baseball bat,474344,random,1
+baseball bat,474344,random,2
+baseball bat,128748,random,0
+baseball bat,128748,random,1
+baseball bat,128748,random,2
+baseball bat,427256,random,0
+baseball bat,427256,random,1
+baseball bat,427256,random,2
+baseball bat,182021,random,0
+baseball bat,182021,random,1
+baseball bat,182021,random,2
+baseball bat,264968,random,0
+baseball bat,264968,random,1
+baseball bat,264968,random,2
+baseball bat,501005,random,0
+baseball bat,501005,random,1
+baseball bat,501005,random,2
+baseball bat,126226,random,0
+baseball bat,126226,random,1
+baseball bat,126226,random,2
+baseball bat,304404,random,0
+baseball bat,304404,random,1
+baseball bat,304404,random,2
+baseball bat,43816,random,0
+baseball bat,43816,random,1
+baseball bat,43816,random,2
+baseball bat,54593,random,0
+baseball bat,54593,random,1
+baseball bat,54593,random,2
+baseball bat,6471,random,0
+baseball bat,6471,random,1
+baseball bat,6471,random,2
+baseball bat,123213,random,0
+baseball bat,123213,random,1
+baseball bat,123213,random,2
+baseball bat,506707,random,0
+baseball bat,506707,random,1
+baseball bat,506707,random,2
+baseball bat,507223,random,0
+baseball bat,507223,random,1
+baseball bat,507223,random,2
+baseball bat,262487,random,0
+baseball bat,262487,random,1
+baseball bat,262487,random,2
+baseball bat,57232,random,0
+baseball bat,57232,random,1
+baseball bat,57232,random,2
+baseball bat,86956,random,0
+baseball bat,86956,random,1
+baseball bat,86956,random,2
+baseball bat,248752,random,0
+baseball bat,248752,random,1
+baseball bat,248752,random,2
+baseball bat,357816,random,0
+baseball bat,357816,random,1
+baseball bat,357816,random,2
+baseball bat,559547,random,0
+baseball bat,559547,random,1
+baseball bat,559547,random,2
+baseball bat,404923,random,0
+baseball bat,404923,random,1
+baseball bat,404923,random,2
+baseball bat,132544,random,0
+baseball bat,132544,random,1
+baseball bat,132544,random,2
+baseball bat,491464,random,0
+baseball bat,491464,random,1
+baseball bat,491464,random,2
+baseball bat,388056,random,0
+baseball bat,388056,random,1
+baseball bat,388056,random,2
+baseball bat,33759,random,0
+baseball bat,33759,random,1
+baseball bat,33759,random,2
+baseball bat,320490,random,0
+baseball bat,320490,random,1
+baseball bat,320490,random,2
+baseball bat,415727,random,0
+baseball bat,415727,random,1
+baseball bat,415727,random,2
+baseball bat,223738,random,0
+baseball bat,223738,random,1
+baseball bat,223738,random,2
+bench,173057,random,0
+bench,173057,random,1
+bench,173057,random,2
+bench,84492,random,0
+bench,84492,random,1
+bench,84492,random,2
+bench,133645,random,0
+bench,133645,random,1
+bench,133645,random,2
+bench,534041,random,0
+bench,534041,random,1
+bench,534041,random,2
+bench,17436,random,0
+bench,17436,random,1
+bench,17436,random,2
+bench,434204,random,0
+bench,434204,random,1
+bench,434204,random,2
+bench,137246,random,0
+bench,137246,random,1
+bench,137246,random,2
+bench,261161,random,0
+bench,261161,random,1
+bench,261161,random,2
+bench,572462,random,0
+bench,572462,random,1
+bench,572462,random,2
+bench,379441,random,0
+bench,379441,random,1
+bench,379441,random,2
+bench,322610,random,0
+bench,322610,random,1
+bench,322610,random,2
+bench,559160,random,0
+bench,559160,random,1
+bench,559160,random,2
+bench,227898,random,0
+bench,227898,random,1
+bench,227898,random,2
+bench,537153,random,0
+bench,537153,random,1
+bench,537153,random,2
+bench,153669,random,0
+bench,153669,random,1
+bench,153669,random,2
+bench,121417,random,0
+bench,121417,random,1
+bench,121417,random,2
+bench,301135,random,0
+bench,301135,random,1
+bench,301135,random,2
+bench,419408,random,0
+bench,419408,random,1
+bench,419408,random,2
+bench,372819,random,0
+bench,372819,random,1
+bench,372819,random,2
+bench,506454,random,0
+bench,506454,random,1
+bench,506454,random,2
+bench,232538,random,0
+bench,232538,random,1
+bench,232538,random,2
+bench,364636,random,0
+bench,364636,random,1
+bench,364636,random,2
+bench,89697,random,0
+bench,89697,random,1
+bench,89697,random,2
+bench,511076,random,0
+bench,511076,random,1
+bench,511076,random,2
+bench,87144,random,0
+bench,87144,random,1
+bench,87144,random,2
+bench,279145,random,0
+bench,279145,random,1
+bench,279145,random,2
+bench,111207,random,0
+bench,111207,random,1
+bench,111207,random,2
+bench,259690,random,0
+bench,259690,random,1
+bench,259690,random,2
+bench,70254,random,0
+bench,70254,random,1
+bench,70254,random,2
+bench,481390,random,0
+bench,481390,random,1
+bench,481390,random,2
+bench,429690,random,0
+bench,429690,random,1
+bench,429690,random,2
+bench,333956,random,0
+bench,333956,random,1
+bench,333956,random,2
+bench,419974,random,0
+bench,419974,random,1
+bench,419974,random,2
+bench,227478,random,0
+bench,227478,random,1
+bench,227478,random,2
+bench,203931,random,0
+bench,203931,random,1
+bench,203931,random,2
+bench,388258,random,0
+bench,388258,random,1
+bench,388258,random,2
+bench,121506,random,0
+bench,121506,random,1
+bench,121506,random,2
+bench,314541,random,0
+bench,314541,random,1
+bench,314541,random,2
+bench,527528,random,0
+bench,527528,random,1
+bench,527528,random,2
+bench,61108,random,0
+bench,61108,random,1
+bench,61108,random,2
+bench,132796,random,0
+bench,132796,random,1
+bench,132796,random,2
+bench,97988,random,0
+bench,97988,random,1
+bench,97988,random,2
+bench,327890,random,0
+bench,327890,random,1
+bench,327890,random,2
+bench,542423,random,0
+bench,542423,random,1
+bench,542423,random,2
+bench,426203,random,0
+bench,426203,random,1
+bench,426203,random,2
+bench,413404,random,0
+bench,413404,random,1
+bench,413404,random,2
+bench,13546,random,0
+bench,13546,random,1
+bench,13546,random,2
+bench,11511,random,0
+bench,11511,random,1
+bench,11511,random,2
+bench,428280,random,0
+bench,428280,random,1
+bench,428280,random,2
+bench,222458,random,0
+bench,222458,random,1
+bench,222458,random,2
+bicycle,184324,random,0
+bicycle,184324,random,1
+bicycle,184324,random,2
+bicycle,169996,random,0
+bicycle,169996,random,1
+bicycle,169996,random,2
+bicycle,277005,random,0
+bicycle,277005,random,1
+bicycle,277005,random,2
+bicycle,8211,random,0
+bicycle,8211,random,1
+bicycle,8211,random,2
+bicycle,468505,random,0
+bicycle,468505,random,1
+bicycle,468505,random,2
+bicycle,473118,random,0
+bicycle,473118,random,1
+bicycle,473118,random,2
+bicycle,476704,random,0
+bicycle,476704,random,1
+bicycle,476704,random,2
+bicycle,356387,random,0
+bicycle,356387,random,1
+bicycle,356387,random,2
+bicycle,492077,random,0
+bicycle,492077,random,1
+bicycle,492077,random,2
+bicycle,439854,random,0
+bicycle,439854,random,1
+bicycle,439854,random,2
+bicycle,472623,random,0
+bicycle,472623,random,1
+bicycle,472623,random,2
+bicycle,259640,random,0
+bicycle,259640,random,1
+bicycle,259640,random,2
+bicycle,157756,random,0
+bicycle,157756,random,1
+bicycle,157756,random,2
+bicycle,167486,random,0
+bicycle,167486,random,1
+bicycle,167486,random,2
+bicycle,289343,random,0
+bicycle,289343,random,1
+bicycle,289343,random,2
+bicycle,227399,random,0
+bicycle,227399,random,1
+bicycle,227399,random,2
+bicycle,301135,random,0
+bicycle,301135,random,1
+bicycle,301135,random,2
+bicycle,428111,random,0
+bicycle,428111,random,1
+bicycle,428111,random,2
+bicycle,403565,random,0
+bicycle,403565,random,1
+bicycle,403565,random,2
+bicycle,242287,random,0
+bicycle,242287,random,1
+bicycle,242287,random,2
+bicycle,226417,random,0
+bicycle,226417,random,1
+bicycle,226417,random,2
+bicycle,70774,random,0
+bicycle,70774,random,1
+bicycle,70774,random,2
+bicycle,319607,random,0
+bicycle,319607,random,1
+bicycle,319607,random,2
+bicycle,10363,random,0
+bicycle,10363,random,1
+bicycle,10363,random,2
+bicycle,125572,random,0
+bicycle,125572,random,1
+bicycle,125572,random,2
+bicycle,488592,random,0
+bicycle,488592,random,1
+bicycle,488592,random,2
+bicycle,40083,random,0
+bicycle,40083,random,1
+bicycle,40083,random,2
+bicycle,72852,random,0
+bicycle,72852,random,1
+bicycle,72852,random,2
+bicycle,378515,random,0
+bicycle,378515,random,1
+bicycle,378515,random,2
+bicycle,470173,random,0
+bicycle,470173,random,1
+bicycle,470173,random,2
+bicycle,266400,random,0
+bicycle,266400,random,1
+bicycle,266400,random,2
+bicycle,573094,random,0
+bicycle,573094,random,1
+bicycle,573094,random,2
+bicycle,426166,random,0
+bicycle,426166,random,1
+bicycle,426166,random,2
+bicycle,531134,random,0
+bicycle,531134,random,1
+bicycle,531134,random,2
+bicycle,152771,random,0
+bicycle,152771,random,1
+bicycle,152771,random,2
+bicycle,97988,random,0
+bicycle,97988,random,1
+bicycle,97988,random,2
+bicycle,8899,random,0
+bicycle,8899,random,1
+bicycle,8899,random,2
+bicycle,296649,random,0
+bicycle,296649,random,1
+bicycle,296649,random,2
+bicycle,107226,random,0
+bicycle,107226,random,1
+bicycle,107226,random,2
+bicycle,424162,random,0
+bicycle,424162,random,1
+bicycle,424162,random,2
+bicycle,196843,random,0
+bicycle,196843,random,1
+bicycle,196843,random,2
+bicycle,15597,random,0
+bicycle,15597,random,1
+bicycle,15597,random,2
+bicycle,279278,random,0
+bicycle,279278,random,1
+bicycle,279278,random,2
+bicycle,441586,random,0
+bicycle,441586,random,1
+bicycle,441586,random,2
+bicycle,135410,random,0
+bicycle,135410,random,1
+bicycle,135410,random,2
+bicycle,259830,random,0
+bicycle,259830,random,1
+bicycle,259830,random,2
+bicycle,261888,random,0
+bicycle,261888,random,1
+bicycle,261888,random,2
+bicycle,356612,random,0
+bicycle,356612,random,1
+bicycle,356612,random,2
+bicycle,394510,random,0
+bicycle,394510,random,1
+bicycle,394510,random,2
+bicycle,164115,random,0
+bicycle,164115,random,1
+bicycle,164115,random,2
+bird,55299,random,0
+bird,55299,random,1
+bird,55299,random,2
+bird,523811,random,0
+bird,523811,random,1
+bird,523811,random,2
+bird,32811,random,0
+bird,32811,random,1
+bird,32811,random,2
+bird,544811,random,0
+bird,544811,random,1
+bird,544811,random,2
+bird,186422,random,0
+bird,186422,random,1
+bird,186422,random,2
+bird,277051,random,0
+bird,277051,random,1
+bird,277051,random,2
+bird,489046,random,0
+bird,489046,random,1
+bird,489046,random,2
+bird,402519,random,0
+bird,402519,random,1
+bird,402519,random,2
+bird,404568,random,0
+bird,404568,random,1
+bird,404568,random,2
+bird,31322,random,0
+bird,31322,random,1
+bird,31322,random,2
+bird,285788,random,0
+bird,285788,random,1
+bird,285788,random,2
+bird,511076,random,0
+bird,511076,random,1
+bird,511076,random,2
+bird,494188,random,0
+bird,494188,random,1
+bird,494188,random,2
+bird,229997,random,0
+bird,229997,random,1
+bird,229997,random,2
+bird,210032,random,0
+bird,210032,random,1
+bird,210032,random,2
+bird,289393,random,0
+bird,289393,random,1
+bird,289393,random,2
+bird,149622,random,0
+bird,149622,random,1
+bird,149622,random,2
+bird,284279,random,0
+bird,284279,random,1
+bird,284279,random,2
+bird,300155,random,0
+bird,300155,random,1
+bird,300155,random,2
+bird,100489,random,0
+bird,100489,random,1
+bird,100489,random,2
+bird,490125,random,0
+bird,490125,random,1
+bird,490125,random,2
+bird,418959,random,0
+bird,418959,random,1
+bird,418959,random,2
+bird,216739,random,0
+bird,216739,random,1
+bird,216739,random,2
+bird,508602,random,0
+bird,508602,random,1
+bird,508602,random,2
+bird,578236,random,0
+bird,578236,random,1
+bird,578236,random,2
+bird,123585,random,0
+bird,123585,random,1
+bird,123585,random,2
+bird,357060,random,0
+bird,357060,random,1
+bird,357060,random,2
+bird,176847,random,0
+bird,176847,random,1
+bird,176847,random,2
+bird,324818,random,0
+bird,324818,random,1
+bird,324818,random,2
+bird,505565,random,0
+bird,505565,random,1
+bird,505565,random,2
+bird,335081,random,0
+bird,335081,random,1
+bird,335081,random,2
+bird,459500,random,0
+bird,459500,random,1
+bird,459500,random,2
+bird,197870,random,0
+bird,197870,random,1
+bird,197870,random,2
+bird,1268,random,0
+bird,1268,random,1
+bird,1268,random,2
+bird,463618,random,0
+bird,463618,random,1
+bird,463618,random,2
+bird,368900,random,0
+bird,368900,random,1
+bird,368900,random,2
+bird,82696,random,0
+bird,82696,random,1
+bird,82696,random,2
+bird,65288,random,0
+bird,65288,random,1
+bird,65288,random,2
+bird,407825,random,0
+bird,407825,random,1
+bird,407825,random,2
+bird,509719,random,0
+bird,509719,random,1
+bird,509719,random,2
+bird,46378,random,0
+bird,46378,random,1
+bird,46378,random,2
+bird,519491,random,0
+bird,519491,random,1
+bird,519491,random,2
+bird,221017,random,0
+bird,221017,random,1
+bird,221017,random,2
+bird,250205,random,0
+bird,250205,random,1
+bird,250205,random,2
+bird,166259,random,0
+bird,166259,random,1
+bird,166259,random,2
+bird,227187,random,0
+bird,227187,random,1
+bird,227187,random,2
+bird,464251,random,0
+bird,464251,random,1
+bird,464251,random,2
+bird,460160,random,0
+bird,460160,random,1
+bird,460160,random,2
+bird,106881,random,0
+bird,106881,random,1
+bird,106881,random,2
+bird,60823,random,0
+bird,60823,random,1
+bird,60823,random,2
+book,25603,random,0
+book,25603,random,1
+book,25603,random,2
+book,547336,random,0
+book,547336,random,1
+book,547336,random,2
+book,458255,random,0
+book,458255,random,1
+book,458255,random,2
+book,551439,random,0
+book,551439,random,1
+book,551439,random,2
+book,250901,random,0
+book,250901,random,1
+book,250901,random,2
+book,24610,random,0
+book,24610,random,1
+book,24610,random,2
+book,421923,random,0
+book,421923,random,1
+book,421923,random,2
+book,398377,random,0
+book,398377,random,1
+book,398377,random,2
+book,172595,random,0
+book,172595,random,1
+book,172595,random,2
+book,71226,random,0
+book,71226,random,1
+book,71226,random,2
+book,147518,random,0
+book,147518,random,1
+book,147518,random,2
+book,16958,random,0
+book,16958,random,1
+book,16958,random,2
+book,413247,random,0
+book,413247,random,1
+book,413247,random,2
+book,334399,random,0
+book,334399,random,1
+book,334399,random,2
+book,172617,random,0
+book,172617,random,1
+book,172617,random,2
+book,166478,random,0
+book,166478,random,1
+book,166478,random,2
+book,154705,random,0
+book,154705,random,1
+book,154705,random,2
+book,262227,random,0
+book,262227,random,1
+book,262227,random,2
+book,77396,random,0
+book,77396,random,1
+book,77396,random,2
+book,416343,random,0
+book,416343,random,1
+book,416343,random,2
+book,222299,random,0
+book,222299,random,1
+book,222299,random,2
+book,472678,random,0
+book,472678,random,1
+book,472678,random,2
+book,176232,random,0
+book,176232,random,1
+book,176232,random,2
+book,565877,random,0
+book,565877,random,1
+book,565877,random,2
+book,540280,random,0
+book,540280,random,1
+book,540280,random,2
+book,323202,random,0
+book,323202,random,1
+book,323202,random,2
+book,473219,random,0
+book,473219,random,1
+book,473219,random,2
+book,455301,random,0
+book,455301,random,1
+book,455301,random,2
+book,125062,random,0
+book,125062,random,1
+book,125062,random,2
+book,476810,random,0
+book,476810,random,1
+book,476810,random,2
+book,112798,random,0
+book,112798,random,1
+book,112798,random,2
+book,480936,random,0
+book,480936,random,1
+book,480936,random,2
+book,93353,random,0
+book,93353,random,1
+book,93353,random,2
+book,309938,random,0
+book,309938,random,1
+book,309938,random,2
+book,507575,random,0
+book,507575,random,1
+book,507575,random,2
+book,179898,random,0
+book,179898,random,1
+book,179898,random,2
+book,135872,random,0
+book,135872,random,1
+book,135872,random,2
+book,179392,random,0
+book,179392,random,1
+book,179392,random,2
+book,553664,random,0
+book,553664,random,1
+book,553664,random,2
+book,125129,random,0
+book,125129,random,1
+book,125129,random,2
+book,466125,random,0
+book,466125,random,1
+book,466125,random,2
+book,308430,random,0
+book,308430,random,1
+book,308430,random,2
+book,214224,random,0
+book,214224,random,1
+book,214224,random,2
+book,575187,random,0
+book,575187,random,1
+book,575187,random,2
+book,535253,random,0
+book,535253,random,1
+book,535253,random,2
+book,215778,random,0
+book,215778,random,1
+book,215778,random,2
+book,539883,random,0
+book,539883,random,1
+book,539883,random,2
+book,123633,random,0
+book,123633,random,1
+book,123633,random,2
+book,167159,random,0
+book,167159,random,1
+book,167159,random,2
+book,58111,random,0
+book,58111,random,1
+book,58111,random,2
+bottle,555009,random,0
+bottle,555009,random,1
+bottle,555009,random,2
+bottle,385029,random,0
+bottle,385029,random,1
+bottle,385029,random,2
+bottle,239627,random,0
+bottle,239627,random,1
+bottle,239627,random,2
+bottle,479248,random,0
+bottle,479248,random,1
+bottle,479248,random,2
+bottle,47121,random,0
+bottle,47121,random,1
+bottle,47121,random,2
+bottle,387098,random,0
+bottle,387098,random,1
+bottle,387098,random,2
+bottle,460841,random,0
+bottle,460841,random,1
+bottle,460841,random,2
+bottle,485424,random,0
+bottle,485424,random,1
+bottle,485424,random,2
+bottle,215114,random,0
+bottle,215114,random,1
+bottle,215114,random,2
+bottle,327769,random,0
+bottle,327769,random,1
+bottle,327769,random,2
+bottle,419974,random,0
+bottle,419974,random,1
+bottle,419974,random,2
+bottle,18575,random,0
+bottle,18575,random,1
+bottle,18575,random,2
+bottle,405691,random,0
+bottle,405691,random,1
+bottle,405691,random,2
+bottle,145597,random,0
+bottle,145597,random,1
+bottle,145597,random,2
+bottle,319696,random,0
+bottle,319696,random,1
+bottle,319696,random,2
+bottle,92416,random,0
+bottle,92416,random,1
+bottle,92416,random,2
+bottle,213255,random,0
+bottle,213255,random,1
+bottle,213255,random,2
+bottle,426253,random,0
+bottle,426253,random,1
+bottle,426253,random,2
+bottle,174371,random,0
+bottle,174371,random,1
+bottle,174371,random,2
+bottle,102707,random,0
+bottle,102707,random,1
+bottle,102707,random,2
+bottle,280891,random,0
+bottle,280891,random,1
+bottle,280891,random,2
+bottle,473406,random,0
+bottle,473406,random,1
+bottle,473406,random,2
+bottle,284991,random,0
+bottle,284991,random,1
+bottle,284991,random,2
+bottle,512330,random,0
+bottle,512330,random,1
+bottle,512330,random,2
+bottle,414034,random,0
+bottle,414034,random,1
+bottle,414034,random,2
+bottle,280930,random,0
+bottle,280930,random,1
+bottle,280930,random,2
+bottle,231822,random,0
+bottle,231822,random,1
+bottle,231822,random,2
+bottle,377239,random,0
+bottle,377239,random,1
+bottle,377239,random,2
+bottle,559513,random,0
+bottle,559513,random,1
+bottle,559513,random,2
+bottle,156076,random,0
+bottle,156076,random,1
+bottle,156076,random,2
+bottle,506310,random,0
+bottle,506310,random,1
+bottle,506310,random,2
+bottle,305609,random,0
+bottle,305609,random,1
+bottle,305609,random,2
+bottle,512476,random,0
+bottle,512476,random,1
+bottle,512476,random,2
+bottle,68078,random,0
+bottle,68078,random,1
+bottle,68078,random,2
+bottle,92660,random,0
+bottle,92660,random,1
+bottle,92660,random,2
+bottle,248314,random,0
+bottle,248314,random,1
+bottle,248314,random,2
+bottle,141821,random,0
+bottle,141821,random,1
+bottle,141821,random,2
+bottle,293390,random,0
+bottle,293390,random,1
+bottle,293390,random,2
+bottle,166426,random,0
+bottle,166426,random,1
+bottle,166426,random,2
+bottle,277051,random,0
+bottle,277051,random,1
+bottle,277051,random,2
+bottle,569917,random,0
+bottle,569917,random,1
+bottle,569917,random,2
+bottle,64084,random,0
+bottle,64084,random,1
+bottle,64084,random,2
+bottle,287347,random,0
+bottle,287347,random,1
+bottle,287347,random,2
+bottle,322163,random,0
+bottle,322163,random,1
+bottle,322163,random,2
+bottle,2685,random,0
+bottle,2685,random,1
+bottle,2685,random,2
+bottle,381587,random,0
+bottle,381587,random,1
+bottle,381587,random,2
+bottle,301718,random,0
+bottle,301718,random,1
+bottle,301718,random,2
+bottle,463527,random,0
+bottle,463527,random,1
+bottle,463527,random,2
+bottle,520871,random,0
+bottle,520871,random,1
+bottle,520871,random,2
+bottle,170670,random,0
+bottle,170670,random,1
+bottle,170670,random,2
+bowl,385029,random,0
+bowl,385029,random,1
+bowl,385029,random,2
+bowl,239627,random,0
+bowl,239627,random,1
+bowl,239627,random,2
+bowl,47121,random,0
+bowl,47121,random,1
+bowl,47121,random,2
+bowl,120853,random,0
+bowl,120853,random,1
+bowl,120853,random,2
+bowl,153632,random,0
+bowl,153632,random,1
+bowl,153632,random,2
+bowl,331817,random,0
+bowl,331817,random,1
+bowl,331817,random,2
+bowl,466986,random,0
+bowl,466986,random,1
+bowl,466986,random,2
+bowl,577584,random,0
+bowl,577584,random,1
+bowl,577584,random,2
+bowl,254016,random,0
+bowl,254016,random,1
+bowl,254016,random,2
+bowl,30785,random,0
+bowl,30785,random,1
+bowl,30785,random,2
+bowl,579655,random,0
+bowl,579655,random,1
+bowl,579655,random,2
+bowl,395343,random,0
+bowl,395343,random,1
+bowl,395343,random,2
+bowl,335954,random,0
+bowl,335954,random,1
+bowl,335954,random,2
+bowl,8277,random,0
+bowl,8277,random,1
+bowl,8277,random,2
+bowl,368752,random,0
+bowl,368752,random,1
+bowl,368752,random,2
+bowl,18575,random,0
+bowl,18575,random,1
+bowl,18575,random,2
+bowl,182417,random,0
+bowl,182417,random,1
+bowl,182417,random,2
+bowl,211120,random,0
+bowl,211120,random,1
+bowl,211120,random,2
+bowl,405691,random,0
+bowl,405691,random,1
+bowl,405691,random,2
+bowl,286908,random,0
+bowl,286908,random,1
+bowl,286908,random,2
+bowl,407825,random,0
+bowl,407825,random,1
+bowl,407825,random,2
+bowl,110884,random,0
+bowl,110884,random,1
+bowl,110884,random,2
+bowl,182611,random,0
+bowl,182611,random,1
+bowl,182611,random,2
+bowl,397681,random,0
+bowl,397681,random,1
+bowl,397681,random,2
+bowl,194940,random,0
+bowl,194940,random,1
+bowl,194940,random,2
+bowl,231822,random,0
+bowl,231822,random,1
+bowl,231822,random,2
+bowl,110999,random,0
+bowl,110999,random,1
+bowl,110999,random,2
+bowl,407960,random,0
+bowl,407960,random,1
+bowl,407960,random,2
+bowl,571804,random,0
+bowl,571804,random,1
+bowl,571804,random,2
+bowl,70048,random,0
+bowl,70048,random,1
+bowl,70048,random,2
+bowl,127394,random,0
+bowl,127394,random,1
+bowl,127394,random,2
+bowl,156076,random,0
+bowl,156076,random,1
+bowl,156076,random,2
+bowl,213445,random,0
+bowl,213445,random,1
+bowl,213445,random,2
+bowl,305609,random,0
+bowl,305609,random,1
+bowl,305609,random,2
+bowl,184791,random,0
+bowl,184791,random,1
+bowl,184791,random,2
+bowl,512476,random,0
+bowl,512476,random,1
+bowl,512476,random,2
+bowl,248314,random,0
+bowl,248314,random,1
+bowl,248314,random,2
+bowl,141821,random,0
+bowl,141821,random,1
+bowl,141821,random,2
+bowl,256518,random,0
+bowl,256518,random,1
+bowl,256518,random,2
+bowl,64084,random,0
+bowl,64084,random,1
+bowl,64084,random,2
+bowl,567898,random,0
+bowl,567898,random,1
+bowl,567898,random,2
+bowl,215644,random,0
+bowl,215644,random,1
+bowl,215644,random,2
+bowl,322163,random,0
+bowl,322163,random,1
+bowl,322163,random,2
+bowl,156278,random,0
+bowl,156278,random,1
+bowl,156278,random,2
+bowl,144003,random,0
+bowl,144003,random,1
+bowl,144003,random,2
+bowl,375430,random,0
+bowl,375430,random,1
+bowl,375430,random,2
+bowl,488075,random,0
+bowl,488075,random,1
+bowl,488075,random,2
+bowl,381587,random,0
+bowl,381587,random,1
+bowl,381587,random,2
+bowl,301718,random,0
+bowl,301718,random,1
+bowl,301718,random,2
+bowl,246436,random,0
+bowl,246436,random,1
+bowl,246436,random,2
+broccoli,25986,random,0
+broccoli,25986,random,1
+broccoli,25986,random,2
+broccoli,352900,random,0
+broccoli,352900,random,1
+broccoli,352900,random,2
+broccoli,3845,random,0
+broccoli,3845,random,1
+broccoli,3845,random,2
+broccoli,389381,random,0
+broccoli,389381,random,1
+broccoli,389381,random,2
+broccoli,516871,random,0
+broccoli,516871,random,1
+broccoli,516871,random,2
+broccoli,141328,random,0
+broccoli,141328,random,1
+broccoli,141328,random,2
+broccoli,84241,random,0
+broccoli,84241,random,1
+broccoli,84241,random,2
+broccoli,356498,random,0
+broccoli,356498,random,1
+broccoli,356498,random,2
+broccoli,579091,random,0
+broccoli,579091,random,1
+broccoli,579091,random,2
+broccoli,132116,random,0
+broccoli,132116,random,1
+broccoli,132116,random,2
+broccoli,562197,random,0
+broccoli,562197,random,1
+broccoli,562197,random,2
+broccoli,248980,random,0
+broccoli,248980,random,1
+broccoli,248980,random,2
+broccoli,50331,random,0
+broccoli,50331,random,1
+broccoli,50331,random,2
+broccoli,447522,random,0
+broccoli,447522,random,1
+broccoli,447522,random,2
+broccoli,104612,random,0
+broccoli,104612,random,1
+broccoli,104612,random,2
+broccoli,255912,random,0
+broccoli,255912,random,1
+broccoli,255912,random,2
+broccoli,549167,random,0
+broccoli,549167,random,1
+broccoli,549167,random,2
+broccoli,452784,random,0
+broccoli,452784,random,1
+broccoli,452784,random,2
+broccoli,465585,random,0
+broccoli,465585,random,1
+broccoli,465585,random,2
+broccoli,560178,random,0
+broccoli,560178,random,1
+broccoli,560178,random,2
+broccoli,410934,random,0
+broccoli,410934,random,1
+broccoli,410934,random,2
+broccoli,105014,random,0
+broccoli,105014,random,1
+broccoli,105014,random,2
+broccoli,123321,random,0
+broccoli,123321,random,1
+broccoli,123321,random,2
+broccoli,296634,random,0
+broccoli,296634,random,1
+broccoli,296634,random,2
+broccoli,231097,random,0
+broccoli,231097,random,1
+broccoli,231097,random,2
+broccoli,579900,random,0
+broccoli,579900,random,1
+broccoli,579900,random,2
+broccoli,125245,random,0
+broccoli,125245,random,1
+broccoli,125245,random,2
+broccoli,30785,random,0
+broccoli,30785,random,1
+broccoli,30785,random,2
+broccoli,335427,random,0
+broccoli,335427,random,1
+broccoli,335427,random,2
+broccoli,314182,random,0
+broccoli,314182,random,1
+broccoli,314182,random,2
+broccoli,165831,random,0
+broccoli,165831,random,1
+broccoli,165831,random,2
+broccoli,157390,random,0
+broccoli,157390,random,1
+broccoli,157390,random,2
+broccoli,527695,random,0
+broccoli,527695,random,1
+broccoli,527695,random,2
+broccoli,460494,random,0
+broccoli,460494,random,1
+broccoli,460494,random,2
+broccoli,34257,random,0
+broccoli,34257,random,1
+broccoli,34257,random,2
+broccoli,8277,random,0
+broccoli,8277,random,1
+broccoli,8277,random,2
+broccoli,386134,random,0
+broccoli,386134,random,1
+broccoli,386134,random,2
+broccoli,203095,random,0
+broccoli,203095,random,1
+broccoli,203095,random,2
+broccoli,61658,random,0
+broccoli,61658,random,1
+broccoli,61658,random,2
+broccoli,191580,random,0
+broccoli,191580,random,1
+broccoli,191580,random,2
+broccoli,104669,random,0
+broccoli,104669,random,1
+broccoli,104669,random,2
+broccoli,561889,random,0
+broccoli,561889,random,1
+broccoli,561889,random,2
+broccoli,455267,random,0
+broccoli,455267,random,1
+broccoli,455267,random,2
+broccoli,23781,random,0
+broccoli,23781,random,1
+broccoli,23781,random,2
+broccoli,369771,random,0
+broccoli,369771,random,1
+broccoli,369771,random,2
+broccoli,99053,random,0
+broccoli,99053,random,1
+broccoli,99053,random,2
+broccoli,298994,random,0
+broccoli,298994,random,1
+broccoli,298994,random,2
+broccoli,396274,random,0
+broccoli,396274,random,1
+broccoli,396274,random,2
+broccoli,92660,random,0
+broccoli,92660,random,1
+broccoli,92660,random,2
+broccoli,209142,random,0
+broccoli,209142,random,1
+broccoli,209142,random,2
+bus,436738,random,0
+bus,436738,random,1
+bus,436738,random,2
+bus,184324,random,0
+bus,184324,random,1
+bus,184324,random,2
+bus,454661,random,0
+bus,454661,random,1
+bus,454661,random,2
+bus,74256,random,0
+bus,74256,random,1
+bus,74256,random,2
+bus,148508,random,0
+bus,148508,random,1
+bus,148508,random,2
+bus,334371,random,0
+bus,334371,random,1
+bus,334371,random,2
+bus,492077,random,0
+bus,492077,random,1
+bus,492077,random,2
+bus,512564,random,0
+bus,512564,random,1
+bus,512564,random,2
+bus,429109,random,0
+bus,429109,random,1
+bus,429109,random,2
+bus,484404,random,0
+bus,484404,random,1
+bus,484404,random,2
+bus,315450,random,0
+bus,315450,random,1
+bus,315450,random,2
+bus,460347,random,0
+bus,460347,random,1
+bus,460347,random,2
+bus,33854,random,0
+bus,33854,random,1
+bus,33854,random,2
+bus,499775,random,0
+bus,499775,random,1
+bus,499775,random,2
+bus,204871,random,0
+bus,204871,random,1
+bus,204871,random,2
+bus,15440,random,0
+bus,15440,random,1
+bus,15440,random,2
+bus,98392,random,0
+bus,98392,random,1
+bus,98392,random,2
+bus,377946,random,0
+bus,377946,random,1
+bus,377946,random,2
+bus,26204,random,0
+bus,26204,random,1
+bus,26204,random,2
+bus,202339,random,0
+bus,202339,random,1
+bus,202339,random,2
+bus,373353,random,0
+bus,373353,random,1
+bus,373353,random,2
+bus,443498,random,0
+bus,443498,random,1
+bus,443498,random,2
+bus,259690,random,0
+bus,259690,random,1
+bus,259690,random,2
+bus,568439,random,0
+bus,568439,random,1
+bus,568439,random,2
+bus,319607,random,0
+bus,319607,random,1
+bus,319607,random,2
+bus,125572,random,0
+bus,125572,random,1
+bus,125572,random,2
+bus,142472,random,0
+bus,142472,random,1
+bus,142472,random,2
+bus,427655,random,0
+bus,427655,random,1
+bus,427655,random,2
+bus,309391,random,0
+bus,309391,random,1
+bus,309391,random,2
+bus,369812,random,0
+bus,369812,random,1
+bus,369812,random,2
+bus,15517,random,0
+bus,15517,random,1
+bus,15517,random,2
+bus,165039,random,0
+bus,165039,random,1
+bus,165039,random,2
+bus,480944,random,0
+bus,480944,random,1
+bus,480944,random,2
+bus,110784,random,0
+bus,110784,random,1
+bus,110784,random,2
+bus,423617,random,0
+bus,423617,random,1
+bus,423617,random,2
+bus,516804,random,0
+bus,516804,random,1
+bus,516804,random,2
+bus,114884,random,0
+bus,114884,random,1
+bus,114884,random,2
+bus,303818,random,0
+bus,303818,random,1
+bus,303818,random,2
+bus,84170,random,0
+bus,84170,random,1
+bus,84170,random,2
+bus,452321,random,0
+bus,452321,random,1
+bus,452321,random,2
+bus,356612,random,0
+bus,356612,random,1
+bus,356612,random,2
+bus,147725,random,0
+bus,147725,random,1
+bus,147725,random,2
+bus,336658,random,0
+bus,336658,random,1
+bus,336658,random,2
+bus,380706,random,0
+bus,380706,random,1
+bus,380706,random,2
+bus,181542,random,0
+bus,181542,random,1
+bus,181542,random,2
+bus,233771,random,0
+bus,233771,random,1
+bus,233771,random,2
+bus,415536,random,0
+bus,415536,random,1
+bus,415536,random,2
+bus,315187,random,0
+bus,315187,random,1
+bus,315187,random,2
+bus,57149,random,0
+bus,57149,random,1
+bus,57149,random,2
+bus,278848,random,0
+bus,278848,random,1
+bus,278848,random,2
+cake,376322,random,0
+cake,376322,random,1
+cake,376322,random,2
+cake,241668,random,0
+cake,241668,random,1
+cake,241668,random,2
+cake,189451,random,0
+cake,189451,random,1
+cake,189451,random,2
+cake,253452,random,0
+cake,253452,random,1
+cake,253452,random,2
+cake,377368,random,0
+cake,377368,random,1
+cake,377368,random,2
+cake,331817,random,0
+cake,331817,random,1
+cake,331817,random,2
+cake,391722,random,0
+cake,391722,random,1
+cake,391722,random,2
+cake,346703,random,0
+cake,346703,random,1
+cake,346703,random,2
+cake,567898,random,0
+cake,567898,random,1
+cake,567898,random,2
+cake,470121,random,0
+cake,470121,random,1
+cake,470121,random,2
+cake,210030,random,0
+cake,210030,random,1
+cake,210030,random,2
+cake,368752,random,0
+cake,368752,random,1
+cake,368752,random,2
+cake,144003,random,0
+cake,144003,random,1
+cake,144003,random,2
+cake,180878,random,0
+cake,180878,random,1
+cake,180878,random,2
+cake,182417,random,0
+cake,182417,random,1
+cake,182417,random,2
+cake,334483,random,0
+cake,334483,random,1
+cake,334483,random,2
+cake,117425,random,0
+cake,117425,random,1
+cake,117425,random,2
+cake,47801,random,0
+cake,47801,random,1
+cake,47801,random,2
+cake,321214,random,0
+cake,321214,random,1
+cake,321214,random,2
+cake,214720,random,0
+cake,214720,random,1
+cake,214720,random,2
+cake,85195,random,0
+cake,85195,random,1
+cake,85195,random,2
+cake,344795,random,0
+cake,344795,random,1
+cake,344795,random,2
+cake,488673,random,0
+cake,488673,random,1
+cake,488673,random,2
+cake,439525,random,0
+cake,439525,random,1
+cake,439525,random,2
+cake,158956,random,0
+cake,158956,random,1
+cake,158956,random,2
+cake,206579,random,0
+cake,206579,random,1
+cake,206579,random,2
+cake,300276,random,0
+cake,300276,random,1
+cake,300276,random,2
+cake,147205,random,0
+cake,147205,random,1
+cake,147205,random,2
+cake,92939,random,0
+cake,92939,random,1
+cake,92939,random,2
+cake,48396,random,0
+cake,48396,random,1
+cake,48396,random,2
+cake,263969,random,0
+cake,263969,random,1
+cake,263969,random,2
+cake,245026,random,0
+cake,245026,random,1
+cake,245026,random,2
+cake,162092,random,0
+cake,162092,random,1
+cake,162092,random,2
+cake,561465,random,0
+cake,561465,random,1
+cake,561465,random,2
+cake,496954,random,0
+cake,496954,random,1
+cake,496954,random,2
+cake,374083,random,0
+cake,374083,random,1
+cake,374083,random,2
+cake,329542,random,0
+cake,329542,random,1
+cake,329542,random,2
+cake,173383,random,0
+cake,173383,random,1
+cake,173383,random,2
+cake,54605,random,0
+cake,54605,random,1
+cake,54605,random,2
+cake,255824,random,0
+cake,255824,random,1
+cake,255824,random,2
+cake,180560,random,0
+cake,180560,random,1
+cake,180560,random,2
+cake,182611,random,0
+cake,182611,random,1
+cake,182611,random,2
+cake,109916,random,0
+cake,109916,random,1
+cake,109916,random,2
+cake,140640,random,0
+cake,140640,random,1
+cake,140640,random,2
+cake,35682,random,0
+cake,35682,random,1
+cake,35682,random,2
+cake,468332,random,0
+cake,468332,random,1
+cake,468332,random,2
+cake,211825,random,0
+cake,211825,random,1
+cake,211825,random,2
+cake,397681,random,0
+cake,397681,random,1
+cake,397681,random,2
+cake,260470,random,0
+cake,260470,random,1
+cake,260470,random,2
+cake,119677,random,0
+cake,119677,random,1
+cake,119677,random,2
+car,184324,random,0
+car,184324,random,1
+car,184324,random,2
+car,393226,random,0
+car,393226,random,1
+car,393226,random,2
+car,102411,random,0
+car,102411,random,1
+car,102411,random,2
+car,169996,random,0
+car,169996,random,1
+car,169996,random,2
+car,67616,random,0
+car,67616,random,1
+car,67616,random,2
+car,555050,random,0
+car,555050,random,1
+car,555050,random,2
+car,284725,random,0
+car,284725,random,1
+car,284725,random,2
+car,499768,random,0
+car,499768,random,1
+car,499768,random,2
+car,315450,random,0
+car,315450,random,1
+car,315450,random,2
+car,157756,random,0
+car,157756,random,1
+car,157756,random,2
+car,499775,random,0
+car,499775,random,1
+car,499775,random,2
+car,204871,random,0
+car,204871,random,1
+car,204871,random,2
+car,301135,random,0
+car,301135,random,1
+car,301135,random,2
+car,231508,random,0
+car,231508,random,1
+car,231508,random,2
+car,505942,random,0
+car,505942,random,1
+car,505942,random,2
+car,98392,random,0
+car,98392,random,1
+car,98392,random,2
+car,127092,random,0
+car,127092,random,1
+car,127092,random,2
+car,319607,random,0
+car,319607,random,1
+car,319607,random,2
+car,565391,random,0
+car,565391,random,1
+car,565391,random,2
+car,198805,random,0
+car,198805,random,1
+car,198805,random,2
+car,243867,random,0
+car,243867,random,1
+car,243867,random,2
+car,194716,random,0
+car,194716,random,1
+car,194716,random,2
+car,192670,random,0
+car,192670,random,1
+car,192670,random,2
+car,260266,random,0
+car,260266,random,1
+car,260266,random,2
+car,278705,random,0
+car,278705,random,1
+car,278705,random,2
+car,334006,random,0
+car,334006,random,1
+car,334006,random,2
+car,227511,random,0
+car,227511,random,1
+car,227511,random,2
+car,446651,random,0
+car,446651,random,1
+car,446651,random,2
+car,303305,random,0
+car,303305,random,1
+car,303305,random,2
+car,84170,random,0
+car,84170,random,1
+car,84170,random,2
+car,86220,random,0
+car,86220,random,1
+car,86220,random,2
+car,192716,random,0
+car,192716,random,1
+car,192716,random,2
+car,293071,random,0
+car,293071,random,1
+car,293071,random,2
+car,424162,random,0
+car,424162,random,1
+car,424162,random,2
+car,276707,random,0
+car,276707,random,1
+car,276707,random,2
+car,157928,random,0
+car,157928,random,1
+car,157928,random,2
+car,135410,random,0
+car,135410,random,1
+car,135410,random,2
+car,356612,random,0
+car,356612,random,1
+car,356612,random,2
+car,213255,random,0
+car,213255,random,1
+car,213255,random,2
+car,160012,random,0
+car,160012,random,1
+car,160012,random,2
+car,147725,random,0
+car,147725,random,1
+car,147725,random,2
+car,100624,random,0
+car,100624,random,1
+car,100624,random,2
+car,147740,random,0
+car,147740,random,1
+car,147740,random,2
+car,141597,random,0
+car,141597,random,1
+car,141597,random,2
+car,172330,random,0
+car,172330,random,1
+car,172330,random,2
+car,26926,random,0
+car,26926,random,1
+car,26926,random,2
+car,565563,random,0
+car,565563,random,1
+car,565563,random,2
+car,301376,random,0
+car,301376,random,1
+car,301376,random,2
+car,567640,random,0
+car,567640,random,1
+car,567640,random,2
+car,475484,random,0
+car,475484,random,1
+car,475484,random,2
+carrot,253452,random,0
+carrot,253452,random,1
+carrot,253452,random,2
+carrot,120853,random,0
+carrot,120853,random,1
+carrot,120853,random,2
+carrot,397351,random,0
+carrot,397351,random,1
+carrot,397351,random,2
+carrot,177714,random,0
+carrot,177714,random,1
+carrot,177714,random,2
+carrot,560178,random,0
+carrot,560178,random,1
+carrot,560178,random,2
+carrot,130613,random,0
+carrot,130613,random,1
+carrot,130613,random,2
+carrot,105014,random,0
+carrot,105014,random,1
+carrot,105014,random,2
+carrot,113235,random,0
+carrot,113235,random,1
+carrot,113235,random,2
+carrot,276055,random,0
+carrot,276055,random,1
+carrot,276055,random,2
+carrot,567898,random,0
+carrot,567898,random,1
+carrot,567898,random,2
+carrot,455267,random,0
+carrot,455267,random,1
+carrot,455267,random,2
+carrot,434297,random,0
+carrot,434297,random,1
+carrot,434297,random,2
+carrot,143998,random,0
+carrot,143998,random,1
+carrot,143998,random,2
+carrot,530052,random,0
+carrot,530052,random,1
+carrot,530052,random,2
+carrot,116362,random,0
+carrot,116362,random,1
+carrot,116362,random,2
+carrot,251537,random,0
+carrot,251537,random,1
+carrot,251537,random,2
+carrot,170670,random,0
+carrot,170670,random,1
+carrot,170670,random,2
+carrot,465585,random,0
+carrot,465585,random,1
+carrot,465585,random,2
+carrot,385205,random,0
+carrot,385205,random,1
+carrot,385205,random,2
+carrot,336053,random,0
+carrot,336053,random,1
+carrot,336053,random,2
+carrot,231097,random,0
+carrot,231097,random,1
+carrot,231097,random,2
+carrot,296634,random,0
+carrot,296634,random,1
+carrot,296634,random,2
+carrot,157390,random,0
+carrot,157390,random,1
+carrot,157390,random,2
+carrot,460494,random,0
+carrot,460494,random,1
+carrot,460494,random,2
+carrot,308430,random,0
+carrot,308430,random,1
+carrot,308430,random,2
+carrot,104669,random,0
+carrot,104669,random,1
+carrot,104669,random,2
+carrot,23781,random,0
+carrot,23781,random,1
+carrot,23781,random,2
+carrot,493799,random,0
+carrot,493799,random,1
+carrot,493799,random,2
+carrot,3845,random,0
+carrot,3845,random,1
+carrot,3845,random,2
+carrot,389381,random,0
+carrot,389381,random,1
+carrot,389381,random,2
+carrot,424721,random,0
+carrot,424721,random,1
+carrot,424721,random,2
+carrot,210230,random,0
+carrot,210230,random,1
+carrot,210230,random,2
+carrot,7991,random,0
+carrot,7991,random,1
+carrot,7991,random,2
+carrot,314182,random,0
+carrot,314182,random,1
+carrot,314182,random,2
+carrot,466256,random,0
+carrot,466256,random,1
+carrot,466256,random,2
+carrot,203095,random,0
+carrot,203095,random,1
+carrot,203095,random,2
+carrot,397681,random,0
+carrot,397681,random,1
+carrot,397681,random,2
+carrot,223090,random,0
+carrot,223090,random,1
+carrot,223090,random,2
+carrot,194940,random,0
+carrot,194940,random,1
+carrot,194940,random,2
+carrot,287667,random,0
+carrot,287667,random,1
+carrot,287667,random,2
+carrot,165831,random,0
+carrot,165831,random,1
+carrot,165831,random,2
+carrot,29640,random,0
+carrot,29640,random,1
+carrot,29640,random,2
+carrot,284106,random,0
+carrot,284106,random,1
+carrot,284106,random,2
+carrot,34257,random,0
+carrot,34257,random,1
+carrot,34257,random,2
+carrot,298994,random,0
+carrot,298994,random,1
+carrot,298994,random,2
+carrot,376307,random,0
+carrot,376307,random,1
+carrot,376307,random,2
+carrot,288762,random,0
+carrot,288762,random,1
+carrot,288762,random,2
+cat,269314,random,0
+cat,269314,random,1
+cat,269314,random,2
+cat,245764,random,0
+cat,245764,random,1
+cat,245764,random,2
+cat,458255,random,0
+cat,458255,random,1
+cat,458255,random,2
+cat,312340,random,0
+cat,312340,random,1
+cat,312340,random,2
+cat,290843,random,0
+cat,290843,random,1
+cat,290843,random,2
+cat,533536,random,0
+cat,533536,random,1
+cat,533536,random,2
+cat,320554,random,0
+cat,320554,random,1
+cat,320554,random,2
+cat,460841,random,0
+cat,460841,random,1
+cat,460841,random,2
+cat,101420,random,0
+cat,101420,random,1
+cat,101420,random,2
+cat,357941,random,0
+cat,357941,random,1
+cat,357941,random,2
+cat,71226,random,0
+cat,71226,random,1
+cat,71226,random,2
+cat,401991,random,0
+cat,401991,random,1
+cat,401991,random,2
+cat,469067,random,0
+cat,469067,random,1
+cat,469067,random,2
+cat,107087,random,0
+cat,107087,random,1
+cat,107087,random,2
+cat,277584,random,0
+cat,277584,random,1
+cat,277584,random,2
+cat,77396,random,0
+cat,77396,random,1
+cat,77396,random,2
+cat,519764,random,0
+cat,519764,random,1
+cat,519764,random,2
+cat,327769,random,0
+cat,327769,random,1
+cat,327769,random,2
+cat,78426,random,0
+cat,78426,random,1
+cat,78426,random,2
+cat,181859,random,0
+cat,181859,random,1
+cat,181859,random,2
+cat,456292,random,0
+cat,456292,random,1
+cat,456292,random,2
+cat,279145,random,0
+cat,279145,random,1
+cat,279145,random,2
+cat,316015,random,0
+cat,316015,random,1
+cat,316015,random,2
+cat,366199,random,0
+cat,366199,random,1
+cat,366199,random,2
+cat,10363,random,0
+cat,10363,random,1
+cat,10363,random,2
+cat,117374,random,0
+cat,117374,random,1
+cat,117374,random,2
+cat,94336,random,0
+cat,94336,random,1
+cat,94336,random,2
+cat,153217,random,0
+cat,153217,random,1
+cat,153217,random,2
+cat,176778,random,0
+cat,176778,random,1
+cat,176778,random,2
+cat,565391,random,0
+cat,565391,random,1
+cat,565391,random,2
+cat,243344,random,0
+cat,243344,random,1
+cat,243344,random,2
+cat,117908,random,0
+cat,117908,random,1
+cat,117908,random,2
+cat,174231,random,0
+cat,174231,random,1
+cat,174231,random,2
+cat,291490,random,0
+cat,291490,random,1
+cat,291490,random,2
+cat,84650,random,0
+cat,84650,random,1
+cat,84650,random,2
+cat,530099,random,0
+cat,530099,random,1
+cat,530099,random,2
+cat,14007,random,0
+cat,14007,random,1
+cat,14007,random,2
+cat,478393,random,0
+cat,478393,random,1
+cat,478393,random,2
+cat,555705,random,0
+cat,555705,random,1
+cat,555705,random,2
+cat,375493,random,0
+cat,375493,random,1
+cat,375493,random,2
+cat,413395,random,0
+cat,413395,random,1
+cat,413395,random,2
+cat,176857,random,0
+cat,176857,random,1
+cat,176857,random,2
+cat,134882,random,0
+cat,134882,random,1
+cat,134882,random,2
+cat,23272,random,0
+cat,23272,random,1
+cat,23272,random,2
+cat,466156,random,0
+cat,466156,random,1
+cat,466156,random,2
+cat,491757,random,0
+cat,491757,random,1
+cat,491757,random,2
+cat,121586,random,0
+cat,121586,random,1
+cat,121586,random,2
+cat,492284,random,0
+cat,492284,random,1
+cat,492284,random,2
+cat,540928,random,0
+cat,540928,random,1
+cat,540928,random,2
+cat,409867,random,0
+cat,409867,random,1
+cat,409867,random,2
+cell phone,376322,random,0
+cell phone,376322,random,1
+cell phone,376322,random,2
+cell phone,459272,random,0
+cell phone,459272,random,1
+cell phone,459272,random,2
+cell phone,120853,random,0
+cell phone,120853,random,1
+cell phone,120853,random,2
+cell phone,213035,random,0
+cell phone,213035,random,1
+cell phone,213035,random,2
+cell phone,506933,random,0
+cell phone,506933,random,1
+cell phone,506933,random,2
+cell phone,146489,random,0
+cell phone,146489,random,1
+cell phone,146489,random,2
+cell phone,119365,random,0
+cell phone,119365,random,1
+cell phone,119365,random,2
+cell phone,579655,random,0
+cell phone,579655,random,1
+cell phone,579655,random,2
+cell phone,469067,random,0
+cell phone,469067,random,1
+cell phone,469067,random,2
+cell phone,166478,random,0
+cell phone,166478,random,1
+cell phone,166478,random,2
+cell phone,492110,random,0
+cell phone,492110,random,1
+cell phone,492110,random,2
+cell phone,507473,random,0
+cell phone,507473,random,1
+cell phone,507473,random,2
+cell phone,123480,random,0
+cell phone,123480,random,1
+cell phone,123480,random,2
+cell phone,120420,random,0
+cell phone,120420,random,1
+cell phone,120420,random,2
+cell phone,316015,random,0
+cell phone,316015,random,1
+cell phone,316015,random,2
+cell phone,228981,random,0
+cell phone,228981,random,1
+cell phone,228981,random,2
+cell phone,450686,random,0
+cell phone,450686,random,1
+cell phone,450686,random,2
+cell phone,76416,random,0
+cell phone,76416,random,1
+cell phone,76416,random,2
+cell phone,288391,random,0
+cell phone,288391,random,1
+cell phone,288391,random,2
+cell phone,292488,random,0
+cell phone,292488,random,1
+cell phone,292488,random,2
+cell phone,180878,random,0
+cell phone,180878,random,1
+cell phone,180878,random,2
+cell phone,366225,random,0
+cell phone,366225,random,1
+cell phone,366225,random,2
+cell phone,343706,random,0
+cell phone,343706,random,1
+cell phone,343706,random,2
+cell phone,562843,random,0
+cell phone,562843,random,1
+cell phone,562843,random,2
+cell phone,563882,random,0
+cell phone,563882,random,1
+cell phone,563882,random,2
+cell phone,546475,random,0
+cell phone,546475,random,1
+cell phone,546475,random,2
+cell phone,537270,random,0
+cell phone,537270,random,1
+cell phone,537270,random,2
+cell phone,52413,random,0
+cell phone,52413,random,1
+cell phone,52413,random,2
+cell phone,497344,random,0
+cell phone,497344,random,1
+cell phone,497344,random,2
+cell phone,553664,random,0
+cell phone,553664,random,1
+cell phone,553664,random,2
+cell phone,216277,random,0
+cell phone,216277,random,1
+cell phone,216277,random,2
+cell phone,561366,random,0
+cell phone,561366,random,1
+cell phone,561366,random,2
+cell phone,66771,random,0
+cell phone,66771,random,1
+cell phone,66771,random,2
+cell phone,71938,random,0
+cell phone,71938,random,1
+cell phone,71938,random,2
+cell phone,345356,random,0
+cell phone,345356,random,1
+cell phone,345356,random,2
+cell phone,100624,random,0
+cell phone,100624,random,1
+cell phone,100624,random,2
+cell phone,147729,random,0
+cell phone,147729,random,1
+cell phone,147729,random,2
+cell phone,1296,random,0
+cell phone,1296,random,1
+cell phone,1296,random,2
+cell phone,302882,random,0
+cell phone,302882,random,1
+cell phone,302882,random,2
+cell phone,174371,random,0
+cell phone,174371,random,1
+cell phone,174371,random,2
+cell phone,549674,random,0
+cell phone,549674,random,1
+cell phone,549674,random,2
+cell phone,160556,random,0
+cell phone,160556,random,1
+cell phone,160556,random,2
+cell phone,465718,random,0
+cell phone,465718,random,1
+cell phone,465718,random,2
+cell phone,73533,random,0
+cell phone,73533,random,1
+cell phone,73533,random,2
+cell phone,348481,random,0
+cell phone,348481,random,1
+cell phone,348481,random,2
+cell phone,245576,random,0
+cell phone,245576,random,1
+cell phone,245576,random,2
+cell phone,214869,random,0
+cell phone,214869,random,1
+cell phone,214869,random,2
+cell phone,62808,random,0
+cell phone,62808,random,1
+cell phone,62808,random,2
+cell phone,209753,random,0
+cell phone,209753,random,1
+cell phone,209753,random,2
+cell phone,463199,random,0
+cell phone,463199,random,1
+cell phone,463199,random,2
+chair,241668,random,0
+chair,241668,random,1
+chair,241668,random,2
+chair,311303,random,0
+chair,311303,random,1
+chair,311303,random,2
+chair,8211,random,0
+chair,8211,random,1
+chair,8211,random,2
+chair,67616,random,0
+chair,67616,random,1
+chair,67616,random,2
+chair,24610,random,0
+chair,24610,random,1
+chair,24610,random,2
+chair,397354,random,0
+chair,397354,random,1
+chair,397354,random,2
+chair,368684,random,0
+chair,368684,random,1
+chair,368684,random,2
+chair,462904,random,0
+chair,462904,random,1
+chair,462904,random,2
+chair,34873,random,0
+chair,34873,random,1
+chair,34873,random,2
+chair,407614,random,0
+chair,407614,random,1
+chair,407614,random,2
+chair,180296,random,0
+chair,180296,random,1
+chair,180296,random,2
+chair,20553,random,0
+chair,20553,random,1
+chair,20553,random,2
+chair,395343,random,0
+chair,395343,random,1
+chair,395343,random,2
+chair,268378,random,0
+chair,268378,random,1
+chair,268378,random,2
+chair,313454,random,0
+chair,313454,random,1
+chair,313454,random,2
+chair,163951,random,0
+chair,163951,random,1
+chair,163951,random,2
+chair,481390,random,0
+chair,481390,random,1
+chair,481390,random,2
+chair,342128,random,0
+chair,342128,random,1
+chair,342128,random,2
+chair,133244,random,0
+chair,133244,random,1
+chair,133244,random,2
+chair,473219,random,0
+chair,473219,random,1
+chair,473219,random,2
+chair,32901,random,0
+chair,32901,random,1
+chair,32901,random,2
+chair,61584,random,0
+chair,61584,random,1
+chair,61584,random,2
+chair,196754,random,0
+chair,196754,random,1
+chair,196754,random,2
+chair,473237,random,0
+chair,473237,random,1
+chair,473237,random,2
+chair,440475,random,0
+chair,440475,random,1
+chair,440475,random,2
+chair,231580,random,0
+chair,231580,random,1
+chair,231580,random,2
+chair,192670,random,0
+chair,192670,random,1
+chair,192670,random,2
+chair,336053,random,0
+chair,336053,random,1
+chair,336053,random,2
+chair,190648,random,0
+chair,190648,random,1
+chair,190648,random,2
+chair,374982,random,0
+chair,374982,random,1
+chair,374982,random,2
+chair,125129,random,0
+chair,125129,random,1
+chair,125129,random,2
+chair,325838,random,0
+chair,325838,random,1
+chair,325838,random,2
+chair,461009,random,0
+chair,461009,random,1
+chair,461009,random,2
+chair,467176,random,0
+chair,467176,random,1
+chair,467176,random,2
+chair,213224,random,0
+chair,213224,random,1
+chair,213224,random,2
+chair,428280,random,0
+chair,428280,random,1
+chair,428280,random,2
+chair,368900,random,0
+chair,368900,random,1
+chair,368900,random,2
+chair,180487,random,0
+chair,180487,random,1
+chair,180487,random,2
+chair,504074,random,0
+chair,504074,random,1
+chair,504074,random,2
+chair,160012,random,0
+chair,160012,random,1
+chair,160012,random,2
+chair,151820,random,0
+chair,151820,random,1
+chair,151820,random,2
+chair,532761,random,0
+chair,532761,random,1
+chair,532761,random,2
+chair,229659,random,0
+chair,229659,random,1
+chair,229659,random,2
+chair,434459,random,0
+chair,434459,random,1
+chair,434459,random,2
+chair,540962,random,0
+chair,540962,random,1
+chair,540962,random,2
+chair,366884,random,0
+chair,366884,random,1
+chair,366884,random,2
+chair,489764,random,0
+chair,489764,random,1
+chair,489764,random,2
+chair,127270,random,0
+chair,127270,random,1
+chair,127270,random,2
+chair,162092,random,0
+chair,162092,random,1
+chair,162092,random,2
+chair,194875,random,0
+chair,194875,random,1
+chair,194875,random,2
+clock,173057,random,0
+clock,173057,random,1
+clock,173057,random,2
+clock,31749,random,0
+clock,31749,random,1
+clock,31749,random,2
+clock,479248,random,0
+clock,479248,random,1
+clock,479248,random,2
+clock,395801,random,0
+clock,395801,random,1
+clock,395801,random,2
+clock,400922,random,0
+clock,400922,random,1
+clock,400922,random,2
+clock,372260,random,0
+clock,372260,random,1
+clock,372260,random,2
+clock,191013,random,0
+clock,191013,random,1
+clock,191013,random,2
+clock,344614,random,0
+clock,344614,random,1
+clock,344614,random,2
+clock,392228,random,0
+clock,392228,random,1
+clock,392228,random,2
+clock,427055,random,0
+clock,427055,random,1
+clock,427055,random,2
+clock,544306,random,0
+clock,544306,random,1
+clock,544306,random,2
+clock,334399,random,0
+clock,334399,random,1
+clock,334399,random,2
+clock,330818,random,0
+clock,330818,random,1
+clock,330818,random,2
+clock,106563,random,0
+clock,106563,random,1
+clock,106563,random,2
+clock,111179,random,0
+clock,111179,random,1
+clock,111179,random,2
+clock,573008,random,0
+clock,573008,random,1
+clock,573008,random,2
+clock,267351,random,0
+clock,267351,random,1
+clock,267351,random,2
+clock,98392,random,0
+clock,98392,random,1
+clock,98392,random,2
+clock,156278,random,0
+clock,156278,random,1
+clock,156278,random,2
+clock,156292,random,0
+clock,156292,random,1
+clock,156292,random,2
+clock,36494,random,0
+clock,36494,random,1
+clock,36494,random,2
+clock,418961,random,0
+clock,418961,random,1
+clock,418961,random,2
+clock,384661,random,0
+clock,384661,random,1
+clock,384661,random,2
+clock,180383,random,0
+clock,180383,random,1
+clock,180383,random,2
+clock,233139,random,0
+clock,233139,random,1
+clock,233139,random,2
+clock,482487,random,0
+clock,482487,random,1
+clock,482487,random,2
+clock,455352,random,0
+clock,455352,random,1
+clock,455352,random,2
+clock,282298,random,0
+clock,282298,random,1
+clock,282298,random,2
+clock,135890,random,0
+clock,135890,random,1
+clock,135890,random,2
+clock,43737,random,0
+clock,43737,random,1
+clock,43737,random,2
+clock,565469,random,0
+clock,565469,random,1
+clock,565469,random,2
+clock,565989,random,0
+clock,565989,random,1
+clock,565989,random,2
+clock,459500,random,0
+clock,459500,random,1
+clock,459500,random,2
+clock,242411,random,0
+clock,242411,random,1
+clock,242411,random,2
+clock,545007,random,0
+clock,545007,random,1
+clock,545007,random,2
+clock,218362,random,0
+clock,218362,random,1
+clock,218362,random,2
+clock,541952,random,0
+clock,541952,random,1
+clock,541952,random,2
+clock,304396,random,0
+clock,304396,random,1
+clock,304396,random,2
+clock,407825,random,0
+clock,407825,random,1
+clock,407825,random,2
+clock,88345,random,0
+clock,88345,random,1
+clock,88345,random,2
+clock,58655,random,0
+clock,58655,random,1
+clock,58655,random,2
+clock,519491,random,0
+clock,519491,random,1
+clock,519491,random,2
+clock,172877,random,0
+clock,172877,random,1
+clock,172877,random,2
+clock,175438,random,0
+clock,175438,random,1
+clock,175438,random,2
+clock,217425,random,0
+clock,217425,random,1
+clock,217425,random,2
+clock,243034,random,0
+clock,243034,random,1
+clock,243034,random,2
+clock,355169,random,0
+clock,355169,random,1
+clock,355169,random,2
+clock,519522,random,0
+clock,519522,random,1
+clock,519522,random,2
+clock,217957,random,0
+clock,217957,random,1
+clock,217957,random,2
+clock,216419,random,0
+clock,216419,random,1
+clock,216419,random,2
+couch,435208,random,0
+couch,435208,random,1
+couch,435208,random,2
+couch,222735,random,0
+couch,222735,random,1
+couch,222735,random,2
+couch,458768,random,0
+couch,458768,random,1
+couch,458768,random,2
+couch,468501,random,0
+couch,468501,random,1
+couch,468501,random,2
+couch,158744,random,0
+couch,158744,random,1
+couch,158744,random,2
+couch,24610,random,0
+couch,24610,random,1
+couch,24610,random,2
+couch,555050,random,0
+couch,555050,random,1
+couch,555050,random,2
+couch,463918,random,0
+couch,463918,random,1
+couch,463918,random,2
+couch,379441,random,0
+couch,379441,random,1
+couch,379441,random,2
+couch,27186,random,0
+couch,27186,random,1
+couch,27186,random,2
+couch,39477,random,0
+couch,39477,random,1
+couch,39477,random,2
+couch,97337,random,0
+couch,97337,random,1
+couch,97337,random,2
+couch,346703,random,0
+couch,346703,random,1
+couch,346703,random,2
+couch,570456,random,0
+couch,570456,random,1
+couch,570456,random,2
+couch,453722,random,0
+couch,453722,random,1
+couch,453722,random,2
+couch,367195,random,0
+couch,367195,random,1
+couch,367195,random,2
+couch,357978,random,0
+couch,357978,random,1
+couch,357978,random,2
+couch,13923,random,0
+couch,13923,random,1
+couch,13923,random,2
+couch,170099,random,0
+couch,170099,random,1
+couch,170099,random,2
+couch,495732,random,0
+couch,495732,random,1
+couch,495732,random,2
+couch,166521,random,0
+couch,166521,random,1
+couch,166521,random,2
+couch,530061,random,0
+couch,530061,random,1
+couch,530061,random,2
+couch,512657,random,0
+couch,512657,random,1
+couch,512657,random,2
+couch,128148,random,0
+couch,128148,random,1
+couch,128148,random,2
+couch,546964,random,0
+couch,546964,random,1
+couch,546964,random,2
+couch,440475,random,0
+couch,440475,random,1
+couch,440475,random,2
+couch,573094,random,0
+couch,573094,random,1
+couch,573094,random,2
+couch,435880,random,0
+couch,435880,random,1
+couch,435880,random,2
+couch,195754,random,0
+couch,195754,random,1
+couch,195754,random,2
+couch,458410,random,0
+couch,458410,random,1
+couch,458410,random,2
+couch,560312,random,0
+couch,560312,random,1
+couch,560312,random,2
+couch,214720,random,0
+couch,214720,random,1
+couch,214720,random,2
+couch,84674,random,0
+couch,84674,random,1
+couch,84674,random,2
+couch,416451,random,0
+couch,416451,random,1
+couch,416451,random,2
+couch,205514,random,0
+couch,205514,random,1
+couch,205514,random,2
+couch,66771,random,0
+couch,66771,random,1
+couch,66771,random,2
+couch,492758,random,0
+couch,492758,random,1
+couch,492758,random,2
+couch,14038,random,0
+couch,14038,random,1
+couch,14038,random,2
+couch,104666,random,0
+couch,104666,random,1
+couch,104666,random,2
+couch,467176,random,0
+couch,467176,random,1
+couch,467176,random,2
+couch,171757,random,0
+couch,171757,random,1
+couch,171757,random,2
+couch,124659,random,0
+couch,124659,random,1
+couch,124659,random,2
+couch,293625,random,0
+couch,293625,random,1
+couch,293625,random,2
+couch,116479,random,0
+couch,116479,random,1
+couch,116479,random,2
+couch,527616,random,0
+couch,527616,random,1
+couch,527616,random,2
+couch,463618,random,0
+couch,463618,random,1
+couch,463618,random,2
+couch,109313,random,0
+couch,109313,random,1
+couch,109313,random,2
+couch,195842,random,0
+couch,195842,random,1
+couch,195842,random,2
+couch,572678,random,0
+couch,572678,random,1
+couch,572678,random,2
+couch,568584,random,0
+couch,568584,random,1
+couch,568584,random,2
+cup,555009,random,0
+cup,555009,random,1
+cup,555009,random,2
+cup,239627,random,0
+cup,239627,random,1
+cup,239627,random,2
+cup,120853,random,0
+cup,120853,random,1
+cup,120853,random,2
+cup,387098,random,0
+cup,387098,random,1
+cup,387098,random,2
+cup,421923,random,0
+cup,421923,random,1
+cup,421923,random,2
+cup,344100,random,0
+cup,344100,random,1
+cup,344100,random,2
+cup,184384,random,0
+cup,184384,random,1
+cup,184384,random,2
+cup,131138,random,0
+cup,131138,random,1
+cup,131138,random,2
+cup,579655,random,0
+cup,579655,random,1
+cup,579655,random,2
+cup,395343,random,0
+cup,395343,random,1
+cup,395343,random,2
+cup,327769,random,0
+cup,327769,random,1
+cup,327769,random,2
+cup,231527,random,0
+cup,231527,random,1
+cup,231527,random,2
+cup,368752,random,0
+cup,368752,random,1
+cup,368752,random,2
+cup,63602,random,0
+cup,63602,random,1
+cup,63602,random,2
+cup,419974,random,0
+cup,419974,random,1
+cup,419974,random,2
+cup,182417,random,0
+cup,182417,random,1
+cup,182417,random,2
+cup,356531,random,0
+cup,356531,random,1
+cup,356531,random,2
+cup,336053,random,0
+cup,336053,random,1
+cup,336053,random,2
+cup,286908,random,0
+cup,286908,random,1
+cup,286908,random,2
+cup,305343,random,0
+cup,305343,random,1
+cup,305343,random,2
+cup,374982,random,0
+cup,374982,random,1
+cup,374982,random,2
+cup,479448,random,0
+cup,479448,random,1
+cup,479448,random,2
+cup,63740,random,0
+cup,63740,random,1
+cup,63740,random,2
+cup,180487,random,0
+cup,180487,random,1
+cup,180487,random,2
+cup,178469,random,0
+cup,178469,random,1
+cup,178469,random,2
+cup,102707,random,0
+cup,102707,random,1
+cup,102707,random,2
+cup,473406,random,0
+cup,473406,random,1
+cup,473406,random,2
+cup,414034,random,0
+cup,414034,random,1
+cup,414034,random,2
+cup,182611,random,0
+cup,182611,random,1
+cup,182611,random,2
+cup,457078,random,0
+cup,457078,random,1
+cup,457078,random,2
+cup,194940,random,0
+cup,194940,random,1
+cup,194940,random,2
+cup,2431,random,0
+cup,2431,random,1
+cup,2431,random,2
+cup,151938,random,0
+cup,151938,random,1
+cup,151938,random,2
+cup,192904,random,0
+cup,192904,random,1
+cup,192904,random,2
+cup,242060,random,0
+cup,242060,random,1
+cup,242060,random,2
+cup,231822,random,0
+cup,231822,random,1
+cup,231822,random,2
+cup,110999,random,0
+cup,110999,random,1
+cup,110999,random,2
+cup,45472,random,0
+cup,45472,random,1
+cup,45472,random,2
+cup,70048,random,0
+cup,70048,random,1
+cup,70048,random,2
+cup,463283,random,0
+cup,463283,random,1
+cup,463283,random,2
+cup,283113,random,0
+cup,283113,random,1
+cup,283113,random,2
+cup,92660,random,0
+cup,92660,random,1
+cup,92660,random,2
+cup,479732,random,0
+cup,479732,random,1
+cup,479732,random,2
+cup,256518,random,0
+cup,256518,random,1
+cup,256518,random,2
+cup,547336,random,0
+cup,547336,random,1
+cup,547336,random,2
+cup,377368,random,0
+cup,377368,random,1
+cup,377368,random,2
+cup,166426,random,0
+cup,166426,random,1
+cup,166426,random,2
+cup,172571,random,0
+cup,172571,random,1
+cup,172571,random,2
+cup,2592,random,0
+cup,2592,random,1
+cup,2592,random,2
+cup,492110,random,0
+cup,492110,random,1
+cup,492110,random,2
+dining table,137246,random,0
+dining table,137246,random,1
+dining table,137246,random,2
+dining table,4134,random,0
+dining table,4134,random,1
+dining table,4134,random,2
+dining table,555050,random,0
+dining table,555050,random,1
+dining table,555050,random,2
+dining table,462904,random,0
+dining table,462904,random,1
+dining table,462904,random,2
+dining table,34873,random,0
+dining table,34873,random,1
+dining table,34873,random,2
+dining table,446522,random,0
+dining table,446522,random,1
+dining table,446522,random,2
+dining table,157767,random,0
+dining table,157767,random,1
+dining table,157767,random,2
+dining table,20553,random,0
+dining table,20553,random,1
+dining table,20553,random,2
+dining table,122962,random,0
+dining table,122962,random,1
+dining table,122962,random,2
+dining table,268378,random,0
+dining table,268378,random,1
+dining table,268378,random,2
+dining table,61584,random,0
+dining table,61584,random,1
+dining table,61584,random,2
+dining table,440475,random,0
+dining table,440475,random,1
+dining table,440475,random,2
+dining table,231580,random,0
+dining table,231580,random,1
+dining table,231580,random,2
+dining table,356531,random,0
+dining table,356531,random,1
+dining table,356531,random,2
+dining table,286908,random,0
+dining table,286908,random,1
+dining table,286908,random,2
+dining table,374982,random,0
+dining table,374982,random,1
+dining table,374982,random,2
+dining table,151820,random,0
+dining table,151820,random,1
+dining table,151820,random,2
+dining table,84241,random,0
+dining table,84241,random,1
+dining table,84241,random,2
+dining table,229659,random,0
+dining table,229659,random,1
+dining table,229659,random,2
+dining table,561465,random,0
+dining table,561465,random,1
+dining table,561465,random,2
+dining table,194875,random,0
+dining table,194875,random,1
+dining table,194875,random,2
+dining table,571718,random,0
+dining table,571718,random,1
+dining table,571718,random,2
+dining table,543047,random,0
+dining table,543047,random,1
+dining table,543047,random,2
+dining table,74058,random,0
+dining table,74058,random,1
+dining table,74058,random,2
+dining table,233825,random,0
+dining table,233825,random,1
+dining table,233825,random,2
+dining table,22892,random,0
+dining table,22892,random,1
+dining table,22892,random,2
+dining table,151938,random,0
+dining table,151938,random,1
+dining table,151938,random,2
+dining table,559513,random,0
+dining table,559513,random,1
+dining table,559513,random,2
+dining table,551350,random,0
+dining table,551350,random,1
+dining table,551350,random,2
+dining table,326082,random,0
+dining table,326082,random,1
+dining table,326082,random,2
+dining table,231879,random,0
+dining table,231879,random,1
+dining table,231879,random,2
+dining table,10707,random,0
+dining table,10707,random,1
+dining table,10707,random,2
+dining table,80340,random,0
+dining table,80340,random,1
+dining table,80340,random,2
+dining table,350679,random,0
+dining table,350679,random,1
+dining table,350679,random,2
+dining table,455157,random,0
+dining table,455157,random,1
+dining table,455157,random,2
+dining table,438774,random,0
+dining table,438774,random,1
+dining table,438774,random,2
+dining table,367095,random,0
+dining table,367095,random,1
+dining table,367095,random,2
+dining table,266768,random,0
+dining table,266768,random,1
+dining table,266768,random,2
+dining table,277020,random,0
+dining table,277020,random,1
+dining table,277020,random,2
+dining table,31296,random,0
+dining table,31296,random,1
+dining table,31296,random,2
+dining table,492110,random,0
+dining table,492110,random,1
+dining table,492110,random,2
+dining table,64084,random,0
+dining table,64084,random,1
+dining table,64084,random,2
+dining table,379476,random,0
+dining table,379476,random,1
+dining table,379476,random,2
+dining table,322163,random,0
+dining table,322163,random,1
+dining table,322163,random,2
+dining table,144003,random,0
+dining table,144003,random,1
+dining table,144003,random,2
+dining table,121506,random,0
+dining table,121506,random,1
+dining table,121506,random,2
+dining table,369370,random,0
+dining table,369370,random,1
+dining table,369370,random,2
+dining table,123633,random,0
+dining table,123633,random,1
+dining table,123633,random,2
+dining table,154358,random,0
+dining table,154358,random,1
+dining table,154358,random,2
+dining table,82696,random,0
+dining table,82696,random,1
+dining table,82696,random,2
+dog,329219,random,0
+dog,329219,random,1
+dog,329219,random,2
+dog,546829,random,0
+dog,546829,random,1
+dog,546829,random,2
+dog,554002,random,0
+dog,554002,random,1
+dog,554002,random,2
+dog,366611,random,0
+dog,366611,random,1
+dog,366611,random,2
+dog,182805,random,0
+dog,182805,random,1
+dog,182805,random,2
+dog,236592,random,0
+dog,236592,random,1
+dog,236592,random,2
+dog,474164,random,0
+dog,474164,random,1
+dog,474164,random,2
+dog,489014,random,0
+dog,489014,random,1
+dog,489014,random,2
+dog,295478,random,0
+dog,295478,random,1
+dog,295478,random,2
+dog,446522,random,0
+dog,446522,random,1
+dog,446522,random,2
+dog,486479,random,0
+dog,486479,random,1
+dog,486479,random,2
+dog,412240,random,0
+dog,412240,random,1
+dog,412240,random,2
+dog,372819,random,0
+dog,372819,random,1
+dog,372819,random,2
+dog,554579,random,0
+dog,554579,random,1
+dog,554579,random,2
+dog,357459,random,0
+dog,357459,random,1
+dog,357459,random,2
+dog,367195,random,0
+dog,367195,random,1
+dog,367195,random,2
+dog,222317,random,0
+dog,222317,random,1
+dog,222317,random,2
+dog,72813,random,0
+dog,72813,random,1
+dog,72813,random,2
+dog,76417,random,0
+dog,76417,random,1
+dog,76417,random,2
+dog,419974,random,0
+dog,419974,random,1
+dog,419974,random,2
+dog,193162,random,0
+dog,193162,random,1
+dog,193162,random,2
+dog,193674,random,0
+dog,193674,random,1
+dog,193674,random,2
+dog,67213,random,0
+dog,67213,random,1
+dog,67213,random,2
+dog,463522,random,0
+dog,463522,random,1
+dog,463522,random,2
+dog,547502,random,0
+dog,547502,random,1
+dog,547502,random,2
+dog,22192,random,0
+dog,22192,random,1
+dog,22192,random,2
+dog,61108,random,0
+dog,61108,random,1
+dog,61108,random,2
+dog,246454,random,0
+dog,246454,random,1
+dog,246454,random,2
+dog,490171,random,0
+dog,490171,random,1
+dog,490171,random,2
+dog,190140,random,0
+dog,190140,random,1
+dog,190140,random,2
+dog,305343,random,0
+dog,305343,random,1
+dog,305343,random,2
+dog,338624,random,0
+dog,338624,random,1
+dog,338624,random,2
+dog,209613,random,0
+dog,209613,random,1
+dog,209613,random,2
+dog,29393,random,0
+dog,29393,random,1
+dog,29393,random,2
+dog,107226,random,0
+dog,107226,random,1
+dog,107226,random,2
+dog,424162,random,0
+dog,424162,random,1
+dog,424162,random,2
+dog,159458,random,0
+dog,159458,random,1
+dog,159458,random,2
+dog,279278,random,0
+dog,279278,random,1
+dog,279278,random,2
+dog,494869,random,0
+dog,494869,random,1
+dog,494869,random,2
+dog,89880,random,0
+dog,89880,random,1
+dog,89880,random,2
+dog,53529,random,0
+dog,53529,random,1
+dog,53529,random,2
+dog,80153,random,0
+dog,80153,random,1
+dog,80153,random,2
+dog,262938,random,0
+dog,262938,random,1
+dog,262938,random,2
+dog,30494,random,0
+dog,30494,random,1
+dog,30494,random,2
+dog,366884,random,0
+dog,366884,random,1
+dog,366884,random,2
+dog,237864,random,0
+dog,237864,random,1
+dog,237864,random,2
+dog,472375,random,0
+dog,472375,random,1
+dog,472375,random,2
+dog,269113,random,0
+dog,269113,random,1
+dog,269113,random,2
+dog,161609,random,0
+dog,161609,random,1
+dog,161609,random,2
+dog,291664,random,0
+dog,291664,random,1
+dog,291664,random,2
+fork,376322,random,0
+fork,376322,random,1
+fork,376322,random,2
+fork,385029,random,0
+fork,385029,random,1
+fork,385029,random,2
+fork,253452,random,0
+fork,253452,random,1
+fork,253452,random,2
+fork,306700,random,0
+fork,306700,random,1
+fork,306700,random,2
+fork,166426,random,0
+fork,166426,random,1
+fork,166426,random,2
+fork,172571,random,0
+fork,172571,random,1
+fork,172571,random,2
+fork,530975,random,0
+fork,530975,random,1
+fork,530975,random,2
+fork,153632,random,0
+fork,153632,random,1
+fork,153632,random,2
+fork,189475,random,0
+fork,189475,random,1
+fork,189475,random,2
+fork,181796,random,0
+fork,181796,random,1
+fork,181796,random,2
+fork,331817,random,0
+fork,331817,random,1
+fork,331817,random,2
+fork,27696,random,0
+fork,27696,random,1
+fork,27696,random,2
+fork,177714,random,0
+fork,177714,random,1
+fork,177714,random,2
+fork,105014,random,0
+fork,105014,random,1
+fork,105014,random,2
+fork,429623,random,0
+fork,429623,random,1
+fork,429623,random,2
+fork,43581,random,0
+fork,43581,random,1
+fork,43581,random,2
+fork,177213,random,0
+fork,177213,random,1
+fork,177213,random,2
+fork,550471,random,0
+fork,550471,random,1
+fork,550471,random,2
+fork,8277,random,0
+fork,8277,random,1
+fork,8277,random,2
+fork,210520,random,0
+fork,210520,random,1
+fork,210520,random,2
+fork,191580,random,0
+fork,191580,random,1
+fork,191580,random,2
+fork,62554,random,0
+fork,62554,random,1
+fork,62554,random,2
+fork,210030,random,0
+fork,210030,random,1
+fork,210030,random,2
+fork,210032,random,0
+fork,210032,random,1
+fork,210032,random,2
+fork,484978,random,0
+fork,484978,random,1
+fork,484978,random,2
+fork,75393,random,0
+fork,75393,random,1
+fork,75393,random,2
+fork,352900,random,0
+fork,352900,random,1
+fork,352900,random,2
+fork,167572,random,0
+fork,167572,random,1
+fork,167572,random,2
+fork,320664,random,0
+fork,320664,random,1
+fork,320664,random,2
+fork,450202,random,0
+fork,450202,random,1
+fork,450202,random,2
+fork,520871,random,0
+fork,520871,random,1
+fork,520871,random,2
+fork,170670,random,0
+fork,170670,random,1
+fork,170670,random,2
+fork,356531,random,0
+fork,356531,random,1
+fork,356531,random,2
+fork,336053,random,0
+fork,336053,random,1
+fork,336053,random,2
+fork,292024,random,0
+fork,292024,random,1
+fork,292024,random,2
+fork,231097,random,0
+fork,231097,random,1
+fork,231097,random,2
+fork,84664,random,0
+fork,84664,random,1
+fork,84664,random,2
+fork,405691,random,0
+fork,405691,random,1
+fork,405691,random,2
+fork,123585,random,0
+fork,123585,random,1
+fork,123585,random,2
+fork,533206,random,0
+fork,533206,random,1
+fork,533206,random,2
+fork,104669,random,0
+fork,104669,random,1
+fork,104669,random,2
+fork,561889,random,0
+fork,561889,random,1
+fork,561889,random,2
+fork,530146,random,0
+fork,530146,random,1
+fork,530146,random,2
+fork,493799,random,0
+fork,493799,random,1
+fork,493799,random,2
+fork,488166,random,0
+fork,488166,random,1
+fork,488166,random,2
+fork,99053,random,0
+fork,99053,random,1
+fork,99053,random,2
+fork,209142,random,0
+fork,209142,random,1
+fork,209142,random,2
+fork,163611,random,0
+fork,163611,random,1
+fork,163611,random,2
+fork,162092,random,0
+fork,162092,random,1
+fork,162092,random,2
+fork,265518,random,0
+fork,265518,random,1
+fork,265518,random,2
+handbag,349184,random,0
+handbag,349184,random,1
+handbag,349184,random,2
+handbag,520707,random,0
+handbag,520707,random,1
+handbag,520707,random,2
+handbag,547336,random,0
+handbag,547336,random,1
+handbag,547336,random,2
+handbag,74256,random,0
+handbag,74256,random,1
+handbag,74256,random,2
+handbag,554002,random,0
+handbag,554002,random,1
+handbag,554002,random,2
+handbag,182805,random,0
+handbag,182805,random,1
+handbag,182805,random,2
+handbag,377368,random,0
+handbag,377368,random,1
+handbag,377368,random,2
+handbag,534041,random,0
+handbag,534041,random,1
+handbag,534041,random,2
+handbag,378873,random,0
+handbag,378873,random,1
+handbag,378873,random,2
+handbag,530975,random,0
+handbag,530975,random,1
+handbag,530975,random,2
+handbag,455716,random,0
+handbag,455716,random,1
+handbag,455716,random,2
+handbag,401446,random,0
+handbag,401446,random,1
+handbag,401446,random,2
+handbag,398377,random,0
+handbag,398377,random,1
+handbag,398377,random,2
+handbag,82986,random,0
+handbag,82986,random,1
+handbag,82986,random,2
+handbag,322610,random,0
+handbag,322610,random,1
+handbag,322610,random,2
+handbag,172595,random,0
+handbag,172595,random,1
+handbag,172595,random,2
+handbag,295478,random,0
+handbag,295478,random,1
+handbag,295478,random,2
+handbag,259640,random,0
+handbag,259640,random,1
+handbag,259640,random,2
+handbag,237118,random,0
+handbag,237118,random,1
+handbag,237118,random,2
+handbag,334399,random,0
+handbag,334399,random,1
+handbag,334399,random,2
+handbag,16451,random,0
+handbag,16451,random,1
+handbag,16451,random,2
+handbag,78404,random,0
+handbag,78404,random,1
+handbag,78404,random,2
+handbag,157767,random,0
+handbag,157767,random,1
+handbag,157767,random,2
+handbag,121417,random,0
+handbag,121417,random,1
+handbag,121417,random,2
+handbag,356427,random,0
+handbag,356427,random,1
+handbag,356427,random,2
+handbag,301135,random,0
+handbag,301135,random,1
+handbag,301135,random,2
+handbag,186449,random,0
+handbag,186449,random,1
+handbag,186449,random,2
+handbag,230993,random,0
+handbag,230993,random,1
+handbag,230993,random,2
+handbag,554579,random,0
+handbag,554579,random,1
+handbag,554579,random,2
+handbag,281687,random,0
+handbag,281687,random,1
+handbag,281687,random,2
+handbag,413689,random,0
+handbag,413689,random,1
+handbag,413689,random,2
+handbag,202339,random,0
+handbag,202339,random,1
+handbag,202339,random,2
+handbag,511076,random,0
+handbag,511076,random,1
+handbag,511076,random,2
+handbag,87144,random,0
+handbag,87144,random,1
+handbag,87144,random,2
+handbag,297578,random,0
+handbag,297578,random,1
+handbag,297578,random,2
+handbag,373353,random,0
+handbag,373353,random,1
+handbag,373353,random,2
+handbag,494188,random,0
+handbag,494188,random,1
+handbag,494188,random,2
+handbag,70254,random,0
+handbag,70254,random,1
+handbag,70254,random,2
+handbag,456303,random,0
+handbag,456303,random,1
+handbag,456303,random,2
+handbag,361586,random,0
+handbag,361586,random,1
+handbag,361586,random,2
+handbag,538236,random,0
+handbag,538236,random,1
+handbag,538236,random,2
+handbag,2685,random,0
+handbag,2685,random,1
+handbag,2685,random,2
+handbag,156292,random,0
+handbag,156292,random,1
+handbag,156292,random,2
+handbag,566923,random,0
+handbag,566923,random,1
+handbag,566923,random,2
+handbag,361103,random,0
+handbag,361103,random,1
+handbag,361103,random,2
+handbag,257169,random,0
+handbag,257169,random,1
+handbag,257169,random,2
+handbag,334483,random,0
+handbag,334483,random,1
+handbag,334483,random,2
+handbag,94871,random,0
+handbag,94871,random,1
+handbag,94871,random,2
+handbag,281754,random,0
+handbag,281754,random,1
+handbag,281754,random,2
+handbag,241319,random,0
+handbag,241319,random,1
+handbag,241319,random,2
+hot dog,20992,random,0
+hot dog,20992,random,1
+hot dog,20992,random,2
+hot dog,460929,random,0
+hot dog,460929,random,1
+hot dog,460929,random,2
+hot dog,283268,random,0
+hot dog,283268,random,1
+hot dog,283268,random,2
+hot dog,138241,random,0
+hot dog,138241,random,1
+hot dog,138241,random,2
+hot dog,311950,random,0
+hot dog,311950,random,1
+hot dog,311950,random,2
+hot dog,320664,random,0
+hot dog,320664,random,1
+hot dog,320664,random,2
+hot dog,534041,random,0
+hot dog,534041,random,1
+hot dog,534041,random,2
+hot dog,468505,random,0
+hot dog,468505,random,1
+hot dog,468505,random,2
+hot dog,137246,random,0
+hot dog,137246,random,1
+hot dog,137246,random,2
+hot dog,157601,random,0
+hot dog,157601,random,1
+hot dog,157601,random,2
+hot dog,530975,random,0
+hot dog,530975,random,1
+hot dog,530975,random,2
+hot dog,25386,random,0
+hot dog,25386,random,1
+hot dog,25386,random,2
+hot dog,148662,random,0
+hot dog,148662,random,1
+hot dog,148662,random,2
+hot dog,210230,random,0
+hot dog,210230,random,1
+hot dog,210230,random,2
+hot dog,393014,random,0
+hot dog,393014,random,1
+hot dog,393014,random,2
+hot dog,420281,random,0
+hot dog,420281,random,1
+hot dog,420281,random,2
+hot dog,179898,random,0
+hot dog,179898,random,1
+hot dog,179898,random,2
+hot dog,399296,random,0
+hot dog,399296,random,1
+hot dog,399296,random,2
+hot dog,83531,random,0
+hot dog,83531,random,1
+hot dog,83531,random,2
+hot dog,581206,random,0
+hot dog,581206,random,1
+hot dog,581206,random,2
+hot dog,369757,random,0
+hot dog,369757,random,1
+hot dog,369757,random,2
+hot dog,118367,random,0
+hot dog,118367,random,1
+hot dog,118367,random,2
+hot dog,422886,random,0
+hot dog,422886,random,1
+hot dog,422886,random,2
+hot dog,452084,random,0
+hot dog,452084,random,1
+hot dog,452084,random,2
+hot dog,24567,random,0
+hot dog,24567,random,1
+hot dog,24567,random,2
+hot dog,538236,random,0
+hot dog,538236,random,1
+hot dog,538236,random,2
+keyboard,416256,random,0
+keyboard,416256,random,1
+keyboard,416256,random,2
+keyboard,555009,random,0
+keyboard,555009,random,1
+keyboard,555009,random,2
+keyboard,387098,random,0
+keyboard,387098,random,1
+keyboard,387098,random,2
+keyboard,248314,random,0
+keyboard,248314,random,1
+keyboard,248314,random,2
+keyboard,172595,random,0
+keyboard,172595,random,1
+keyboard,172595,random,2
+keyboard,131138,random,0
+keyboard,131138,random,1
+keyboard,131138,random,2
+keyboard,119365,random,0
+keyboard,119365,random,1
+keyboard,119365,random,2
+keyboard,66635,random,0
+keyboard,66635,random,1
+keyboard,66635,random,2
+keyboard,356432,random,0
+keyboard,356432,random,1
+keyboard,356432,random,2
+keyboard,154705,random,0
+keyboard,154705,random,1
+keyboard,154705,random,2
+keyboard,472678,random,0
+keyboard,472678,random,1
+keyboard,472678,random,2
+keyboard,316015,random,0
+keyboard,316015,random,1
+keyboard,316015,random,2
+keyboard,148620,random,0
+keyboard,148620,random,1
+keyboard,148620,random,2
+keyboard,232088,random,0
+keyboard,232088,random,1
+keyboard,232088,random,2
+keyboard,345252,random,0
+keyboard,345252,random,1
+keyboard,345252,random,2
+keyboard,524456,random,0
+keyboard,524456,random,1
+keyboard,524456,random,2
+keyboard,385719,random,0
+keyboard,385719,random,1
+keyboard,385719,random,2
+keyboard,9400,random,0
+keyboard,9400,random,1
+keyboard,9400,random,2
+keyboard,507575,random,0
+keyboard,507575,random,1
+keyboard,507575,random,2
+keyboard,255165,random,0
+keyboard,255165,random,1
+keyboard,255165,random,2
+keyboard,135872,random,0
+keyboard,135872,random,1
+keyboard,135872,random,2
+keyboard,179392,random,0
+keyboard,179392,random,1
+keyboard,179392,random,2
+keyboard,553664,random,0
+keyboard,553664,random,1
+keyboard,553664,random,2
+keyboard,97994,random,0
+keyboard,97994,random,1
+keyboard,97994,random,2
+keyboard,325838,random,0
+keyboard,325838,random,1
+keyboard,325838,random,2
+keyboard,215778,random,0
+keyboard,215778,random,1
+keyboard,215778,random,2
+keyboard,372466,random,0
+keyboard,372466,random,1
+keyboard,372466,random,2
+keyboard,529148,random,0
+keyboard,529148,random,1
+keyboard,529148,random,2
+keyboard,426241,random,0
+keyboard,426241,random,1
+keyboard,426241,random,2
+keyboard,9483,random,0
+keyboard,9483,random,1
+keyboard,9483,random,2
+keyboard,160556,random,0
+keyboard,160556,random,1
+keyboard,160556,random,2
+keyboard,516916,random,0
+keyboard,516916,random,1
+keyboard,516916,random,2
+keyboard,465718,random,0
+keyboard,465718,random,1
+keyboard,465718,random,2
+keyboard,435003,random,0
+keyboard,435003,random,1
+keyboard,435003,random,2
+keyboard,353096,random,0
+keyboard,353096,random,1
+keyboard,353096,random,2
+keyboard,386912,random,0
+keyboard,386912,random,1
+keyboard,386912,random,2
+keyboard,37740,random,0
+keyboard,37740,random,1
+keyboard,37740,random,2
+keyboard,301421,random,0
+keyboard,301421,random,1
+keyboard,301421,random,2
+keyboard,189820,random,0
+keyboard,189820,random,1
+keyboard,189820,random,2
+keyboard,206218,random,0
+keyboard,206218,random,1
+keyboard,206218,random,2
+keyboard,570782,random,0
+keyboard,570782,random,1
+keyboard,570782,random,2
+keyboard,186282,random,0
+keyboard,186282,random,1
+keyboard,186282,random,2
+keyboard,571313,random,0
+keyboard,571313,random,1
+keyboard,571313,random,2
+keyboard,26564,random,0
+keyboard,26564,random,1
+keyboard,26564,random,2
+keyboard,363461,random,0
+keyboard,363461,random,1
+keyboard,363461,random,2
+keyboard,333772,random,0
+keyboard,333772,random,1
+keyboard,333772,random,2
+keyboard,302030,random,0
+keyboard,302030,random,1
+keyboard,302030,random,2
+keyboard,147415,random,0
+keyboard,147415,random,1
+keyboard,147415,random,2
+keyboard,225757,random,0
+keyboard,225757,random,1
+keyboard,225757,random,2
+keyboard,371677,random,0
+keyboard,371677,random,1
+keyboard,371677,random,2
+laptop,555009,random,0
+laptop,555009,random,1
+laptop,555009,random,2
+laptop,435208,random,0
+laptop,435208,random,1
+laptop,435208,random,2
+laptop,387098,random,0
+laptop,387098,random,1
+laptop,387098,random,2
+laptop,24610,random,0
+laptop,24610,random,1
+laptop,24610,random,2
+laptop,344100,random,0
+laptop,344100,random,1
+laptop,344100,random,2
+laptop,11813,random,0
+laptop,11813,random,1
+laptop,11813,random,2
+laptop,433192,random,0
+laptop,433192,random,1
+laptop,433192,random,2
+laptop,368684,random,0
+laptop,368684,random,1
+laptop,368684,random,2
+laptop,332845,random,0
+laptop,332845,random,1
+laptop,332845,random,2
+laptop,89648,random,0
+laptop,89648,random,1
+laptop,89648,random,2
+laptop,379441,random,0
+laptop,379441,random,1
+laptop,379441,random,2
+laptop,172595,random,0
+laptop,172595,random,1
+laptop,172595,random,2
+laptop,16439,random,0
+laptop,16439,random,1
+laptop,16439,random,2
+laptop,413247,random,0
+laptop,413247,random,1
+laptop,413247,random,2
+laptop,131138,random,0
+laptop,131138,random,1
+laptop,131138,random,2
+laptop,527427,random,0
+laptop,527427,random,1
+laptop,527427,random,2
+laptop,492110,random,0
+laptop,492110,random,1
+laptop,492110,random,2
+laptop,166478,random,0
+laptop,166478,random,1
+laptop,166478,random,2
+laptop,154705,random,0
+laptop,154705,random,1
+laptop,154705,random,2
+laptop,77396,random,0
+laptop,77396,random,1
+laptop,77396,random,2
+laptop,519764,random,0
+laptop,519764,random,1
+laptop,519764,random,2
+laptop,222299,random,0
+laptop,222299,random,1
+laptop,222299,random,2
+laptop,292446,random,0
+laptop,292446,random,1
+laptop,292446,random,2
+laptop,244833,random,0
+laptop,244833,random,1
+laptop,244833,random,2
+laptop,477805,random,0
+laptop,477805,random,1
+laptop,477805,random,2
+laptop,316015,random,0
+laptop,316015,random,1
+laptop,316015,random,2
+laptop,564336,random,0
+laptop,564336,random,1
+laptop,564336,random,2
+laptop,63602,random,0
+laptop,63602,random,1
+laptop,63602,random,2
+laptop,287347,random,0
+laptop,287347,random,1
+laptop,287347,random,2
+laptop,148620,random,0
+laptop,148620,random,1
+laptop,148620,random,2
+laptop,232088,random,0
+laptop,232088,random,1
+laptop,232088,random,2
+laptop,513688,random,0
+laptop,513688,random,1
+laptop,513688,random,2
+laptop,482970,random,0
+laptop,482970,random,1
+laptop,482970,random,2
+laptop,112798,random,0
+laptop,112798,random,1
+laptop,112798,random,2
+laptop,367095,random,0
+laptop,367095,random,1
+laptop,367095,random,2
+laptop,345252,random,0
+laptop,345252,random,1
+laptop,345252,random,2
+laptop,385719,random,0
+laptop,385719,random,1
+laptop,385719,random,2
+laptop,9400,random,0
+laptop,9400,random,1
+laptop,9400,random,2
+laptop,507575,random,0
+laptop,507575,random,1
+laptop,507575,random,2
+laptop,4795,random,0
+laptop,4795,random,1
+laptop,4795,random,2
+laptop,255165,random,0
+laptop,255165,random,1
+laptop,255165,random,2
+laptop,135872,random,0
+laptop,135872,random,1
+laptop,135872,random,2
+laptop,497344,random,0
+laptop,497344,random,1
+laptop,497344,random,2
+laptop,553664,random,0
+laptop,553664,random,1
+laptop,553664,random,2
+laptop,553669,random,0
+laptop,553669,random,1
+laptop,553669,random,2
+laptop,97994,random,0
+laptop,97994,random,1
+laptop,97994,random,2
+laptop,466125,random,0
+laptop,466125,random,1
+laptop,466125,random,2
+laptop,325838,random,0
+laptop,325838,random,1
+laptop,325838,random,2
+laptop,134882,random,0
+laptop,134882,random,1
+laptop,134882,random,2
+laptop,232684,random,0
+laptop,232684,random,1
+laptop,232684,random,2
+microwave,425226,random,0
+microwave,425226,random,1
+microwave,425226,random,2
+microwave,488075,random,0
+microwave,488075,random,1
+microwave,488075,random,2
+microwave,522007,random,0
+microwave,522007,random,1
+microwave,522007,random,2
+microwave,109976,random,0
+microwave,109976,random,1
+microwave,109976,random,2
+microwave,508312,random,0
+microwave,508312,random,1
+microwave,508312,random,2
+microwave,482719,random,0
+microwave,482719,random,1
+microwave,482719,random,2
+microwave,498463,random,0
+microwave,498463,random,1
+microwave,498463,random,2
+microwave,246436,random,0
+microwave,246436,random,1
+microwave,246436,random,2
+microwave,466986,random,0
+microwave,466986,random,1
+microwave,466986,random,2
+microwave,313130,random,0
+microwave,313130,random,1
+microwave,313130,random,2
+microwave,397354,random,0
+microwave,397354,random,1
+microwave,397354,random,2
+microwave,577584,random,0
+microwave,577584,random,1
+microwave,577584,random,2
+microwave,216497,random,0
+microwave,216497,random,1
+microwave,216497,random,2
+microwave,571313,random,0
+microwave,571313,random,1
+microwave,571313,random,2
+microwave,207538,random,0
+microwave,207538,random,1
+microwave,207538,random,2
+microwave,453302,random,0
+microwave,453302,random,1
+microwave,453302,random,2
+microwave,407614,random,0
+microwave,407614,random,1
+microwave,407614,random,2
+microwave,365766,random,0
+microwave,365766,random,1
+microwave,365766,random,2
+microwave,520264,random,0
+microwave,520264,random,1
+microwave,520264,random,2
+microwave,419653,random,0
+microwave,419653,random,1
+microwave,419653,random,2
+microwave,173008,random,0
+microwave,173008,random,1
+microwave,173008,random,2
+microwave,14038,random,0
+microwave,14038,random,1
+microwave,14038,random,2
+microwave,445658,random,0
+microwave,445658,random,1
+microwave,445658,random,2
+microwave,215644,random,0
+microwave,215644,random,1
+microwave,215644,random,2
+microwave,91615,random,0
+microwave,91615,random,1
+microwave,91615,random,2
+microwave,68833,random,0
+microwave,68833,random,1
+microwave,68833,random,2
+microwave,186980,random,0
+microwave,186980,random,1
+microwave,186980,random,2
+microwave,237928,random,0
+microwave,237928,random,1
+microwave,237928,random,2
+microwave,444275,random,0
+microwave,444275,random,1
+microwave,444275,random,2
+motorcycle,402433,random,0
+motorcycle,402433,random,1
+motorcycle,402433,random,2
+motorcycle,102411,random,0
+motorcycle,102411,random,1
+motorcycle,102411,random,2
+motorcycle,8211,random,0
+motorcycle,8211,random,1
+motorcycle,8211,random,2
+motorcycle,356387,random,0
+motorcycle,356387,random,1
+motorcycle,356387,random,2
+motorcycle,513580,random,0
+motorcycle,513580,random,1
+motorcycle,513580,random,2
+motorcycle,396338,random,0
+motorcycle,396338,random,1
+motorcycle,396338,random,2
+motorcycle,433204,random,0
+motorcycle,433204,random,1
+motorcycle,433204,random,2
+motorcycle,33854,random,0
+motorcycle,33854,random,1
+motorcycle,33854,random,2
+motorcycle,227399,random,0
+motorcycle,227399,random,1
+motorcycle,227399,random,2
+motorcycle,69213,random,0
+motorcycle,69213,random,1
+motorcycle,69213,random,2
+motorcycle,226417,random,0
+motorcycle,226417,random,1
+motorcycle,226417,random,2
+motorcycle,70774,random,0
+motorcycle,70774,random,1
+motorcycle,70774,random,2
+motorcycle,203389,random,0
+motorcycle,203389,random,1
+motorcycle,203389,random,2
+motorcycle,140420,random,0
+motorcycle,140420,random,1
+motorcycle,140420,random,2
+motorcycle,7816,random,0
+motorcycle,7816,random,1
+motorcycle,7816,random,2
+motorcycle,165518,random,0
+motorcycle,165518,random,1
+motorcycle,165518,random,2
+motorcycle,19109,random,0
+motorcycle,19109,random,1
+motorcycle,19109,random,2
+motorcycle,214192,random,0
+motorcycle,214192,random,1
+motorcycle,214192,random,2
+motorcycle,246963,random,0
+motorcycle,246963,random,1
+motorcycle,246963,random,2
+motorcycle,446651,random,0
+motorcycle,446651,random,1
+motorcycle,446651,random,2
+motorcycle,192699,random,0
+motorcycle,192699,random,1
+motorcycle,192699,random,2
+motorcycle,245448,random,0
+motorcycle,245448,random,1
+motorcycle,245448,random,2
+motorcycle,296649,random,0
+motorcycle,296649,random,1
+motorcycle,296649,random,2
+motorcycle,145620,random,0
+motorcycle,145620,random,1
+motorcycle,145620,random,2
+motorcycle,119516,random,0
+motorcycle,119516,random,1
+motorcycle,119516,random,2
+motorcycle,574702,random,0
+motorcycle,574702,random,1
+motorcycle,574702,random,2
+motorcycle,441586,random,0
+motorcycle,441586,random,1
+motorcycle,441586,random,2
+motorcycle,135410,random,0
+motorcycle,135410,random,1
+motorcycle,135410,random,2
+motorcycle,259830,random,0
+motorcycle,259830,random,1
+motorcycle,259830,random,2
+motorcycle,11511,random,0
+motorcycle,11511,random,1
+motorcycle,11511,random,2
+motorcycle,538364,random,0
+motorcycle,538364,random,1
+motorcycle,538364,random,2
+motorcycle,177934,random,0
+motorcycle,177934,random,1
+motorcycle,177934,random,2
+motorcycle,480021,random,0
+motorcycle,480021,random,1
+motorcycle,480021,random,2
+motorcycle,48924,random,0
+motorcycle,48924,random,1
+motorcycle,48924,random,2
+motorcycle,147740,random,0
+motorcycle,147740,random,1
+motorcycle,147740,random,2
+motorcycle,380706,random,0
+motorcycle,380706,random,1
+motorcycle,380706,random,2
+motorcycle,178982,random,0
+motorcycle,178982,random,1
+motorcycle,178982,random,2
+motorcycle,534827,random,0
+motorcycle,534827,random,1
+motorcycle,534827,random,2
+motorcycle,165681,random,0
+motorcycle,165681,random,1
+motorcycle,165681,random,2
+motorcycle,18737,random,0
+motorcycle,18737,random,1
+motorcycle,18737,random,2
+motorcycle,122166,random,0
+motorcycle,122166,random,1
+motorcycle,122166,random,2
+motorcycle,472375,random,0
+motorcycle,472375,random,1
+motorcycle,472375,random,2
+motorcycle,578871,random,0
+motorcycle,578871,random,1
+motorcycle,578871,random,2
+motorcycle,276284,random,0
+motorcycle,276284,random,1
+motorcycle,276284,random,2
+motorcycle,579902,random,0
+motorcycle,579902,random,1
+motorcycle,579902,random,2
+motorcycle,54593,random,0
+motorcycle,54593,random,1
+motorcycle,54593,random,2
+motorcycle,454978,random,0
+motorcycle,454978,random,1
+motorcycle,454978,random,2
+motorcycle,399205,random,0
+motorcycle,399205,random,1
+motorcycle,399205,random,2
+motorcycle,336232,random,0
+motorcycle,336232,random,1
+motorcycle,336232,random,2
+motorcycle,226154,random,0
+motorcycle,226154,random,1
+motorcycle,226154,random,2
+mouse,555009,random,0
+mouse,555009,random,1
+mouse,555009,random,2
+mouse,387098,random,0
+mouse,387098,random,1
+mouse,387098,random,2
+mouse,409630,random,0
+mouse,409630,random,1
+mouse,409630,random,2
+mouse,248314,random,0
+mouse,248314,random,1
+mouse,248314,random,2
+mouse,413247,random,0
+mouse,413247,random,1
+mouse,413247,random,2
+mouse,66635,random,0
+mouse,66635,random,1
+mouse,66635,random,2
+mouse,15497,random,0
+mouse,15497,random,1
+mouse,15497,random,2
+mouse,366225,random,0
+mouse,366225,random,1
+mouse,366225,random,2
+mouse,513688,random,0
+mouse,513688,random,1
+mouse,513688,random,2
+mouse,68765,random,0
+mouse,68765,random,1
+mouse,68765,random,2
+mouse,524456,random,0
+mouse,524456,random,1
+mouse,524456,random,2
+mouse,38576,random,0
+mouse,38576,random,1
+mouse,38576,random,2
+mouse,9400,random,0
+mouse,9400,random,1
+mouse,9400,random,2
+mouse,215778,random,0
+mouse,215778,random,1
+mouse,215778,random,2
+mouse,372466,random,0
+mouse,372466,random,1
+mouse,372466,random,2
+mouse,378099,random,0
+mouse,378099,random,1
+mouse,378099,random,2
+mouse,529148,random,0
+mouse,529148,random,1
+mouse,529148,random,2
+mouse,294162,random,0
+mouse,294162,random,1
+mouse,294162,random,2
+mouse,549674,random,0
+mouse,549674,random,1
+mouse,549674,random,2
+mouse,554291,random,0
+mouse,554291,random,1
+mouse,554291,random,2
+mouse,465718,random,0
+mouse,465718,random,1
+mouse,465718,random,2
+mouse,248631,random,0
+mouse,248631,random,1
+mouse,248631,random,2
+mouse,348481,random,0
+mouse,348481,random,1
+mouse,348481,random,2
+mouse,353096,random,0
+mouse,353096,random,1
+mouse,353096,random,2
+mouse,301421,random,0
+mouse,301421,random,1
+mouse,301421,random,2
+mouse,520077,random,0
+mouse,520077,random,1
+mouse,520077,random,2
+mouse,546717,random,0
+mouse,546717,random,1
+mouse,546717,random,2
+mouse,340894,random,0
+mouse,340894,random,1
+mouse,340894,random,2
+mouse,186282,random,0
+mouse,186282,random,1
+mouse,186282,random,2
+mouse,26564,random,0
+mouse,26564,random,1
+mouse,26564,random,2
+mouse,363461,random,0
+mouse,363461,random,1
+mouse,363461,random,2
+mouse,333772,random,0
+mouse,333772,random,1
+mouse,333772,random,2
+mouse,225757,random,0
+mouse,225757,random,1
+mouse,225757,random,2
+mouse,371677,random,0
+mouse,371677,random,1
+mouse,371677,random,2
+mouse,108026,random,0
+mouse,108026,random,1
+mouse,108026,random,2
+mouse,21503,random,0
+mouse,21503,random,1
+mouse,21503,random,2
+orange,529966,random,0
+orange,529966,random,1
+orange,529966,random,2
+orange,184384,random,0
+orange,184384,random,1
+orange,184384,random,2
+orange,128598,random,0
+orange,128598,random,1
+orange,128598,random,2
+orange,567898,random,0
+orange,567898,random,1
+orange,567898,random,2
+orange,231527,random,0
+orange,231527,random,1
+orange,231527,random,2
+orange,366711,random,0
+orange,366711,random,1
+orange,366711,random,2
+orange,560256,random,0
+orange,560256,random,1
+orange,560256,random,2
+orange,248980,random,0
+orange,248980,random,1
+orange,248980,random,2
+orange,167572,random,0
+orange,167572,random,1
+orange,167572,random,2
+orange,189078,random,0
+orange,189078,random,1
+orange,189078,random,2
+orange,217753,random,0
+orange,217753,random,1
+orange,217753,random,2
+orange,119452,random,0
+orange,119452,random,1
+orange,119452,random,2
+orange,386210,random,0
+orange,386210,random,1
+orange,386210,random,2
+orange,509131,random,0
+orange,509131,random,1
+orange,509131,random,2
+orange,50896,random,0
+orange,50896,random,1
+orange,50896,random,2
+orange,479448,random,0
+orange,479448,random,1
+orange,479448,random,2
+orange,369370,random,0
+orange,369370,random,1
+orange,369370,random,2
+orange,104669,random,0
+orange,104669,random,1
+orange,104669,random,2
+orange,148707,random,0
+orange,148707,random,1
+orange,148707,random,2
+orange,386277,random,0
+orange,386277,random,1
+orange,386277,random,2
+orange,462576,random,0
+orange,462576,random,1
+orange,462576,random,2
+orange,63740,random,0
+orange,63740,random,1
+orange,63740,random,2
+orange,185599,random,0
+orange,185599,random,1
+orange,185599,random,2
+orange,544565,random,0
+orange,544565,random,1
+orange,544565,random,2
+orange,496954,random,0
+orange,496954,random,1
+orange,496954,random,2
+orange,280891,random,0
+orange,280891,random,1
+orange,280891,random,2
+orange,409424,random,0
+orange,409424,random,1
+orange,409424,random,2
+orange,352618,random,0
+orange,352618,random,1
+orange,352618,random,2
+orange,397681,random,0
+orange,397681,random,1
+orange,397681,random,2
+orange,193926,random,0
+orange,193926,random,1
+orange,193926,random,2
+orange,322959,random,0
+orange,322959,random,1
+orange,322959,random,2
+orange,110999,random,0
+orange,110999,random,1
+orange,110999,random,2
+orange,45472,random,0
+orange,45472,random,1
+orange,45472,random,2
+orange,463283,random,0
+orange,463283,random,1
+orange,463283,random,2
+orange,60855,random,0
+orange,60855,random,1
+orange,60855,random,2
+orange,283070,random,0
+orange,283070,random,1
+orange,283070,random,2
+orange,276434,random,0
+orange,276434,random,1
+orange,276434,random,2
+orange,6614,random,0
+orange,6614,random,1
+orange,6614,random,2
+orange,184791,random,0
+orange,184791,random,1
+orange,184791,random,2
+orange,376307,random,0
+orange,376307,random,1
+orange,376307,random,2
+orange,50679,random,0
+orange,50679,random,1
+orange,50679,random,2
+oven,243204,random,0
+oven,243204,random,1
+oven,243204,random,2
+oven,30213,random,0
+oven,30213,random,1
+oven,30213,random,2
+oven,565776,random,0
+oven,565776,random,1
+oven,565776,random,2
+oven,458768,random,0
+oven,458768,random,1
+oven,458768,random,2
+oven,262682,random,0
+oven,262682,random,1
+oven,262682,random,2
+oven,429598,random,0
+oven,429598,random,1
+oven,429598,random,2
+oven,494634,random,0
+oven,494634,random,1
+oven,494634,random,2
+oven,397354,random,0
+oven,397354,random,1
+oven,397354,random,2
+oven,485424,random,0
+oven,485424,random,1
+oven,485424,random,2
+oven,407614,random,0
+oven,407614,random,1
+oven,407614,random,2
+oven,330818,random,0
+oven,330818,random,1
+oven,330818,random,2
+oven,137294,random,0
+oven,137294,random,1
+oven,137294,random,2
+oven,186980,random,0
+oven,186980,random,1
+oven,186980,random,2
+oven,222825,random,0
+oven,222825,random,1
+oven,222825,random,2
+oven,322163,random,0
+oven,322163,random,1
+oven,322163,random,2
+oven,419974,random,0
+oven,419974,random,1
+oven,419974,random,2
+oven,437898,random,0
+oven,437898,random,1
+oven,437898,random,2
+oven,488075,random,0
+oven,488075,random,1
+oven,488075,random,2
+oven,384661,random,0
+oven,384661,random,1
+oven,384661,random,2
+oven,529568,random,0
+oven,529568,random,1
+oven,529568,random,2
+oven,246436,random,0
+oven,246436,random,1
+oven,246436,random,2
+oven,226984,random,0
+oven,226984,random,1
+oven,226984,random,2
+oven,447169,random,0
+oven,447169,random,1
+oven,447169,random,2
+oven,365766,random,0
+oven,365766,random,1
+oven,365766,random,2
+oven,507081,random,0
+oven,507081,random,1
+oven,507081,random,2
+oven,308430,random,0
+oven,308430,random,1
+oven,308430,random,2
+oven,445658,random,0
+oven,445658,random,1
+oven,445658,random,2
+oven,382696,random,0
+oven,382696,random,1
+oven,382696,random,2
+oven,44279,random,0
+oven,44279,random,1
+oven,44279,random,2
+oven,84241,random,0
+oven,84241,random,1
+oven,84241,random,2
+oven,522007,random,0
+oven,522007,random,1
+oven,522007,random,2
+oven,802,random,0
+oven,802,random,1
+oven,802,random,2
+oven,248111,random,0
+oven,248111,random,1
+oven,248111,random,2
+oven,56127,random,0
+oven,56127,random,1
+oven,56127,random,2
+oven,419653,random,0
+oven,419653,random,1
+oven,419653,random,2
+oven,397133,random,0
+oven,397133,random,1
+oven,397133,random,2
+oven,182611,random,0
+oven,182611,random,1
+oven,182611,random,2
+oven,203095,random,0
+oven,203095,random,1
+oven,203095,random,2
+oven,280930,random,0
+oven,280930,random,1
+oven,280930,random,2
+oven,64868,random,0
+oven,64868,random,1
+oven,64868,random,2
+oven,33638,random,0
+oven,33638,random,1
+oven,33638,random,2
+oven,237928,random,0
+oven,237928,random,1
+oven,237928,random,2
+oven,211825,random,0
+oven,211825,random,1
+oven,211825,random,2
+oven,480122,random,0
+oven,480122,random,1
+oven,480122,random,2
+oven,527750,random,0
+oven,527750,random,1
+oven,527750,random,2
+oven,519569,random,0
+oven,519569,random,1
+oven,519569,random,2
+oven,109976,random,0
+oven,109976,random,1
+oven,109976,random,2
+oven,508312,random,0
+oven,508312,random,1
+oven,508312,random,2
+oven,298396,random,0
+oven,298396,random,1
+oven,298396,random,2
+oven,458663,random,0
+oven,458663,random,1
+oven,458663,random,2
+person,532481,random,0
+person,532481,random,1
+person,532481,random,2
+person,385029,random,0
+person,385029,random,1
+person,385029,random,2
+person,311303,random,0
+person,311303,random,1
+person,311303,random,2
+person,393226,random,0
+person,393226,random,1
+person,393226,random,2
+person,532493,random,0
+person,532493,random,1
+person,532493,random,2
+person,8211,random,0
+person,8211,random,1
+person,8211,random,2
+person,327701,random,0
+person,327701,random,1
+person,327701,random,2
+person,434204,random,0
+person,434204,random,1
+person,434204,random,2
+person,466986,random,0
+person,466986,random,1
+person,466986,random,2
+person,213035,random,0
+person,213035,random,1
+person,213035,random,2
+person,188465,random,0
+person,188465,random,1
+person,188465,random,2
+person,254016,random,0
+person,254016,random,1
+person,254016,random,2
+person,81988,random,0
+person,81988,random,1
+person,81988,random,2
+person,122962,random,0
+person,122962,random,1
+person,122962,random,2
+person,442463,random,0
+person,442463,random,1
+person,442463,random,2
+person,311392,random,0
+person,311392,random,1
+person,311392,random,2
+person,49259,random,0
+person,49259,random,1
+person,49259,random,2
+person,368752,random,0
+person,368752,random,1
+person,368752,random,2
+person,319607,random,0
+person,319607,random,1
+person,319607,random,2
+person,32901,random,0
+person,32901,random,1
+person,32901,random,2
+person,180383,random,0
+person,180383,random,1
+person,180383,random,2
+person,278705,random,0
+person,278705,random,1
+person,278705,random,2
+person,336053,random,0
+person,336053,random,1
+person,336053,random,2
+person,114884,random,0
+person,114884,random,1
+person,114884,random,2
+person,508101,random,0
+person,508101,random,1
+person,508101,random,2
+person,360661,random,0
+person,360661,random,1
+person,360661,random,2
+person,426203,random,0
+person,426203,random,1
+person,426203,random,2
+person,278749,random,0
+person,278749,random,1
+person,278749,random,2
+person,516318,random,0
+person,516318,random,1
+person,516318,random,2
+person,467176,random,0
+person,467176,random,1
+person,467176,random,2
+person,33005,random,0
+person,33005,random,1
+person,33005,random,2
+person,475387,random,0
+person,475387,random,1
+person,475387,random,2
+person,393469,random,0
+person,393469,random,1
+person,393469,random,2
+person,57597,random,0
+person,57597,random,1
+person,57597,random,2
+person,426241,random,0
+person,426241,random,1
+person,426241,random,2
+person,65798,random,0
+person,65798,random,1
+person,65798,random,2
+person,229659,random,0
+person,229659,random,1
+person,229659,random,2
+person,147740,random,0
+person,147740,random,1
+person,147740,random,2
+person,426268,random,0
+person,426268,random,1
+person,426268,random,2
+person,434459,random,0
+person,434459,random,1
+person,434459,random,2
+person,205105,random,0
+person,205105,random,1
+person,205105,random,2
+person,278848,random,0
+person,278848,random,1
+person,278848,random,2
+person,74058,random,0
+person,74058,random,1
+person,74058,random,2
+person,123213,random,0
+person,123213,random,1
+person,123213,random,2
+person,336209,random,0
+person,336209,random,1
+person,336209,random,2
+person,180560,random,0
+person,180560,random,1
+person,180560,random,2
+person,262487,random,0
+person,262487,random,1
+person,262487,random,2
+person,491867,random,0
+person,491867,random,1
+person,491867,random,2
+person,393569,random,0
+person,393569,random,1
+person,393569,random,2
+person,549220,random,0
+person,549220,random,1
+person,549220,random,2
+pizza,491008,random,0
+pizza,491008,random,1
+pizza,491008,random,2
+pizza,402433,random,0
+pizza,402433,random,1
+pizza,402433,random,2
+pizza,25603,random,0
+pizza,25603,random,1
+pizza,25603,random,2
+pizza,385029,random,0
+pizza,385029,random,1
+pizza,385029,random,2
+pizza,547854,random,0
+pizza,547854,random,1
+pizza,547854,random,2
+pizza,513041,random,0
+pizza,513041,random,1
+pizza,513041,random,2
+pizza,146457,random,0
+pizza,146457,random,1
+pizza,146457,random,2
+pizza,189475,random,0
+pizza,189475,random,1
+pizza,189475,random,2
+pizza,265777,random,0
+pizza,265777,random,1
+pizza,265777,random,2
+pizza,146489,random,0
+pizza,146489,random,1
+pizza,146489,random,2
+pizza,520264,random,0
+pizza,520264,random,1
+pizza,520264,random,2
+pizza,334417,random,0
+pizza,334417,random,1
+pizza,334417,random,2
+pizza,369757,random,0
+pizza,369757,random,1
+pizza,369757,random,2
+pizza,292446,random,0
+pizza,292446,random,1
+pizza,292446,random,2
+pizza,287347,random,0
+pizza,287347,random,1
+pizza,287347,random,2
+pizza,476787,random,0
+pizza,476787,random,1
+pizza,476787,random,2
+pizza,322163,random,0
+pizza,322163,random,1
+pizza,322163,random,2
+pizza,240250,random,0
+pizza,240250,random,1
+pizza,240250,random,2
+pizza,161925,random,0
+pizza,161925,random,1
+pizza,161925,random,2
+pizza,289415,random,0
+pizza,289415,random,1
+pizza,289415,random,2
+pizza,441491,random,0
+pizza,441491,random,1
+pizza,441491,random,2
+pizza,473237,random,0
+pizza,473237,random,1
+pizza,473237,random,2
+pizza,246436,random,0
+pizza,246436,random,1
+pizza,246436,random,2
+pizza,382125,random,0
+pizza,382125,random,1
+pizza,382125,random,2
+pizza,292024,random,0
+pizza,292024,random,1
+pizza,292024,random,2
+pizza,194746,random,0
+pizza,194746,random,1
+pizza,194746,random,2
+pizza,140987,random,0
+pizza,140987,random,1
+pizza,140987,random,2
+pizza,192191,random,0
+pizza,192191,random,1
+pizza,192191,random,2
+pizza,99039,random,0
+pizza,99039,random,1
+pizza,99039,random,2
+pizza,488166,random,0
+pizza,488166,random,1
+pizza,488166,random,2
+pizza,353027,random,0
+pizza,353027,random,1
+pizza,353027,random,2
+pizza,513283,random,0
+pizza,513283,random,1
+pizza,513283,random,2
+pizza,91406,random,0
+pizza,91406,random,1
+pizza,91406,random,2
+pizza,106266,random,0
+pizza,106266,random,1
+pizza,106266,random,2
+pizza,323355,random,0
+pizza,323355,random,1
+pizza,323355,random,2
+pizza,376093,random,0
+pizza,376093,random,1
+pizza,376093,random,2
+pizza,296222,random,0
+pizza,296222,random,1
+pizza,296222,random,2
+pizza,17714,random,0
+pizza,17714,random,1
+pizza,17714,random,2
+pizza,189752,random,0
+pizza,189752,random,1
+pizza,189752,random,2
+pizza,173371,random,0
+pizza,173371,random,1
+pizza,173371,random,2
+pizza,276285,random,0
+pizza,276285,random,1
+pizza,276285,random,2
+pizza,324927,random,0
+pizza,324927,random,1
+pizza,324927,random,2
+pizza,258883,random,0
+pizza,258883,random,1
+pizza,258883,random,2
+pizza,286553,random,0
+pizza,286553,random,1
+pizza,286553,random,2
+pizza,290163,random,0
+pizza,290163,random,1
+pizza,290163,random,2
+pizza,180101,random,0
+pizza,180101,random,1
+pizza,180101,random,2
+pizza,435081,random,0
+pizza,435081,random,1
+pizza,435081,random,2
+pizza,425361,random,0
+pizza,425361,random,1
+pizza,425361,random,2
+pizza,424349,random,0
+pizza,424349,random,1
+pizza,424349,random,2
+pizza,127394,random,0
+pizza,127394,random,1
+pizza,127394,random,2
+potted plant,491008,random,0
+potted plant,491008,random,1
+potted plant,491008,random,2
+potted plant,565776,random,0
+potted plant,565776,random,1
+potted plant,565776,random,2
+potted plant,137246,random,0
+potted plant,137246,random,1
+potted plant,137246,random,2
+potted plant,530975,random,0
+potted plant,530975,random,1
+potted plant,530975,random,2
+potted plant,189475,random,0
+potted plant,189475,random,1
+potted plant,189475,random,2
+potted plant,267300,random,0
+potted plant,267300,random,1
+potted plant,267300,random,2
+potted plant,372260,random,0
+potted plant,372260,random,1
+potted plant,372260,random,2
+potted plant,331817,random,0
+potted plant,331817,random,1
+potted plant,331817,random,2
+potted plant,306733,random,0
+potted plant,306733,random,1
+potted plant,306733,random,2
+potted plant,463918,random,0
+potted plant,463918,random,1
+potted plant,463918,random,2
+potted plant,39477,random,0
+potted plant,39477,random,1
+potted plant,39477,random,2
+potted plant,181816,random,0
+potted plant,181816,random,1
+potted plant,181816,random,2
+potted plant,462904,random,0
+potted plant,462904,random,1
+potted plant,462904,random,2
+potted plant,407614,random,0
+potted plant,407614,random,1
+potted plant,407614,random,2
+potted plant,131138,random,0
+potted plant,131138,random,1
+potted plant,131138,random,2
+potted plant,351810,random,0
+potted plant,351810,random,1
+potted plant,351810,random,2
+potted plant,527427,random,0
+potted plant,527427,random,1
+potted plant,527427,random,2
+potted plant,36936,random,0
+potted plant,36936,random,1
+potted plant,36936,random,2
+potted plant,233033,random,0
+potted plant,233033,random,1
+potted plant,233033,random,2
+potted plant,448076,random,0
+potted plant,448076,random,1
+potted plant,448076,random,2
+potted plant,382030,random,0
+potted plant,382030,random,1
+potted plant,382030,random,2
+potted plant,265816,random,0
+potted plant,265816,random,1
+potted plant,265816,random,2
+potted plant,40036,random,0
+potted plant,40036,random,1
+potted plant,40036,random,2
+potted plant,313454,random,0
+potted plant,313454,random,1
+potted plant,313454,random,2
+potted plant,289393,random,0
+potted plant,289393,random,1
+potted plant,289393,random,2
+potted plant,322163,random,0
+potted plant,322163,random,1
+potted plant,322163,random,2
+potted plant,127092,random,0
+potted plant,127092,random,1
+potted plant,127092,random,2
+potted plant,632,random,0
+potted plant,632,random,1
+potted plant,632,random,2
+potted plant,370818,random,0
+potted plant,370818,random,1
+potted plant,370818,random,2
+potted plant,473219,random,0
+potted plant,473219,random,1
+potted plant,473219,random,2
+potted plant,489611,random,0
+potted plant,489611,random,1
+potted plant,489611,random,2
+potted plant,361103,random,0
+potted plant,361103,random,1
+potted plant,361103,random,2
+potted plant,128148,random,0
+potted plant,128148,random,1
+potted plant,128148,random,2
+potted plant,486040,random,0
+potted plant,486040,random,1
+potted plant,486040,random,2
+potted plant,529568,random,0
+potted plant,529568,random,1
+potted plant,529568,random,2
+potted plant,386210,random,0
+potted plant,386210,random,1
+potted plant,386210,random,2
+potted plant,136355,random,0
+potted plant,136355,random,1
+potted plant,136355,random,2
+potted plant,69795,random,0
+potted plant,69795,random,1
+potted plant,69795,random,2
+potted plant,367095,random,0
+potted plant,367095,random,1
+potted plant,367095,random,2
+potted plant,226984,random,0
+potted plant,226984,random,1
+potted plant,226984,random,2
+potted plant,140987,random,0
+potted plant,140987,random,1
+potted plant,140987,random,2
+potted plant,405691,random,0
+potted plant,405691,random,1
+potted plant,405691,random,2
+potted plant,214720,random,0
+potted plant,214720,random,1
+potted plant,214720,random,2
+potted plant,205514,random,0
+potted plant,205514,random,1
+potted plant,205514,random,2
+potted plant,319696,random,0
+potted plant,319696,random,1
+potted plant,319696,random,2
+potted plant,169169,random,0
+potted plant,169169,random,1
+potted plant,169169,random,2
+potted plant,14038,random,0
+potted plant,14038,random,1
+potted plant,14038,random,2
+potted plant,396526,random,0
+potted plant,396526,random,1
+potted plant,396526,random,2
+potted plant,470773,random,0
+potted plant,470773,random,1
+potted plant,470773,random,2
+potted plant,293625,random,0
+potted plant,293625,random,1
+potted plant,293625,random,2
+refrigerator,30213,random,0
+refrigerator,30213,random,1
+refrigerator,30213,random,2
+refrigerator,565776,random,0
+refrigerator,565776,random,1
+refrigerator,565776,random,2
+refrigerator,189475,random,0
+refrigerator,189475,random,1
+refrigerator,189475,random,2
+refrigerator,397354,random,0
+refrigerator,397354,random,1
+refrigerator,397354,random,2
+refrigerator,213547,random,0
+refrigerator,213547,random,1
+refrigerator,213547,random,2
+refrigerator,407614,random,0
+refrigerator,407614,random,1
+refrigerator,407614,random,2
+refrigerator,186980,random,0
+refrigerator,186980,random,1
+refrigerator,186980,random,2
+refrigerator,156278,random,0
+refrigerator,156278,random,1
+refrigerator,156278,random,2
+refrigerator,144003,random,0
+refrigerator,144003,random,1
+refrigerator,144003,random,2
+refrigerator,437898,random,0
+refrigerator,437898,random,1
+refrigerator,437898,random,2
+refrigerator,488075,random,0
+refrigerator,488075,random,1
+refrigerator,488075,random,2
+refrigerator,349837,random,0
+refrigerator,349837,random,1
+refrigerator,349837,random,2
+refrigerator,117908,random,0
+refrigerator,117908,random,1
+refrigerator,117908,random,2
+refrigerator,226984,random,0
+refrigerator,226984,random,1
+refrigerator,226984,random,2
+refrigerator,459954,random,0
+refrigerator,459954,random,1
+refrigerator,459954,random,2
+refrigerator,453302,random,0
+refrigerator,453302,random,1
+refrigerator,453302,random,2
+refrigerator,66231,random,0
+refrigerator,66231,random,1
+refrigerator,66231,random,2
+refrigerator,14007,random,0
+refrigerator,14007,random,1
+refrigerator,14007,random,2
+refrigerator,14038,random,0
+refrigerator,14038,random,1
+refrigerator,14038,random,2
+refrigerator,382696,random,0
+refrigerator,382696,random,1
+refrigerator,382696,random,2
+refrigerator,368900,random,0
+refrigerator,368900,random,1
+refrigerator,368900,random,2
+refrigerator,462629,random,0
+refrigerator,462629,random,1
+refrigerator,462629,random,2
+refrigerator,248111,random,0
+refrigerator,248111,random,1
+refrigerator,248111,random,2
+refrigerator,56127,random,0
+refrigerator,56127,random,1
+refrigerator,56127,random,2
+refrigerator,280930,random,0
+refrigerator,280930,random,1
+refrigerator,280930,random,2
+refrigerator,536947,random,0
+refrigerator,536947,random,1
+refrigerator,536947,random,2
+refrigerator,480122,random,0
+refrigerator,480122,random,1
+refrigerator,480122,random,2
+refrigerator,527750,random,0
+refrigerator,527750,random,1
+refrigerator,527750,random,2
+refrigerator,135561,random,0
+refrigerator,135561,random,1
+refrigerator,135561,random,2
+refrigerator,150417,random,0
+refrigerator,150417,random,1
+refrigerator,150417,random,2
+refrigerator,441247,random,0
+refrigerator,441247,random,1
+refrigerator,441247,random,2
+refrigerator,571313,random,0
+refrigerator,571313,random,1
+refrigerator,571313,random,2
+refrigerator,78266,random,0
+refrigerator,78266,random,1
+refrigerator,78266,random,2
+refrigerator,506310,random,0
+refrigerator,506310,random,1
+refrigerator,506310,random,2
+refrigerator,415194,random,0
+refrigerator,415194,random,1
+refrigerator,415194,random,2
+refrigerator,74209,random,0
+refrigerator,74209,random,1
+refrigerator,74209,random,2
+refrigerator,36844,random,0
+refrigerator,36844,random,1
+refrigerator,36844,random,2
+refrigerator,438774,random,0
+refrigerator,438774,random,1
+refrigerator,438774,random,2
+remote,546325,random,0
+remote,546325,random,1
+remote,546325,random,2
+remote,185890,random,0
+remote,185890,random,1
+remote,185890,random,2
+remote,463918,random,0
+remote,463918,random,1
+remote,463918,random,2
+remote,564280,random,0
+remote,564280,random,1
+remote,564280,random,2
+remote,469067,random,0
+remote,469067,random,1
+remote,469067,random,2
+remote,322163,random,0
+remote,322163,random,1
+remote,322163,random,2
+remote,319100,random,0
+remote,319100,random,1
+remote,319100,random,2
+remote,476810,random,0
+remote,476810,random,1
+remote,476810,random,2
+remote,489611,random,0
+remote,489611,random,1
+remote,489611,random,2
+remote,59044,random,0
+remote,59044,random,1
+remote,59044,random,2
+remote,190637,random,0
+remote,190637,random,1
+remote,190637,random,2
+remote,318138,random,0
+remote,318138,random,1
+remote,318138,random,2
+remote,430286,random,0
+remote,430286,random,1
+remote,430286,random,2
+remote,571598,random,0
+remote,571598,random,1
+remote,571598,random,2
+remote,532690,random,0
+remote,532690,random,1
+remote,532690,random,2
+remote,96493,random,0
+remote,96493,random,1
+remote,96493,random,2
+remote,293625,random,0
+remote,293625,random,1
+remote,293625,random,2
+remote,400161,random,0
+remote,400161,random,1
+remote,400161,random,2
+remote,489764,random,0
+remote,489764,random,1
+remote,489764,random,2
+remote,348481,random,0
+remote,348481,random,1
+remote,348481,random,2
+remote,414034,random,0
+remote,414034,random,1
+remote,414034,random,2
+remote,520531,random,0
+remote,520531,random,1
+remote,520531,random,2
+remote,39769,random,0
+remote,39769,random,1
+remote,39769,random,2
+remote,383838,random,0
+remote,383838,random,1
+remote,383838,random,2
+remote,445792,random,0
+remote,445792,random,1
+remote,445792,random,2
+remote,383842,random,0
+remote,383842,random,1
+remote,383842,random,2
+remote,325483,random,0
+remote,325483,random,1
+remote,325483,random,2
+remote,271728,random,0
+remote,271728,random,1
+remote,271728,random,2
+remote,498032,random,0
+remote,498032,random,1
+remote,498032,random,2
+remote,457078,random,0
+remote,457078,random,1
+remote,457078,random,2
+remote,231831,random,0
+remote,231831,random,1
+remote,231831,random,2
+remote,570782,random,0
+remote,570782,random,1
+remote,570782,random,2
+remote,201646,random,0
+remote,201646,random,1
+remote,201646,random,2
+remote,396729,random,0
+remote,396729,random,1
+remote,396729,random,2
+remote,578489,random,0
+remote,578489,random,1
+remote,578489,random,2
+remote,379842,random,0
+remote,379842,random,1
+remote,379842,random,2
+remote,338901,random,0
+remote,338901,random,1
+remote,338901,random,2
+remote,147415,random,0
+remote,147415,random,1
+remote,147415,random,2
+remote,468954,random,0
+remote,468954,random,1
+remote,468954,random,2
+remote,225757,random,0
+remote,225757,random,1
+remote,225757,random,2
+remote,21503,random,0
+remote,21503,random,1
+remote,21503,random,2
+sandwich,243204,random,0
+sandwich,243204,random,1
+sandwich,243204,random,2
+sandwich,256518,random,0
+sandwich,256518,random,1
+sandwich,256518,random,2
+sandwich,311303,random,0
+sandwich,311303,random,1
+sandwich,311303,random,2
+sandwich,322574,random,0
+sandwich,322574,random,1
+sandwich,322574,random,2
+sandwich,250901,random,0
+sandwich,250901,random,1
+sandwich,250901,random,2
+sandwich,465430,random,0
+sandwich,465430,random,1
+sandwich,465430,random,2
+sandwich,173091,random,0
+sandwich,173091,random,1
+sandwich,173091,random,2
+sandwich,344100,random,0
+sandwich,344100,random,1
+sandwich,344100,random,2
+sandwich,30785,random,0
+sandwich,30785,random,1
+sandwich,30785,random,2
+sandwich,334417,random,0
+sandwich,334417,random,1
+sandwich,334417,random,2
+sandwich,64084,random,0
+sandwich,64084,random,1
+sandwich,64084,random,2
+sandwich,422998,random,0
+sandwich,422998,random,1
+sandwich,422998,random,2
+sandwich,191580,random,0
+sandwich,191580,random,1
+sandwich,191580,random,2
+sandwich,118367,random,0
+sandwich,118367,random,1
+sandwich,118367,random,2
+sandwich,170595,random,0
+sandwich,170595,random,1
+sandwich,170595,random,2
+sandwich,369771,random,0
+sandwich,369771,random,1
+sandwich,369771,random,2
+sandwich,210032,random,0
+sandwich,210032,random,1
+sandwich,210032,random,2
+sandwich,18575,random,0
+sandwich,18575,random,1
+sandwich,18575,random,2
+sandwich,167572,random,0
+sandwich,167572,random,1
+sandwich,167572,random,2
+sandwich,463527,random,0
+sandwich,463527,random,1
+sandwich,463527,random,2
+sandwich,533206,random,0
+sandwich,533206,random,1
+sandwich,533206,random,2
+sandwich,488166,random,0
+sandwich,488166,random,1
+sandwich,488166,random,2
+sandwich,157418,random,0
+sandwich,157418,random,1
+sandwich,157418,random,2
+sandwich,329456,random,0
+sandwich,329456,random,1
+sandwich,329456,random,2
+sandwich,558854,random,0
+sandwich,558854,random,1
+sandwich,558854,random,2
+sandwich,213255,random,0
+sandwich,213255,random,1
+sandwich,213255,random,2
+sandwich,303893,random,0
+sandwich,303893,random,1
+sandwich,303893,random,2
+sandwich,38678,random,0
+sandwich,38678,random,1
+sandwich,38678,random,2
+sandwich,25386,random,0
+sandwich,25386,random,1
+sandwich,25386,random,2
+sandwich,265518,random,0
+sandwich,265518,random,1
+sandwich,265518,random,2
+sandwich,393014,random,0
+sandwich,393014,random,1
+sandwich,393014,random,2
+sandwich,182611,random,0
+sandwich,182611,random,1
+sandwich,182611,random,2
+sandwich,529762,random,0
+sandwich,529762,random,1
+sandwich,529762,random,2
+sandwich,226147,random,0
+sandwich,226147,random,1
+sandwich,226147,random,2
+sandwich,435081,random,0
+sandwich,435081,random,1
+sandwich,435081,random,2
+sandwich,551822,random,0
+sandwich,551822,random,1
+sandwich,551822,random,2
+sandwich,231822,random,0
+sandwich,231822,random,1
+sandwich,231822,random,2
+sandwich,92053,random,0
+sandwich,92053,random,1
+sandwich,92053,random,2
+sandwich,70048,random,0
+sandwich,70048,random,1
+sandwich,70048,random,2
+sandwich,157601,random,0
+sandwich,157601,random,1
+sandwich,157601,random,2
+sandwich,255912,random,0
+sandwich,255912,random,1
+sandwich,255912,random,2
+sandwich,527784,random,0
+sandwich,527784,random,1
+sandwich,527784,random,2
+sandwich,414638,random,0
+sandwich,414638,random,1
+sandwich,414638,random,2
+sandwich,175535,random,0
+sandwich,175535,random,1
+sandwich,175535,random,2
+sandwich,113589,random,0
+sandwich,113589,random,1
+sandwich,113589,random,2
+sandwich,350148,random,0
+sandwich,350148,random,1
+sandwich,350148,random,2
+sandwich,120777,random,0
+sandwich,120777,random,1
+sandwich,120777,random,2
+sandwich,305609,random,0
+sandwich,305609,random,1
+sandwich,305609,random,2
+sandwich,456143,random,0
+sandwich,456143,random,1
+sandwich,456143,random,2
+sandwich,21503,random,0
+sandwich,21503,random,1
+sandwich,21503,random,2
+sink,453634,random,0
+sink,453634,random,1
+sink,453634,random,2
+sink,30213,random,0
+sink,30213,random,1
+sink,30213,random,2
+sink,293390,random,0
+sink,293390,random,1
+sink,293390,random,2
+sink,397327,random,0
+sink,397327,random,1
+sink,397327,random,2
+sink,458768,random,0
+sink,458768,random,1
+sink,458768,random,2
+sink,262682,random,0
+sink,262682,random,1
+sink,262682,random,2
+sink,429598,random,0
+sink,429598,random,1
+sink,429598,random,2
+sink,9772,random,0
+sink,9772,random,1
+sink,9772,random,2
+sink,306733,random,0
+sink,306733,random,1
+sink,306733,random,2
+sink,201775,random,0
+sink,201775,random,1
+sink,201775,random,2
+sink,34873,random,0
+sink,34873,random,1
+sink,34873,random,2
+sink,491071,random,0
+sink,491071,random,1
+sink,491071,random,2
+sink,147518,random,0
+sink,147518,random,1
+sink,147518,random,2
+sink,6213,random,0
+sink,6213,random,1
+sink,6213,random,2
+sink,520264,random,0
+sink,520264,random,1
+sink,520264,random,2
+sink,62025,random,0
+sink,62025,random,1
+sink,62025,random,2
+sink,3156,random,0
+sink,3156,random,1
+sink,3156,random,2
+sink,331352,random,0
+sink,331352,random,1
+sink,331352,random,2
+sink,181859,random,0
+sink,181859,random,1
+sink,181859,random,2
+sink,561256,random,0
+sink,561256,random,1
+sink,561256,random,2
+sink,541291,random,0
+sink,541291,random,1
+sink,541291,random,2
+sink,157807,random,0
+sink,157807,random,1
+sink,157807,random,2
+sink,350833,random,0
+sink,350833,random,1
+sink,350833,random,2
+sink,557172,random,0
+sink,557172,random,1
+sink,557172,random,2
+sink,383606,random,0
+sink,383606,random,1
+sink,383606,random,2
+sink,187513,random,0
+sink,187513,random,1
+sink,187513,random,2
+sink,104572,random,0
+sink,104572,random,1
+sink,104572,random,2
+sink,267903,random,0
+sink,267903,random,1
+sink,267903,random,2
+sink,370818,random,0
+sink,370818,random,1
+sink,370818,random,2
+sink,351362,random,0
+sink,351362,random,1
+sink,351362,random,2
+sink,437898,random,0
+sink,437898,random,1
+sink,437898,random,2
+sink,117914,random,0
+sink,117914,random,1
+sink,117914,random,2
+sink,529568,random,0
+sink,529568,random,1
+sink,529568,random,2
+sink,103585,random,0
+sink,103585,random,1
+sink,103585,random,2
+sink,474786,random,0
+sink,474786,random,1
+sink,474786,random,2
+sink,197796,random,0
+sink,197796,random,1
+sink,197796,random,2
+sink,466085,random,0
+sink,466085,random,1
+sink,466085,random,2
+sink,302760,random,0
+sink,302760,random,1
+sink,302760,random,2
+sink,389804,random,0
+sink,389804,random,1
+sink,389804,random,2
+sink,58029,random,0
+sink,58029,random,1
+sink,58029,random,2
+sink,452784,random,0
+sink,452784,random,1
+sink,452784,random,2
+sink,453302,random,0
+sink,453302,random,1
+sink,453302,random,2
+sink,66231,random,0
+sink,66231,random,1
+sink,66231,random,2
+sink,452793,random,0
+sink,452793,random,1
+sink,452793,random,2
+sink,365766,random,0
+sink,365766,random,1
+sink,365766,random,2
+sink,289992,random,0
+sink,289992,random,1
+sink,289992,random,2
+sink,232649,random,0
+sink,232649,random,1
+sink,232649,random,2
+sink,520910,random,0
+sink,520910,random,1
+sink,520910,random,2
+sink,500464,random,0
+sink,500464,random,1
+sink,500464,random,2
+sink,237316,random,0
+sink,237316,random,1
+sink,237316,random,2
+spoon,376322,random,0
+spoon,376322,random,1
+spoon,376322,random,2
+spoon,243204,random,0
+spoon,243204,random,1
+spoon,243204,random,2
+spoon,127494,random,0
+spoon,127494,random,1
+spoon,127494,random,2
+spoon,385029,random,0
+spoon,385029,random,1
+spoon,385029,random,2
+spoon,91654,random,0
+spoon,91654,random,1
+spoon,91654,random,2
+spoon,239627,random,0
+spoon,239627,random,1
+spoon,239627,random,2
+spoon,253452,random,0
+spoon,253452,random,1
+spoon,253452,random,2
+spoon,141328,random,0
+spoon,141328,random,1
+spoon,141328,random,2
+spoon,447522,random,0
+spoon,447522,random,1
+spoon,447522,random,2
+spoon,181796,random,0
+spoon,181796,random,1
+spoon,181796,random,2
+spoon,450100,random,0
+spoon,450100,random,1
+spoon,450100,random,2
+spoon,335427,random,0
+spoon,335427,random,1
+spoon,335427,random,2
+spoon,89670,random,0
+spoon,89670,random,1
+spoon,89670,random,2
+spoon,346703,random,0
+spoon,346703,random,1
+spoon,346703,random,2
+spoon,64084,random,0
+spoon,64084,random,1
+spoon,64084,random,2
+spoon,368752,random,0
+spoon,368752,random,1
+spoon,368752,random,2
+spoon,289415,random,0
+spoon,289415,random,1
+spoon,289415,random,2
+spoon,116362,random,0
+spoon,116362,random,1
+spoon,116362,random,2
+spoon,182417,random,0
+spoon,182417,random,1
+spoon,182417,random,2
+spoon,320664,random,0
+spoon,320664,random,1
+spoon,320664,random,2
+spoon,117425,random,0
+spoon,117425,random,1
+spoon,117425,random,2
+spoon,236721,random,0
+spoon,236721,random,1
+spoon,236721,random,2
+spoon,84664,random,0
+spoon,84664,random,1
+spoon,84664,random,2
+spoon,300233,random,0
+spoon,300233,random,1
+spoon,300233,random,2
+spoon,88269,random,0
+spoon,88269,random,1
+spoon,88269,random,2
+spoon,479448,random,0
+spoon,479448,random,1
+spoon,479448,random,2
+spoon,99039,random,0
+spoon,99039,random,1
+spoon,99039,random,2
+spoon,470773,random,0
+spoon,470773,random,1
+spoon,470773,random,2
+spoon,558854,random,0
+spoon,558854,random,1
+spoon,558854,random,2
+spoon,473869,random,0
+spoon,473869,random,1
+spoon,473869,random,2
+spoon,345361,random,0
+spoon,345361,random,1
+spoon,345361,random,2
+spoon,233238,random,0
+spoon,233238,random,1
+spoon,233238,random,2
+spoon,66841,random,0
+spoon,66841,random,1
+spoon,66841,random,2
+spoon,17714,random,0
+spoon,17714,random,1
+spoon,17714,random,2
+spoon,578871,random,0
+spoon,578871,random,1
+spoon,578871,random,2
+spoon,521540,random,0
+spoon,521540,random,1
+spoon,521540,random,2
+spoon,417608,random,0
+spoon,417608,random,1
+spoon,417608,random,2
+spoon,492878,random,0
+spoon,492878,random,1
+spoon,492878,random,2
+spoon,182611,random,0
+spoon,182611,random,1
+spoon,182611,random,2
+spoon,551780,random,0
+spoon,551780,random,1
+spoon,551780,random,2
+spoon,236412,random,0
+spoon,236412,random,1
+spoon,236412,random,2
+spoon,2431,random,0
+spoon,2431,random,1
+spoon,2431,random,2
+spoon,25986,random,0
+spoon,25986,random,1
+spoon,25986,random,2
+spoon,562059,random,0
+spoon,562059,random,1
+spoon,562059,random,2
+spoon,242060,random,0
+spoon,242060,random,1
+spoon,242060,random,2
+spoon,231822,random,0
+spoon,231822,random,1
+spoon,231822,random,2
+spoon,110999,random,0
+spoon,110999,random,1
+spoon,110999,random,2
+spoon,512929,random,0
+spoon,512929,random,1
+spoon,512929,random,2
+spoon,127394,random,0
+spoon,127394,random,1
+spoon,127394,random,2
+spoon,327592,random,0
+spoon,327592,random,1
+spoon,327592,random,2
+suitcase,520707,random,0
+suitcase,520707,random,1
+suitcase,520707,random,2
+suitcase,158744,random,0
+suitcase,158744,random,1
+suitcase,158744,random,2
+suitcase,51738,random,0
+suitcase,51738,random,1
+suitcase,51738,random,2
+suitcase,475678,random,0
+suitcase,475678,random,1
+suitcase,475678,random,2
+suitcase,115245,random,0
+suitcase,115245,random,1
+suitcase,115245,random,2
+suitcase,485424,random,0
+suitcase,485424,random,1
+suitcase,485424,random,2
+suitcase,351810,random,0
+suitcase,351810,random,1
+suitcase,351810,random,2
+suitcase,172617,random,0
+suitcase,172617,random,1
+suitcase,172617,random,2
+suitcase,356427,random,0
+suitcase,356427,random,1
+suitcase,356427,random,2
+suitcase,186449,random,0
+suitcase,186449,random,1
+suitcase,186449,random,2
+suitcase,202339,random,0
+suitcase,202339,random,1
+suitcase,202339,random,2
+suitcase,308328,random,0
+suitcase,308328,random,1
+suitcase,308328,random,2
+suitcase,361586,random,0
+suitcase,361586,random,1
+suitcase,361586,random,2
+suitcase,358525,random,0
+suitcase,358525,random,1
+suitcase,358525,random,2
+suitcase,50828,random,0
+suitcase,50828,random,1
+suitcase,50828,random,2
+suitcase,9891,random,0
+suitcase,9891,random,1
+suitcase,9891,random,2
+suitcase,81061,random,0
+suitcase,81061,random,1
+suitcase,81061,random,2
+suitcase,201418,random,0
+suitcase,201418,random,1
+suitcase,201418,random,2
+suitcase,453860,random,0
+suitcase,453860,random,1
+suitcase,453860,random,2
+suitcase,266981,random,0
+suitcase,266981,random,1
+suitcase,266981,random,2
+suitcase,451308,random,0
+suitcase,451308,random,1
+suitcase,451308,random,2
+suitcase,425221,random,0
+suitcase,425221,random,1
+suitcase,425221,random,2
+suitcase,560911,random,0
+suitcase,560911,random,1
+suitcase,560911,random,2
+suitcase,184611,random,0
+suitcase,184611,random,1
+suitcase,184611,random,2
+suitcase,366884,random,0
+suitcase,366884,random,1
+suitcase,366884,random,2
+suitcase,388903,random,0
+suitcase,388903,random,1
+suitcase,388903,random,2
+suitcase,84270,random,0
+suitcase,84270,random,1
+suitcase,84270,random,2
+suitcase,370478,random,0
+suitcase,370478,random,1
+suitcase,370478,random,2
+suitcase,26941,random,0
+suitcase,26941,random,1
+suitcase,26941,random,2
+suitcase,329041,random,0
+suitcase,329041,random,1
+suitcase,329041,random,2
+suitcase,55150,random,0
+suitcase,55150,random,1
+suitcase,55150,random,2
+suitcase,82812,random,0
+suitcase,82812,random,1
+suitcase,82812,random,2
+suitcase,114049,random,0
+suitcase,114049,random,1
+suitcase,114049,random,2
+suitcase,526728,random,0
+suitcase,526728,random,1
+suitcase,526728,random,2
+suitcase,453001,random,0
+suitcase,453001,random,1
+suitcase,453001,random,2
+suitcase,168337,random,0
+suitcase,168337,random,1
+suitcase,168337,random,2
+suitcase,182162,random,0
+suitcase,182162,random,1
+suitcase,182162,random,2
+suitcase,265108,random,0
+suitcase,265108,random,1
+suitcase,265108,random,2
+suitcase,400815,random,0
+suitcase,400815,random,1
+suitcase,400815,random,2
+suitcase,11699,random,0
+suitcase,11699,random,1
+suitcase,11699,random,2
+suitcase,153529,random,0
+suitcase,153529,random,1
+suitcase,153529,random,2
+suitcase,210388,random,0
+suitcase,210388,random,1
+suitcase,210388,random,2
+suitcase,80340,random,0
+suitcase,80340,random,1
+suitcase,80340,random,2
+suitcase,341469,random,0
+suitcase,341469,random,1
+suitcase,341469,random,2
+suitcase,179174,random,0
+suitcase,179174,random,1
+suitcase,179174,random,2
+suitcase,23023,random,0
+suitcase,23023,random,1
+suitcase,23023,random,2
+suitcase,112110,random,0
+suitcase,112110,random,1
+suitcase,112110,random,2
+suitcase,12280,random,0
+suitcase,12280,random,1
+suitcase,12280,random,2
+teddy bear,199681,random,0
+teddy bear,199681,random,1
+teddy bear,199681,random,2
+teddy bear,435205,random,0
+teddy bear,435205,random,1
+teddy bear,435205,random,2
+teddy bear,80413,random,0
+teddy bear,80413,random,1
+teddy bear,80413,random,2
+teddy bear,276018,random,0
+teddy bear,276018,random,1
+teddy bear,276018,random,2
+teddy bear,20553,random,0
+teddy bear,20553,random,1
+teddy bear,20553,random,2
+teddy bear,554579,random,0
+teddy bear,554579,random,1
+teddy bear,554579,random,2
+teddy bear,315492,random,0
+teddy bear,315492,random,1
+teddy bear,315492,random,2
+teddy bear,226408,random,0
+teddy bear,226408,random,1
+teddy bear,226408,random,2
+teddy bear,145020,random,0
+teddy bear,145020,random,1
+teddy bear,145020,random,2
+teddy bear,125062,random,0
+teddy bear,125062,random,1
+teddy bear,125062,random,2
+teddy bear,283785,random,0
+teddy bear,283785,random,1
+teddy bear,283785,random,2
+teddy bear,211120,random,0
+teddy bear,211120,random,1
+teddy bear,211120,random,2
+teddy bear,319696,random,0
+teddy bear,319696,random,1
+teddy bear,319696,random,2
+teddy bear,370900,random,0
+teddy bear,370900,random,1
+teddy bear,370900,random,2
+teddy bear,453341,random,0
+teddy bear,453341,random,1
+teddy bear,453341,random,2
+teddy bear,205542,random,0
+teddy bear,205542,random,1
+teddy bear,205542,random,2
+teddy bear,162035,random,0
+teddy bear,162035,random,1
+teddy bear,162035,random,2
+teddy bear,117492,random,0
+teddy bear,117492,random,1
+teddy bear,117492,random,2
+teddy bear,113403,random,0
+teddy bear,113403,random,1
+teddy bear,113403,random,2
+teddy bear,109827,random,0
+teddy bear,109827,random,1
+teddy bear,109827,random,2
+teddy bear,82180,random,0
+teddy bear,82180,random,1
+teddy bear,82180,random,2
+teddy bear,226058,random,0
+teddy bear,226058,random,1
+teddy bear,226058,random,2
+teddy bear,549136,random,0
+teddy bear,549136,random,1
+teddy bear,549136,random,2
+teddy bear,322844,random,0
+teddy bear,322844,random,1
+teddy bear,322844,random,2
+teddy bear,411938,random,0
+teddy bear,411938,random,1
+teddy bear,411938,random,2
+teddy bear,349480,random,0
+teddy bear,349480,random,1
+teddy bear,349480,random,2
+teddy bear,249129,random,0
+teddy bear,249129,random,1
+teddy bear,249129,random,2
+teddy bear,160556,random,0
+teddy bear,160556,random,1
+teddy bear,160556,random,2
+teddy bear,321333,random,0
+teddy bear,321333,random,1
+teddy bear,321333,random,2
+teddy bear,528705,random,0
+teddy bear,528705,random,1
+teddy bear,528705,random,2
+teddy bear,428867,random,0
+teddy bear,428867,random,1
+teddy bear,428867,random,2
+teddy bear,377670,random,0
+teddy bear,377670,random,1
+teddy bear,377670,random,2
+teddy bear,520531,random,0
+teddy bear,520531,random,1
+teddy bear,520531,random,2
+teddy bear,557916,random,0
+teddy bear,557916,random,1
+teddy bear,557916,random,2
+teddy bear,328030,random,0
+teddy bear,328030,random,1
+teddy bear,328030,random,2
+teddy bear,12670,random,0
+teddy bear,12670,random,1
+teddy bear,12670,random,2
+teddy bear,325527,random,0
+teddy bear,325527,random,1
+teddy bear,325527,random,2
+teddy bear,475572,random,0
+teddy bear,475572,random,1
+teddy bear,475572,random,2
+teddy bear,92091,random,0
+teddy bear,92091,random,1
+teddy bear,92091,random,2
+teddy bear,207306,random,0
+teddy bear,207306,random,1
+teddy bear,207306,random,2
+teddy bear,50638,random,0
+teddy bear,50638,random,1
+teddy bear,50638,random,2
+teddy bear,371677,random,0
+teddy bear,371677,random,1
+teddy bear,371677,random,2
+teddy bear,439773,random,0
+teddy bear,439773,random,1
+teddy bear,439773,random,2
+teddy bear,156643,random,0
+teddy bear,156643,random,1
+teddy bear,156643,random,2
+tie,60932,random,0
+tie,60932,random,1
+tie,60932,random,2
+tie,566282,random,0
+tie,566282,random,1
+tie,566282,random,2
+tie,509451,random,0
+tie,509451,random,1
+tie,509451,random,2
+tie,450075,random,0
+tie,450075,random,1
+tie,450075,random,2
+tie,277020,random,0
+tie,277020,random,1
+tie,277020,random,2
+tie,443426,random,0
+tie,443426,random,1
+tie,443426,random,2
+tie,4134,random,0
+tie,4134,random,1
+tie,4134,random,2
+tie,391722,random,0
+tie,391722,random,1
+tie,391722,random,2
+tie,562243,random,0
+tie,562243,random,1
+tie,562243,random,2
+tie,100428,random,0
+tie,100428,random,1
+tie,100428,random,2
+tie,310862,random,0
+tie,310862,random,1
+tie,310862,random,2
+tie,334417,random,0
+tie,334417,random,1
+tie,334417,random,2
+tie,423506,random,0
+tie,423506,random,1
+tie,423506,random,2
+tie,151657,random,0
+tie,151657,random,1
+tie,151657,random,2
+tie,297578,random,0
+tie,297578,random,1
+tie,297578,random,2
+tie,6763,random,0
+tie,6763,random,1
+tie,6763,random,2
+tie,313454,random,0
+tie,313454,random,1
+tie,313454,random,2
+tie,170099,random,0
+tie,170099,random,1
+tie,170099,random,2
+tie,347254,random,0
+tie,347254,random,1
+tie,347254,random,2
+tie,50811,random,0
+tie,50811,random,1
+tie,50811,random,2
+tie,271997,random,0
+tie,271997,random,1
+tie,271997,random,2
+tie,32901,random,0
+tie,32901,random,1
+tie,32901,random,2
+tie,152214,random,0
+tie,152214,random,1
+tie,152214,random,2
+tie,58539,random,0
+tie,58539,random,1
+tie,58539,random,2
+tie,21167,random,0
+tie,21167,random,1
+tie,21167,random,2
+tie,206025,random,0
+tie,206025,random,1
+tie,206025,random,2
+tie,412362,random,0
+tie,412362,random,1
+tie,412362,random,2
+tie,571598,random,0
+tie,571598,random,1
+tie,571598,random,2
+tie,136915,random,0
+tie,136915,random,1
+tie,136915,random,2
+tie,207585,random,0
+tie,207585,random,1
+tie,207585,random,2
+tie,505573,random,0
+tie,505573,random,1
+tie,505573,random,2
+tie,292082,random,0
+tie,292082,random,1
+tie,292082,random,2
+tie,433915,random,0
+tie,433915,random,1
+tie,433915,random,2
+tie,527616,random,0
+tie,527616,random,1
+tie,527616,random,2
+tie,271116,random,0
+tie,271116,random,1
+tie,271116,random,2
+tie,244496,random,0
+tie,244496,random,1
+tie,244496,random,2
+tie,263969,random,0
+tie,263969,random,1
+tie,263969,random,2
+tie,287527,random,0
+tie,287527,random,1
+tie,287527,random,2
+tie,11051,random,0
+tie,11051,random,1
+tie,11051,random,2
+tie,25393,random,0
+tie,25393,random,1
+tie,25393,random,2
+tie,411953,random,0
+tie,411953,random,1
+tie,411953,random,2
+tie,172877,random,0
+tie,172877,random,1
+tie,172877,random,2
+tie,18770,random,0
+tie,18770,random,1
+tie,18770,random,2
+tie,8532,random,0
+tie,8532,random,1
+tie,8532,random,2
+tie,417632,random,0
+tie,417632,random,1
+tie,417632,random,2
+tie,131938,random,0
+tie,131938,random,1
+tie,131938,random,2
+tie,476514,random,0
+tie,476514,random,1
+tie,476514,random,2
+tie,383842,random,0
+tie,383842,random,1
+tie,383842,random,2
+tie,456559,random,0
+tie,456559,random,1
+tie,456559,random,2
+tie,131444,random,0
+tie,131444,random,1
+tie,131444,random,2
+toaster,135561,random,0
+toaster,135561,random,1
+toaster,135561,random,2
+toaster,173008,random,0
+toaster,173008,random,1
+toaster,173008,random,2
+toilet,453634,random,0
+toilet,453634,random,1
+toilet,453634,random,2
+toilet,555012,random,0
+toilet,555012,random,1
+toilet,555012,random,2
+toilet,397327,random,0
+toilet,397327,random,1
+toilet,397327,random,2
+toilet,59920,random,0
+toilet,59920,random,1
+toilet,59920,random,2
+toilet,155154,random,0
+toilet,155154,random,1
+toilet,155154,random,2
+toilet,32285,random,0
+toilet,32285,random,1
+toilet,32285,random,2
+toilet,56350,random,0
+toilet,56350,random,1
+toilet,56350,random,2
+toilet,272416,random,0
+toilet,272416,random,1
+toilet,272416,random,2
+toilet,460841,random,0
+toilet,460841,random,1
+toilet,460841,random,2
+toilet,306733,random,0
+toilet,306733,random,1
+toilet,306733,random,2
+toilet,32817,random,0
+toilet,32817,random,1
+toilet,32817,random,2
+toilet,569917,random,0
+toilet,569917,random,1
+toilet,569917,random,2
+toilet,147518,random,0
+toilet,147518,random,1
+toilet,147518,random,2
+toilet,138819,random,0
+toilet,138819,random,1
+toilet,138819,random,2
+toilet,85576,random,0
+toilet,85576,random,1
+toilet,85576,random,2
+toilet,62025,random,0
+toilet,62025,random,1
+toilet,62025,random,2
+toilet,365642,random,0
+toilet,365642,random,1
+toilet,365642,random,2
+toilet,327769,random,0
+toilet,327769,random,1
+toilet,327769,random,2
+toilet,211042,random,0
+toilet,211042,random,1
+toilet,211042,random,2
+toilet,315492,random,0
+toilet,315492,random,1
+toilet,315492,random,2
+toilet,157807,random,0
+toilet,157807,random,1
+toilet,157807,random,2
+toilet,350833,random,0
+toilet,350833,random,1
+toilet,350833,random,2
+toilet,23666,random,0
+toilet,23666,random,1
+toilet,23666,random,2
+toilet,557172,random,0
+toilet,557172,random,1
+toilet,557172,random,2
+toilet,360564,random,0
+toilet,360564,random,1
+toilet,360564,random,2
+toilet,408696,random,0
+toilet,408696,random,1
+toilet,408696,random,2
+toilet,187513,random,0
+toilet,187513,random,1
+toilet,187513,random,2
+toilet,267903,random,0
+toilet,267903,random,1
+toilet,267903,random,2
+toilet,351362,random,0
+toilet,351362,random,1
+toilet,351362,random,2
+toilet,370818,random,0
+toilet,370818,random,1
+toilet,370818,random,2
+toilet,257169,random,0
+toilet,257169,random,1
+toilet,257169,random,2
+toilet,560279,random,0
+toilet,560279,random,1
+toilet,560279,random,2
+toilet,117914,random,0
+toilet,117914,random,1
+toilet,117914,random,2
+toilet,103585,random,0
+toilet,103585,random,1
+toilet,103585,random,2
+toilet,89761,random,0
+toilet,89761,random,1
+toilet,89761,random,2
+toilet,6818,random,0
+toilet,6818,random,1
+toilet,6818,random,2
+toilet,292005,random,0
+toilet,292005,random,1
+toilet,292005,random,2
+toilet,389804,random,0
+toilet,389804,random,1
+toilet,389804,random,2
+toilet,58029,random,0
+toilet,58029,random,1
+toilet,58029,random,2
+toilet,286907,random,0
+toilet,286907,random,1
+toilet,286907,random,2
+toilet,357567,random,0
+toilet,357567,random,1
+toilet,357567,random,2
+toilet,520910,random,0
+toilet,520910,random,1
+toilet,520910,random,2
+toilet,102644,random,0
+toilet,102644,random,1
+toilet,102644,random,2
+toilet,309495,random,0
+toilet,309495,random,1
+toilet,309495,random,2
+toilet,53505,random,0
+toilet,53505,random,1
+toilet,53505,random,2
+toilet,237316,random,0
+toilet,237316,random,1
+toilet,237316,random,2
+toilet,363784,random,0
+toilet,363784,random,1
+toilet,363784,random,2
+toilet,409358,random,0
+toilet,409358,random,1
+toilet,409358,random,2
+toilet,462614,random,0
+toilet,462614,random,1
+toilet,462614,random,2
+toilet,342295,random,0
+toilet,342295,random,1
+toilet,342295,random,2
+toothbrush,324614,random,0
+toothbrush,324614,random,1
+toothbrush,324614,random,2
+toothbrush,544519,random,0
+toothbrush,544519,random,1
+toothbrush,544519,random,2
+toothbrush,482319,random,0
+toothbrush,482319,random,1
+toothbrush,482319,random,2
+toothbrush,175251,random,0
+toothbrush,175251,random,1
+toothbrush,175251,random,2
+toothbrush,241319,random,0
+toothbrush,241319,random,1
+toothbrush,241319,random,2
+toothbrush,445999,random,0
+toothbrush,445999,random,1
+toothbrush,445999,random,2
+toothbrush,92091,random,0
+toothbrush,92091,random,1
+toothbrush,92091,random,2
+toothbrush,521405,random,0
+toothbrush,521405,random,1
+toothbrush,521405,random,2
+toothbrush,492878,random,0
+toothbrush,492878,random,1
+toothbrush,492878,random,2
+toothbrush,507473,random,0
+toothbrush,507473,random,1
+toothbrush,507473,random,2
+toothbrush,563281,random,0
+toothbrush,563281,random,1
+toothbrush,563281,random,2
+toothbrush,368212,random,0
+toothbrush,368212,random,1
+toothbrush,368212,random,2
+toothbrush,500565,random,0
+toothbrush,500565,random,1
+toothbrush,500565,random,2
+toothbrush,560474,random,0
+toothbrush,560474,random,1
+toothbrush,560474,random,2
+toothbrush,311394,random,0
+toothbrush,311394,random,1
+toothbrush,311394,random,2
+toothbrush,578922,random,0
+toothbrush,578922,random,1
+toothbrush,578922,random,2
+toothbrush,229358,random,0
+toothbrush,229358,random,1
+toothbrush,229358,random,2
+traffic light,454661,random,0
+traffic light,454661,random,1
+traffic light,454661,random,2
+traffic light,94751,random,0
+traffic light,94751,random,1
+traffic light,94751,random,2
+traffic light,555050,random,0
+traffic light,555050,random,1
+traffic light,555050,random,2
+traffic light,500826,random,0
+traffic light,500826,random,1
+traffic light,500826,random,2
+traffic light,269942,random,0
+traffic light,269942,random,1
+traffic light,269942,random,2
+traffic light,319607,random,0
+traffic light,319607,random,1
+traffic light,319607,random,2
+traffic light,76417,random,0
+traffic light,76417,random,1
+traffic light,76417,random,2
+traffic light,309391,random,0
+traffic light,309391,random,1
+traffic light,309391,random,2
+traffic light,361103,random,0
+traffic light,361103,random,1
+traffic light,361103,random,2
+traffic light,88218,random,0
+traffic light,88218,random,1
+traffic light,88218,random,2
+traffic light,215723,random,0
+traffic light,215723,random,1
+traffic light,215723,random,2
+traffic light,165039,random,0
+traffic light,165039,random,1
+traffic light,165039,random,2
+traffic light,54967,random,0
+traffic light,54967,random,1
+traffic light,54967,random,2
+traffic light,133819,random,0
+traffic light,133819,random,1
+traffic light,133819,random,2
+traffic light,531134,random,0
+traffic light,531134,random,1
+traffic light,531134,random,2
+traffic light,110282,random,0
+traffic light,110282,random,1
+traffic light,110282,random,2
+traffic light,496854,random,0
+traffic light,496854,random,1
+traffic light,496854,random,2
+traffic light,412894,random,0
+traffic light,412894,random,1
+traffic light,412894,random,2
+traffic light,115946,random,0
+traffic light,115946,random,1
+traffic light,115946,random,2
+traffic light,430875,random,0
+traffic light,430875,random,1
+traffic light,430875,random,2
+traffic light,252219,random,0
+traffic light,252219,random,1
+traffic light,252219,random,2
+traffic light,301376,random,0
+traffic light,301376,random,1
+traffic light,301376,random,2
+traffic light,144706,random,0
+traffic light,144706,random,1
+traffic light,144706,random,2
+traffic light,351559,random,0
+traffic light,351559,random,1
+traffic light,351559,random,2
+traffic light,520009,random,0
+traffic light,520009,random,1
+traffic light,520009,random,2
+traffic light,475484,random,0
+traffic light,475484,random,1
+traffic light,475484,random,2
+traffic light,544605,random,0
+traffic light,544605,random,1
+traffic light,544605,random,2
+traffic light,274272,random,0
+traffic light,274272,random,1
+traffic light,274272,random,2
+traffic light,575372,random,0
+traffic light,575372,random,1
+traffic light,575372,random,2
+traffic light,307598,random,0
+traffic light,307598,random,1
+traffic light,307598,random,2
+traffic light,283037,random,0
+traffic light,283037,random,1
+traffic light,283037,random,2
+traffic light,15272,random,0
+traffic light,15272,random,1
+traffic light,15272,random,2
+traffic light,335800,random,0
+traffic light,335800,random,1
+traffic light,335800,random,2
+traffic light,201148,random,0
+traffic light,201148,random,1
+traffic light,201148,random,2
+traffic light,460229,random,0
+traffic light,460229,random,1
+traffic light,460229,random,2
+traffic light,289222,random,0
+traffic light,289222,random,1
+traffic light,289222,random,2
+traffic light,190923,random,0
+traffic light,190923,random,1
+traffic light,190923,random,2
+traffic light,133087,random,0
+traffic light,133087,random,1
+traffic light,133087,random,2
+traffic light,200162,random,0
+traffic light,200162,random,1
+traffic light,200162,random,2
+traffic light,17905,random,0
+traffic light,17905,random,1
+traffic light,17905,random,2
+truck,478721,random,0
+truck,478721,random,1
+truck,478721,random,2
+truck,436738,random,0
+truck,436738,random,1
+truck,436738,random,2
+truck,184324,random,0
+truck,184324,random,1
+truck,184324,random,2
+truck,393226,random,0
+truck,393226,random,1
+truck,393226,random,2
+truck,136715,random,0
+truck,136715,random,1
+truck,136715,random,2
+truck,169996,random,0
+truck,169996,random,1
+truck,169996,random,2
+truck,514586,random,0
+truck,514586,random,1
+truck,514586,random,2
+truck,332318,random,0
+truck,332318,random,1
+truck,332318,random,2
+truck,203294,random,0
+truck,203294,random,1
+truck,203294,random,2
+truck,476704,random,0
+truck,476704,random,1
+truck,476704,random,2
+truck,67616,random,0
+truck,67616,random,1
+truck,67616,random,2
+truck,314914,random,0
+truck,314914,random,1
+truck,314914,random,2
+truck,305695,random,0
+truck,305695,random,1
+truck,305695,random,2
+truck,191013,random,0
+truck,191013,random,1
+truck,191013,random,2
+truck,495146,random,0
+truck,495146,random,1
+truck,495146,random,2
+truck,521259,random,0
+truck,521259,random,1
+truck,521259,random,2
+truck,128051,random,0
+truck,128051,random,1
+truck,128051,random,2
+truck,512564,random,0
+truck,512564,random,1
+truck,512564,random,2
+truck,396338,random,0
+truck,396338,random,1
+truck,396338,random,2
+truck,259640,random,0
+truck,259640,random,1
+truck,259640,random,2
+truck,315450,random,0
+truck,315450,random,1
+truck,315450,random,2
+truck,221754,random,0
+truck,221754,random,1
+truck,221754,random,2
+truck,229948,random,0
+truck,229948,random,1
+truck,229948,random,2
+truck,157756,random,0
+truck,157756,random,1
+truck,157756,random,2
+truck,555597,random,0
+truck,555597,random,1
+truck,555597,random,2
+truck,361551,random,0
+truck,361551,random,1
+truck,361551,random,2
+truck,579158,random,0
+truck,579158,random,1
+truck,579158,random,2
+truck,26204,random,0
+truck,26204,random,1
+truck,26204,random,2
+truck,281693,random,0
+truck,281693,random,1
+truck,281693,random,2
+truck,259690,random,0
+truck,259690,random,1
+truck,259690,random,2
+truck,564336,random,0
+truck,564336,random,1
+truck,564336,random,2
+truck,346232,random,0
+truck,346232,random,1
+truck,346232,random,2
+truck,125572,random,0
+truck,125572,random,1
+truck,125572,random,2
+truck,142472,random,0
+truck,142472,random,1
+truck,142472,random,2
+truck,130699,random,0
+truck,130699,random,1
+truck,130699,random,2
+truck,490125,random,0
+truck,490125,random,1
+truck,490125,random,2
+truck,436883,random,0
+truck,436883,random,1
+truck,436883,random,2
+truck,457884,random,0
+truck,457884,random,1
+truck,457884,random,2
+truck,281759,random,0
+truck,281759,random,1
+truck,281759,random,2
+truck,382111,random,0
+truck,382111,random,1
+truck,382111,random,2
+truck,192670,random,0
+truck,192670,random,1
+truck,192670,random,2
+truck,334006,random,0
+truck,334006,random,1
+truck,334006,random,2
+truck,362682,random,0
+truck,362682,random,1
+truck,362682,random,2
+truck,110784,random,0
+truck,110784,random,1
+truck,110784,random,2
+truck,550084,random,0
+truck,550084,random,1
+truck,550084,random,2
+truck,553669,random,0
+truck,553669,random,1
+truck,553669,random,2
+truck,245448,random,0
+truck,245448,random,1
+truck,245448,random,2
+truck,336587,random,0
+truck,336587,random,1
+truck,336587,random,2
+truck,334555,random,0
+truck,334555,random,1
+truck,334555,random,2
+truck,569565,random,0
+truck,569565,random,1
+truck,569565,random,2
+tv,555009,random,0
+tv,555009,random,1
+tv,555009,random,2
+tv,515077,random,0
+tv,515077,random,1
+tv,515077,random,2
+tv,435208,random,0
+tv,435208,random,1
+tv,435208,random,2
+tv,222735,random,0
+tv,222735,random,1
+tv,222735,random,2
+tv,479248,random,0
+tv,479248,random,1
+tv,479248,random,2
+tv,387098,random,0
+tv,387098,random,1
+tv,387098,random,2
+tv,9772,random,0
+tv,9772,random,1
+tv,9772,random,2
+tv,368684,random,0
+tv,368684,random,1
+tv,368684,random,2
+tv,172595,random,0
+tv,172595,random,1
+tv,172595,random,2
+tv,357941,random,0
+tv,357941,random,1
+tv,357941,random,2
+tv,39477,random,0
+tv,39477,random,1
+tv,39477,random,2
+tv,34873,random,0
+tv,34873,random,1
+tv,34873,random,2
+tv,97337,random,0
+tv,97337,random,1
+tv,97337,random,2
+tv,167486,random,0
+tv,167486,random,1
+tv,167486,random,2
+tv,131138,random,0
+tv,131138,random,1
+tv,131138,random,2
+tv,36936,random,0
+tv,36936,random,1
+tv,36936,random,2
+tv,66635,random,0
+tv,66635,random,1
+tv,66635,random,2
+tv,448076,random,0
+tv,448076,random,1
+tv,448076,random,2
+tv,154705,random,0
+tv,154705,random,1
+tv,154705,random,2
+tv,77396,random,0
+tv,77396,random,1
+tv,77396,random,2
+tv,453722,random,0
+tv,453722,random,1
+tv,453722,random,2
+tv,292446,random,0
+tv,292446,random,1
+tv,292446,random,2
+tv,13923,random,0
+tv,13923,random,1
+tv,13923,random,2
+tv,472678,random,0
+tv,472678,random,1
+tv,472678,random,2
+tv,575081,random,0
+tv,575081,random,1
+tv,575081,random,2
+tv,6763,random,0
+tv,6763,random,1
+tv,6763,random,2
+tv,72813,random,0
+tv,72813,random,1
+tv,72813,random,2
+tv,316015,random,0
+tv,316015,random,1
+tv,316015,random,2
+tv,166521,random,0
+tv,166521,random,1
+tv,166521,random,2
+tv,319100,random,0
+tv,319100,random,1
+tv,319100,random,2
+tv,476810,random,0
+tv,476810,random,1
+tv,476810,random,2
+tv,148620,random,0
+tv,148620,random,1
+tv,148620,random,2
+tv,128148,random,0
+tv,128148,random,1
+tv,128148,random,2
+tv,232088,random,0
+tv,232088,random,1
+tv,232088,random,2
+tv,533145,random,0
+tv,533145,random,1
+tv,533145,random,2
+tv,440475,random,0
+tv,440475,random,1
+tv,440475,random,2
+tv,180383,random,0
+tv,180383,random,1
+tv,180383,random,2
+tv,556193,random,0
+tv,556193,random,1
+tv,556193,random,2
+tv,474786,random,0
+tv,474786,random,1
+tv,474786,random,2
+tv,367095,random,0
+tv,367095,random,1
+tv,367095,random,2
+tv,345252,random,0
+tv,345252,random,1
+tv,345252,random,2
+tv,573094,random,0
+tv,573094,random,1
+tv,573094,random,2
+tv,411817,random,0
+tv,411817,random,1
+tv,411817,random,2
+tv,458410,random,0
+tv,458410,random,1
+tv,458410,random,2
+tv,195754,random,0
+tv,195754,random,1
+tv,195754,random,2
+tv,38576,random,0
+tv,38576,random,1
+tv,38576,random,2
+tv,385719,random,0
+tv,385719,random,1
+tv,385719,random,2
+tv,560312,random,0
+tv,560312,random,1
+tv,560312,random,2
+tv,507575,random,0
+tv,507575,random,1
+tv,507575,random,2
+tv,255165,random,0
+tv,255165,random,1
+tv,255165,random,2
+umbrella,360960,random,0
+umbrella,360960,random,1
+umbrella,360960,random,2
+umbrella,155145,random,0
+umbrella,155145,random,1
+umbrella,155145,random,2
+umbrella,182805,random,0
+umbrella,182805,random,1
+umbrella,182805,random,2
+umbrella,370711,random,0
+umbrella,370711,random,1
+umbrella,370711,random,2
+umbrella,127517,random,0
+umbrella,127517,random,1
+umbrella,127517,random,2
+umbrella,137246,random,0
+umbrella,137246,random,1
+umbrella,137246,random,2
+umbrella,530975,random,0
+umbrella,530975,random,1
+umbrella,530975,random,2
+umbrella,401446,random,0
+umbrella,401446,random,1
+umbrella,401446,random,2
+umbrella,213033,random,0
+umbrella,213033,random,1
+umbrella,213033,random,2
+umbrella,503855,random,0
+umbrella,503855,random,1
+umbrella,503855,random,2
+umbrella,377393,random,0
+umbrella,377393,random,1
+umbrella,377393,random,2
+umbrella,322610,random,0
+umbrella,322610,random,1
+umbrella,322610,random,2
+umbrella,535608,random,0
+umbrella,535608,random,1
+umbrella,535608,random,2
+umbrella,462904,random,0
+umbrella,462904,random,1
+umbrella,462904,random,2
+umbrella,443969,random,0
+umbrella,443969,random,1
+umbrella,443969,random,2
+umbrella,341058,random,0
+umbrella,341058,random,1
+umbrella,341058,random,2
+umbrella,16451,random,0
+umbrella,16451,random,1
+umbrella,16451,random,2
+umbrella,121417,random,0
+umbrella,121417,random,1
+umbrella,121417,random,2
+umbrella,20553,random,0
+umbrella,20553,random,1
+umbrella,20553,random,2
+umbrella,326248,random,0
+umbrella,326248,random,1
+umbrella,326248,random,2
+umbrella,346232,random,0
+umbrella,346232,random,1
+umbrella,346232,random,2
+umbrella,289938,random,0
+umbrella,289938,random,1
+umbrella,289938,random,2
+umbrella,365208,random,0
+umbrella,365208,random,1
+umbrella,365208,random,2
+umbrella,281759,random,0
+umbrella,281759,random,1
+umbrella,281759,random,2
+umbrella,121506,random,0
+umbrella,121506,random,1
+umbrella,121506,random,2
+umbrella,308394,random,0
+umbrella,308394,random,1
+umbrella,308394,random,2
+umbrella,181421,random,0
+umbrella,181421,random,1
+umbrella,181421,random,2
+umbrella,231088,random,0
+umbrella,231088,random,1
+umbrella,231088,random,2
+umbrella,122046,random,0
+umbrella,122046,random,1
+umbrella,122046,random,2
+umbrella,177861,random,0
+umbrella,177861,random,1
+umbrella,177861,random,2
+umbrella,360137,random,0
+umbrella,360137,random,1
+umbrella,360137,random,2
+umbrella,150224,random,0
+umbrella,150224,random,1
+umbrella,150224,random,2
+umbrella,496854,random,0
+umbrella,496854,random,1
+umbrella,496854,random,2
+umbrella,107226,random,0
+umbrella,107226,random,1
+umbrella,107226,random,2
+umbrella,388846,random,0
+umbrella,388846,random,1
+umbrella,388846,random,2
+umbrella,313588,random,0
+umbrella,313588,random,1
+umbrella,313588,random,2
+umbrella,117492,random,0
+umbrella,117492,random,1
+umbrella,117492,random,2
+umbrella,250619,random,0
+umbrella,250619,random,1
+umbrella,250619,random,2
+umbrella,275198,random,0
+umbrella,275198,random,1
+umbrella,275198,random,2
+umbrella,180487,random,0
+umbrella,180487,random,1
+umbrella,180487,random,2
+umbrella,161032,random,0
+umbrella,161032,random,1
+umbrella,161032,random,2
+umbrella,575243,random,0
+umbrella,575243,random,1
+umbrella,575243,random,2
+umbrella,250127,random,0
+umbrella,250127,random,1
+umbrella,250127,random,2
+umbrella,267537,random,0
+umbrella,267537,random,1
+umbrella,267537,random,2
+umbrella,304404,random,0
+umbrella,304404,random,1
+umbrella,304404,random,2
+umbrella,526103,random,0
+umbrella,526103,random,1
+umbrella,526103,random,2
+umbrella,382743,random,0
+umbrella,382743,random,1
+umbrella,382743,random,2
+umbrella,29984,random,0
+umbrella,29984,random,1
+umbrella,29984,random,2
+umbrella,288042,random,0
+umbrella,288042,random,1
+umbrella,288042,random,2
+umbrella,233771,random,0
+umbrella,233771,random,1
+umbrella,233771,random,2
+vase,168458,random,0
+vase,168458,random,1
+vase,168458,random,2
+vase,530457,random,0
+vase,530457,random,1
+vase,530457,random,2
+vase,421923,random,0
+vase,421923,random,1
+vase,421923,random,2
+vase,189475,random,0
+vase,189475,random,1
+vase,189475,random,2
+vase,159282,random,0
+vase,159282,random,1
+vase,159282,random,2
+vase,395343,random,0
+vase,395343,random,1
+vase,395343,random,2
+vase,176232,random,0
+vase,176232,random,1
+vase,176232,random,2
+vase,161397,random,0
+vase,161397,random,1
+vase,161397,random,2
+vase,51326,random,0
+vase,51326,random,1
+vase,51326,random,2
+vase,7818,random,0
+vase,7818,random,1
+vase,7818,random,2
+vase,140439,random,0
+vase,140439,random,1
+vase,140439,random,2
+vase,440475,random,0
+vase,440475,random,1
+vase,440475,random,2
+vase,136355,random,0
+vase,136355,random,1
+vase,136355,random,2
+vase,69795,random,0
+vase,69795,random,1
+vase,69795,random,2
+vase,486573,random,0
+vase,486573,random,1
+vase,486573,random,2
+vase,405691,random,0
+vase,405691,random,1
+vase,405691,random,2
+vase,249025,random,0
+vase,249025,random,1
+vase,249025,random,2
+vase,512194,random,0
+vase,512194,random,1
+vase,512194,random,2
+vase,577735,random,0
+vase,577735,random,1
+vase,577735,random,2
+vase,213224,random,0
+vase,213224,random,1
+vase,213224,random,2
+vase,572678,random,0
+vase,572678,random,1
+vase,572678,random,2
+vase,186632,random,0
+vase,186632,random,1
+vase,186632,random,2
+vase,425226,random,0
+vase,425226,random,1
+vase,425226,random,2
+vase,473869,random,0
+vase,473869,random,1
+vase,473869,random,2
+vase,132375,random,0
+vase,132375,random,1
+vase,132375,random,2
+vase,367386,random,0
+vase,367386,random,1
+vase,367386,random,2
+vase,19742,random,0
+vase,19742,random,1
+vase,19742,random,2
+vase,521509,random,0
+vase,521509,random,1
+vase,521509,random,2
+vase,140076,random,0
+vase,140076,random,1
+vase,140076,random,2
+vase,97585,random,0
+vase,97585,random,1
+vase,97585,random,2
+vase,231237,random,0
+vase,231237,random,1
+vase,231237,random,2
+vase,167240,random,0
+vase,167240,random,1
+vase,167240,random,2
+vase,111951,random,0
+vase,111951,random,1
+vase,111951,random,2
+vase,557916,random,0
+vase,557916,random,1
+vase,557916,random,2
+vase,226147,random,0
+vase,226147,random,1
+vase,226147,random,2
+vase,569700,random,0
+vase,569700,random,1
+vase,569700,random,2
+vase,578922,random,0
+vase,578922,random,1
+vase,578922,random,2
+vase,407403,random,0
+vase,407403,random,1
+vase,407403,random,2
+vase,370042,random,0
+vase,370042,random,1
+vase,370042,random,2
+vase,322429,random,0
+vase,322429,random,1
+vase,322429,random,2
+vase,57232,random,0
+vase,57232,random,1
+vase,57232,random,2
+vase,512403,random,0
+vase,512403,random,1
+vase,512403,random,2
+vase,314264,random,0
+vase,314264,random,1
+vase,314264,random,2
+vase,571804,random,0
+vase,571804,random,1
+vase,571804,random,2
+vase,527784,random,0
+vase,527784,random,1
+vase,527784,random,2
+vase,402346,random,0
+vase,402346,random,1
+vase,402346,random,2
+vase,327601,random,0
+vase,327601,random,1
+vase,327601,random,2
+vase,475572,random,0
+vase,475572,random,1
+vase,475572,random,2
+vase,429530,random,0
+vase,429530,random,1
+vase,429530,random,2
+vase,482275,random,0
+vase,482275,random,1
+vase,482275,random,2
+wine glass,385029,random,0
+wine glass,385029,random,1
+wine glass,385029,random,2
+wine glass,166918,random,0
+wine glass,166918,random,1
+wine glass,166918,random,2
+wine glass,244750,random,0
+wine glass,244750,random,1
+wine glass,244750,random,2
+wine glass,172571,random,0
+wine glass,172571,random,1
+wine glass,172571,random,2
+wine glass,181796,random,0
+wine glass,181796,random,1
+wine glass,181796,random,2
+wine glass,331817,random,0
+wine glass,331817,random,1
+wine glass,331817,random,2
+wine glass,213035,random,0
+wine glass,213035,random,1
+wine glass,213035,random,2
+wine glass,265777,random,0
+wine glass,265777,random,1
+wine glass,265777,random,2
+wine glass,16439,random,0
+wine glass,16439,random,1
+wine glass,16439,random,2
+wine glass,32334,random,0
+wine glass,32334,random,1
+wine glass,32334,random,2
+wine glass,346703,random,0
+wine glass,346703,random,1
+wine glass,346703,random,2
+wine glass,70739,random,0
+wine glass,70739,random,1
+wine glass,70739,random,2
+wine glass,379476,random,0
+wine glass,379476,random,1
+wine glass,379476,random,2
+wine glass,210520,random,0
+wine glass,210520,random,1
+wine glass,210520,random,2
+wine glass,85089,random,0
+wine glass,85089,random,1
+wine glass,85089,random,2
+wine glass,499313,random,0
+wine glass,499313,random,1
+wine glass,499313,random,2
+wine glass,419974,random,0
+wine glass,419974,random,1
+wine glass,419974,random,2
+wine glass,7818,random,0
+wine glass,7818,random,1
+wine glass,7818,random,2
+wine glass,18575,random,0
+wine glass,18575,random,1
+wine glass,18575,random,2
+wine glass,450202,random,0
+wine glass,450202,random,1
+wine glass,450202,random,2
+wine glass,226984,random,0
+wine glass,226984,random,1
+wine glass,226984,random,2
+wine glass,21167,random,0
+wine glass,21167,random,1
+wine glass,21167,random,2
+wine glass,22705,random,0
+wine glass,22705,random,1
+wine glass,22705,random,2
+wine glass,336053,random,0
+wine glass,336053,random,1
+wine glass,336053,random,2
+wine glass,277689,random,0
+wine glass,277689,random,1
+wine glass,277689,random,2
+wine glass,405691,random,0
+wine glass,405691,random,1
+wine glass,405691,random,2
+wine glass,412362,random,0
+wine glass,412362,random,1
+wine glass,412362,random,2
+wine glass,413395,random,0
+wine glass,413395,random,1
+wine glass,413395,random,2
+wine glass,533206,random,0
+wine glass,533206,random,1
+wine glass,533206,random,2
+wine glass,99039,random,0
+wine glass,99039,random,1
+wine glass,99039,random,2
+wine glass,488673,random,0
+wine glass,488673,random,1
+wine glass,488673,random,2
+wine glass,146155,random,0
+wine glass,146155,random,1
+wine glass,146155,random,2
+wine glass,293625,random,0
+wine glass,293625,random,1
+wine glass,293625,random,2
+wine glass,316666,random,0
+wine glass,316666,random,1
+wine glass,316666,random,2
+wine glass,572678,random,0
+wine glass,572678,random,1
+wine glass,572678,random,2
+wine glass,418062,random,0
+wine glass,418062,random,1
+wine glass,418062,random,2
+wine glass,442161,random,0
+wine glass,442161,random,1
+wine glass,442161,random,2
+wine glass,25394,random,0
+wine glass,25394,random,1
+wine glass,25394,random,2
+wine glass,189752,random,0
+wine glass,189752,random,1
+wine glass,189752,random,2
+wine glass,417632,random,0
+wine glass,417632,random,1
+wine glass,417632,random,2
+wine glass,529762,random,0
+wine glass,529762,random,1
+wine glass,529762,random,2
+wine glass,178028,random,0
+wine glass,178028,random,1
+wine glass,178028,random,2
+wine glass,2431,random,0
+wine glass,2431,random,1
+wine glass,2431,random,2
+wine glass,312192,random,0
+wine glass,312192,random,1
+wine glass,312192,random,2
+wine glass,425361,random,0
+wine glass,425361,random,1
+wine glass,425361,random,2
+wine glass,70048,random,0
+wine glass,70048,random,1
+wine glass,70048,random,2
+wine glass,506279,random,0
+wine glass,506279,random,1
+wine glass,506279,random,2
+wine glass,18380,random,0
+wine glass,18380,random,1
+wine glass,18380,random,2

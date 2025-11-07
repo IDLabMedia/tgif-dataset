@@ -50,7 +50,7 @@ Find out in our [**blog post**](https://media.idlab.ugent.be/tgif-dataset), wher
 * [Download all TGIF2 random images](https://cloud.ilabt.imec.be/index.php/s/CyPBBQPiFM55JRF)
 
 For TGIF, the downloads are organized in masks, original, SD2-sp, PS-sp, SD2-fr, SDXL-fr. 
-For TGIF2 FLUX, the downloads are organized in flux1schnell-sp, flux1schnell-fr, flux1dev-sp, flux1dev-fr, flux1filldev-sp, flux1filldev-fr. They additionally *but redundantly* contain masks-flux, original-flux. You can also use the masks and original from TGIF instead.
+For TGIF2 FLUX, the downloads are organized in flux1schnell-sp, flux1schnell-fr, flux1dev-sp, flux1dev-fr, flux1filldev-sp, flux1filldev-fr. They additionally contain masks-flux and original-flux, as slightly different crops may be taken than in TGIF. The *ps_mask.png masks of the *-sp subsets can still be found in the masks folder in the original TGIF dataset.
 For TGIF2 random, the downloads are organized in masks, masks-fr, sd2-sp, sd2-fr, sdxl-fr.
 Each of the directories mentioned above are separated in training, validation, and testing, respectively.
 
