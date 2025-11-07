@@ -50,13 +50,13 @@ Find out in our [**blog post**](https://media.idlab.ugent.be/tgif-dataset), wher
 * [Download all TGIF2 random images](https://cloud.ilabt.imec.be/index.php/s/CyPBBQPiFM55JRF)
 
 For TGIF, the downloads are organized in masks, original, SD2-sp, PS-sp, SD2-fr, SDXL-fr. 
-For TGIF2 FLUX, the downloads are organized in flux1schnell-sp, flux1schnell-fr, flux1dev-sp, flux1dev-fr, flux1filldev-sp, flux1filldev-fr. They additionally contain masks-flux and original-flux, as slightly different crops may be taken than in TGIF. The *ps_mask.png masks of the *-sp subsets can still be found in the masks folder in the original TGIF dataset.
+For TGIF2 FLUX, the downloads are organized in flux1schnell-sp, flux1schnell-fr, flux1dev-sp, flux1dev-fr, flux1filldev-sp, flux1filldev-fr. They additionally contain masks-flux and original-flux, as slightly different crops may be taken than in TGIF (FLUX requires divisibility by 16px instead of 8px). The *ps_mask.png masks of the *-sp subsets can still be found in the masks folder in the original TGIF dataset.
 For TGIF2 random, the downloads are organized in masks, masks-fr, sd2-sp, sd2-fr, sdxl-fr.
 Each of the directories mentioned above are separated in training, validation, and testing, respectively.
 
 Metadata (incl. NIMA, GIQA & ITM scores) is available in this repository (_metadata_, _metadata\_flux_, and _metadata\_random_). Benchmark results of TGIF (_benchmark-results_).
 
-Code to perform text-guided inpainting with SD2, SDXL & Adobe Photoshop/Firefly is added in the _code_ folder of this repository, as well as code to calculate NIMA, GIQA, and ITM scores, and to compress images using JPEG and WEBP.
+Code to perform text-guided inpainting with SD2, SDXL, FLUX models, and Adobe Photoshop/Firefly is added in the _code_ folder of this repository, as well as code to calculate NIMA, GIQA, and ITM scores, and to compress images using JPEG and WEBP. Note that for the FLUX.1 dev and FLUX.1 Fill dev models, you should add your own huggingface access code in _code/inpaint-loop.py_.
 
 The [NIMA](https://github.com/yunxiaoshi/Neural-IMage-Assessment) and [GIQA](https://github.com/cientgu/GIQA) checkpoints are archived [here](https://cloud.ilabt.imec.be/index.php/s/DQwTjE6A3ydgxjq). The ITM, SD2 and SDXL weights are downloaded automatically.
 

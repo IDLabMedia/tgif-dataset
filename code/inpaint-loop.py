@@ -17,6 +17,10 @@ from NIMA import nima
 from GIQA import gmm_score
 from transformers import BlipProcessor, BlipForImageTextRetrieval
 
+######################################################################
+huggingface_access_token = None # UPDATE THIS AS A STRING WITH YOUR OWN TOKEN
+######################################################################
+
 def show_image(img, figsize=(8,8)):
     fig, ax = plt.subplots()
     ax.imshow(np.array(img).astype(np.uint8))
@@ -247,7 +251,10 @@ def add_cropped_image_within_bbox(background, cropped_image_np, bbox, padding=0,
     
     # Add the cropped image onto the background within the bounding box
     result_image = background.copy()
-    result_image[y:y + height, x:x + width, :] = resized_cropped_image_np[:height, :width, :]
+    if len(background.shape) == 3:
+        result_image[y:y + height, x:x + width, :] = resized_cropped_image_np[:height, :width, :]
+    elif len(background.shape) == 2:
+        result_image[y:y + height, x:x + width] = resized_cropped_image_np[:height, :width]
 
     return result_image
 
@@ -289,6 +296,146 @@ def crop_bbox(image_np, bbox):
         cropped_image = image_np[y:y + height, x:x + width, :]
 
     return cropped_image
+
+def create_random_mask(
+    width, height, 
+    min_random_mask_size, max_random_mask_size, 
+    rng_pos=None, seed_pos=None, 
+    rng_size=None, seed_size=None
+):
+    """
+    Creates a random mask of size width x height, with a patch of random size 
+    (between min_random_mask_size and max_random_mask_size, either absolute or relative)
+    set to 1, at a random location.
+    
+    Parameters:
+        width (int): Width of the mask.
+        height (int): Height of the mask.
+        min_random_mask_size (int | float): Minimum size of the patch (absolute if int, relative if float).
+        max_random_mask_size (int | float): Maximum size of the patch (absolute if int, relative if float).
+        rng_pos (np.random.Generator, optional): Random generator for position. Default is None.
+        seed_pos (int, optional): Seed for position random generator. Used if rng_pos is None.
+        rng_size (np.random.Generator, optional): Random generator for size. Default is None.
+        seed_size (int, optional): Seed for size random generator. Used if rng_size is None.
+        
+    Returns:
+        np.ndarray: A uint8 array of shape (height, width) with the random mask.
+    """
+    if rng_pos is None:
+        rng_pos = np.random.default_rng(seed_pos)
+    if rng_size is None:
+        rng_size = np.random.default_rng(seed_size)
+
+    # Convert relative sizes to absolute if needed
+    if isinstance(min_random_mask_size, float):
+        min_mask_width = int(width * min_random_mask_size)
+        min_mask_height = int(height * min_random_mask_size)
+    else:
+        min_mask_width = min_random_mask_size
+        min_mask_height = min_random_mask_size
+
+    if isinstance(max_random_mask_size, float):
+        max_mask_width = int(width * max_random_mask_size)
+        max_mask_height = int(height * max_random_mask_size)
+    else:
+        max_mask_width = max_random_mask_size
+        max_mask_height = max_random_mask_size
+
+    # Ensure mask dimensions are within valid ranges
+    min_mask_width = max(0, min(min_mask_width, width))
+    min_mask_height = max(0, min(min_mask_height, height))
+    max_mask_width = max(0, min(max_mask_width, width))
+    max_mask_height = max(0, min(max_mask_height, height))
+
+    # Randomly choose the mask size
+    mask_width = rng_size.integers(min_mask_width, max_mask_width + 1)
+    mask_height = rng_size.integers(min_mask_height, max_mask_height + 1)
+
+    # Initialize the mask with zeros
+    mask = np.zeros((height, width), dtype=np.uint8)
+
+    # Compute random top-left corner for the patch
+    max_x = width - mask_width
+    max_y = height - mask_height
+
+    top_left_x = rng_pos.integers(0, max_x + 1)
+    top_left_y = rng_pos.integers(0, max_y + 1)
+
+    # Set the patch to 1
+    mask[top_left_y:top_left_y + mask_height, top_left_x:top_left_x + mask_width] = 1*255
+
+    return mask
+
+def apply_mask_zero(image: np.ndarray, mask: np.ndarray, fill_value=0, random_noise=False, seed=None) -> np.ndarray:
+    """
+    Sets pixels in `image` to `fill_value` or random noise where `mask` is nonzero.
+    
+    Parameters:
+        image (np.ndarray): The input image array (H x W x C or H x W).
+        mask (np.ndarray): The mask array (same height/width as image), 
+                           nonzero values indicate pixels to set to zero.
+        fill_value: Scalar or array-like to set masked pixels (ignored if random_noise=True).
+        random_noise (bool): If True, masked pixels are filled with random noise.
+        seed (int or None): Random seed for deterministic noise generation.
+    
+    Returns:
+        np.ndarray: A copy of the image with masked pixels set to 0.
+    """
+    if image.shape[:2] != mask.shape:
+        raise ValueError("Mask must have the same height and width as image")
+
+    rng = np.random.default_rng(seed)
+    
+    result = image.copy()
+    mask_idx = mask != 0
+
+    if random_noise:
+        # Generate noise of same shape as image
+        if np.issubdtype(image.dtype, np.integer):
+            noise = np.random.randint(0, 256, size=result.shape, dtype=image.dtype)
+        else:
+            noise = np.random.rand(*result.shape).astype(result.dtype)
+        result[mask_idx] = noise[mask_idx]
+    else:
+        result[mask_idx] = fill_value
+
+    return result
+
+
+def expand_and_blur_mask(mask: np.ndarray, dilation_iter=5, blur_ksize=15) -> np.ndarray:
+    import cv2
+    """
+    Expands and smooths a binary mask (0 and 255 values), output also 0–255.
+
+    Parameters:
+        mask (np.ndarray): Binary mask (H x W), values in {0, 255}.
+        dilation_iter (int): Number of dilation iterations to expand the mask.
+        blur_ksize (int): Kernel size for Gaussian blur (must be odd).
+
+    Returns:
+        np.ndarray: Expanded and smoothed mask (uint8, values in 0–255).
+    """
+    if mask.ndim != 2:
+        raise ValueError("Mask must be a 2D array (grayscale/binary)")
+
+    # Ensure mask is binary
+    mask_bin = (mask > 0).astype(np.uint8)
+
+    # Dilation to make mask bigger
+    kernel = np.ones((3, 3), np.uint8)
+    dilated = cv2.dilate(mask_bin, kernel, iterations=dilation_iter)
+
+    # Convert to float for smooth blur
+    dilated = dilated.astype(np.float32)
+
+    # Gaussian blur for smoothing
+    blurred = cv2.GaussianBlur(dilated, (blur_ksize, blur_ksize), 0)
+
+    # Normalize to [0, 1]
+    blurred = (blurred / blurred.max() * 255).astype(np.uint8) if blurred.max() > 0 else blurred
+
+    return blurred
+
 
 # inspired by https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocoDemo.ipynb
 
@@ -437,34 +584,51 @@ class SaveIntermediateImage(Callable):
         return callback_kwargs
 
 # generator: can define with manual seed, to make deterministic
-def inpaint_with_prompt(pipe, prompt, image_np, mask_np, negative_prompt="",
+def inpaint_with_prompt(pipe, model_name, prompt, image_np, mask_np, negative_prompt="",
                         width=None, height=None,
                         num_inference_steps=50, num_images_per_prompt=1, padding_mask_crop=None, 
                         guidance_scale=7.5, strength=1.0,
                         generator=None, seed=None, callback_on_step_end=None):
     # for options, see: https://huggingface.co/docs/diffusers/en/api/pipelines/stable_diffusion/inpaint
 
-    if generator is None:
-        if seed is not None:
-            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-            generator = torch.Generator(device=device)
-            generator.manual_seed(seed)
-    
-    generated_images_output = pipe(prompt=prompt, negative_prompt=negative_prompt,
-                            width=width, height=height,
-                            image=Image.fromarray(image_np), mask_image=Image.fromarray(mask_np),
-                           num_inference_steps=num_inference_steps, num_images_per_prompt=num_images_per_prompt,
-                           padding_mask_crop=padding_mask_crop,
-                            guidance_scale=guidance_scale, strength=strength,
-                           generator=generator, callback_on_step_end = callback_on_step_end)
-    # output_type=np.array -> should be PIL when using padding_mask_crop
-    generated_images = generated_images_output.images
-    if hasattr(generated_images_output, 'nsfw_content_detected'):
-        nsfw_detected = generated_images_output.nsfw_content_detected
-    else:
+    if "flux" in model_name:  # - strength, - padding_mask_crop, 1 by 1 instead of in bulk (num_images_per_prompt)
+        generated_images = []
+        for i in range(num_images_per_prompt): # Need a lot of GPU VRAM to do batch image generation, so let's do it in a loop
+            if generator is None:
+                if seed is not None:
+                    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+                    generator = torch.Generator(device=device)
+                    generator.manual_seed(seed+i)
+            generated_images_output = pipe(prompt=prompt,
+                                    width=width, height=height, 
+                                    image=Image.fromarray(image_np), mask_image=Image.fromarray(mask_np),
+                                   num_inference_steps=num_inference_steps, num_images_per_prompt=1,
+                                   guidance_scale=guidance_scale,
+                                   generator=generator, callback_on_step_end = callback_on_step_end)
+            generated_images.append(generated_images_output.images[0])
+        
         nsfw_detected = None
+    else:
+        if generator is None:
+            if seed is not None:
+                device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+                generator = torch.Generator(device=device)
+                generator.manual_seed(seed)
+        generated_images_output = pipe(prompt=prompt, negative_prompt=negative_prompt,
+                                width=width, height=height,
+                                image=Image.fromarray(image_np), mask_image=Image.fromarray(mask_np),
+                               num_inference_steps=num_inference_steps, num_images_per_prompt=num_images_per_prompt,
+                               padding_mask_crop=padding_mask_crop,
+                                guidance_scale=guidance_scale, strength=strength,
+                               generator=generator, callback_on_step_end = callback_on_step_end)
+         # output_type=np.array -> should be PIL when using padding_mask_crop
+        generated_images = generated_images_output.images
+        if hasattr(generated_images_output, 'nsfw_content_detected'):
+            nsfw_detected = generated_images_output.nsfw_content_detected
+        else:
+            nsfw_detected = None
+        
     return generated_images, nsfw_detected
-
 
 def find_caption_with_word(captions, word):
     """
@@ -502,14 +666,17 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                        use_prompt_from_caption=False, use_negative_prompt=0,
                        max_images=None,
                        verbose=0, save_dir="", save_orig_dir="", bak_orig_dir="",
-                       use_bbox_mask=True, use_segm_mask=True,
+                       use_bbox_mask=True, use_segm_mask=True, use_random_mask=False, 
+                       min_random_mask_size=64, max_random_mask_size=64,
                        use_all_masks=False, # TODO: enable to iteratively have more masks?
                        use_ps_mask_for_splicing=True, ps_mask_dir=None,
+                       use_mask_for_splicing=False,
                        num_inference_steps_min=10, num_inference_steps_max=50,
                        guidance_scale_min=1, guidance_scale_max=10,
                        strength=1.0,
+                       set_mask_to_noise=False, blur_mask=False, blur_mask_dil_iter=10, blur_mask_ksize=5,
                        num_images_per_prompt=3,
-                       seed_num_inference_steps=26, seed_guidance_scale=9, seed_strength=1993, seed_gen=26091993, fix_seed_gen=False,
+                       seed_num_inference_steps=26, seed_guidance_scale=9, seed_strength=1993, seed_gen=26091993, seed_mask=269, seed_mask_size=926, fix_seed_gen=False,
                        do_nima=False, do_itm=False, do_nima_on_full=False, do_giqa=False, do_giqa_on_full=False,
                        skip_if_exists=False, skip_dir="",
                        stop_on_exception=False):   
@@ -523,6 +690,8 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
     #random_strength = np.random.default_rng(seed=seed_strength)
     if not fix_seed_gen:
         random_gen = np.random.default_rng(seed=seed_gen)
+    random_mask = np.random.default_rng(seed=seed_mask)
+    random_mask_size = np.random.default_rng(seed=seed_mask_size)
 
     # These IDs became available later, and mess up the first-50-images thing
     imgIdsBlacklistDict = { "toilet": [201775] }
@@ -596,14 +765,21 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
             if not fix_seed_gen:
                 seed = int(random_gen.integers(low=0, high=np.iinfo(np.int32).max, dtype=np.int32))
 
-            num_inference_steps = int(random_num_inference_steps.integers(low=num_inference_steps_min, high=num_inference_steps_max+1, dtype=np.int32))
-            guidance_scale = guidance_scale_min + (random_guidance_scale.random() * (guidance_scale_max - guidance_scale_min))
+            if num_inference_steps_min != num_inference_steps_max:
+                num_inference_steps = int(random_num_inference_steps.integers(low=num_inference_steps_min, high=num_inference_steps_max+1, dtype=np.int32))
+            else:
+                num_inference_steps = num_inferences_steps_min
+                
+            if guidance_scale_min != guidance_scale_max:
+                guidance_scale = guidance_scale_min + (random_guidance_scale.random() * (guidance_scale_max - guidance_scale_min))
+            else:
+                guidance_scale = guidance_scale_min
             #strength = strength_min + (random_strength.random() * (strength_max - strength_min))
             
             mask_bbox_np = None
             mask_segm_np = None
             try_again = True
-            while .:
+            while try_again:
                 for annotation in annotations_to_use:
                     bbox = annotation['bbox']
                     mask_np_single = create_mask_from_bbox(bbox, image_size=(img_width, img_height))
@@ -629,6 +805,8 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                 # TODO: filter out newlines from caption
                 if use_prompt_from_caption == 2:
                     prompt = "%s, %s" % (category_new, prompt)
+            elif use_prompt_from_caption == -1:
+                prompt = ""
             else:
                 prompt = category_new
             
@@ -639,6 +817,11 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                 # 512x512 crop
                 crop_size = 512
                 crop_width, crop_height = REQUIRED_IMAGE_WIDTH, REQUIRED_IMAGE_HEIGHT
+            elif "flux" in inpainting_model_name:
+                # flux requires divisable by 16!
+                crop_size = 1024
+                crop_width, crop_height = image_np.shape[1] // 16 * 16, image_np.shape[0] // 16 * 16
+                #print("Cropping to %d,%d" % (crop_width, crop_height))
             else:
                 # max 1024 crop, but has to be divisable by 8!
                 crop_size = 1024
@@ -652,7 +835,29 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                 mask_bbox_np_512, _ = create_and_crop_larger_bbox_around_bbox(mask_bbox_np, main_mask_bbox, crop_width, crop_height)
             if use_segm_mask:
                 mask_segm_np_512, _ = create_and_crop_larger_bbox_around_bbox(mask_segm_np, main_mask_bbox, crop_width, crop_height)
+            if use_random_mask:
+                mask_bbox_np_512, _ = create_and_crop_larger_bbox_around_bbox(mask_bbox_np, main_mask_bbox, crop_width, crop_height)
+                mask_random_np_512 = create_random_mask(mask_bbox_np_512.shape[1], mask_bbox_np_512.shape[0], min_random_mask_size, max_random_mask_size,
+                                                        rng_pos=random_mask, rng_size=random_mask_size)
                 
+                all_black_np = np.asarray(Image.new('L', (img_width, img_height), color=0))
+                mask_random_np = add_cropped_image_within_bbox(all_black_np, mask_random_np_512, bbox_512, padding=0)
+                
+                
+                print(np.sum(mask_random_np_512))
+
+            # set_mask_to_noise
+            if set_mask_to_noise:
+                image_np_512_masked_bbox = apply_mask_zero(image_np_512, mask_bbox_np_512, random_noise=True, seed=imgId)
+                image_np_512_masked_segm = apply_mask_zero(image_np_512, mask_segm_np_512, random_noise=True, seed=imgId)
+
+            # blur_mask
+            if blur_mask:
+                mask_bbox_np_512_blurred = expand_and_blur_mask(mask_bbox_np_512, dilation_iter=blur_mask_dil_iter, blur_ksize=blur_mask_ksize)
+                mask_segm_np_512_blurred = expand_and_blur_mask(mask_segm_np_512, dilation_iter=blur_mask_dil_iter, blur_ksize=blur_mask_ksize)
+                mask_bbox_np_blurred = expand_and_blur_mask(mask_bbox_np, dilation_iter=blur_mask_dil_iter, blur_ksize=blur_mask_ksize)
+                mask_segm_np_blurred = expand_and_blur_mask(mask_segm_np, dilation_iter=blur_mask_dil_iter, blur_ksize=blur_mask_ksize)
+                                                           
             # Generate images
             ###
             skipped_bbox_gen = False
@@ -683,7 +888,10 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                     generated_image_512_bbox_nsfw_list = None
                 
                 else:
-                    generated_image_512_bbox_pil_list, generated_image_512_bbox_nsfw_list = inpaint_with_prompt(pipe, prompt, image_np_512, mask_bbox_np_512,
+                    input_image_512 = image_np_512_masked_bbox if set_mask_to_noise else image_np_512
+                    mask_image_512 = mask_bbox_np_512_blurred if blur_mask else mask_bbox_np_512
+                    mask_image = mask_bbox_np_blurred if blur_mask else mask_bbox_np
+                    generated_image_512_bbox_pil_list, generated_image_512_bbox_nsfw_list = inpaint_with_prompt(pipe, inpainting_model_name, prompt, input_image_512, mask_image_512,
                                                                     width=image_np_512.shape[1], height=image_np_512.shape[0],
                                                                     num_inference_steps=num_inference_steps, num_images_per_prompt=num_images_per_prompt,
                                                                     guidance_scale=guidance_scale, strength=strength,
@@ -711,6 +919,13 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                         else:
                             print("No PS mask bbox found: %s" % mask_ps_path)
                             ps_mask_bbox_found = False
+                            
+                    if use_mask_for_splicing:
+                        generated_image_combined_bbox_mask_pil_list = []
+                        for g_i, generated_image_combined_bbox_np in enumerate(generated_image_combined_bbox_np_list):
+                            generated_image_combined_bbox_mask_pil = Image.composite(Image.fromarray(generated_image_combined_bbox_np),
+                                                                                     Image.fromarray(image_np), Image.fromarray(mask_image))
+                            generated_image_combined_bbox_mask_pil_list.append(generated_image_combined_bbox_mask_pil)
                     
             skipped_segm_gen = False
             if use_segm_mask:
@@ -739,7 +954,10 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                             generated_image_512_segm_np_list.append(generated_image_512_segm_np)
                     generated_image_512_segm_nsfw_list = None
                 else:
-                    generated_image_512_segm_pil_list, generated_image_512_segm_nsfw_list = inpaint_with_prompt(pipe, prompt, image_np_512, mask_segm_np_512,
+                    input_image_512 = image_np_512_masked_segm if set_mask_to_noise else image_np_512
+                    mask_image_512 = mask_segm_np_512_blurred if blur_mask else mask_segm_np_512
+                    mask_image = mask_segm_np_blurred if blur_mask else mask_segm_np
+                    generated_image_512_segm_pil_list, generated_image_512_segm_nsfw_list = inpaint_with_prompt(pipe, inpainting_model_name, prompt, input_image_512, mask_image_512,
                                                                     width=image_np_512.shape[1], height=image_np_512.shape[0],
                                                                     num_inference_steps=num_inference_steps, num_images_per_prompt=num_images_per_prompt,
                                                                     guidance_scale=guidance_scale, strength=strength,
@@ -763,6 +981,73 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                                 generated_image_combined_segm_ps_pil_list.append(generated_image_combined_segm_ps_pil)
                         else:
                             ps_mask_segm_found = False
+
+                    if use_mask_for_splicing:
+                        generated_image_combined_segm_mask_pil_list = []
+                        for g_i, generated_image_combined_segm_np in enumerate(generated_image_combined_segm_np_list):
+                            generated_image_combined_segm_mask_pil = Image.composite(Image.fromarray(generated_image_combined_segm_np),
+                                                                                     Image.fromarray(image_np), Image.fromarray(mask_image))
+                            generated_image_combined_segm_mask_pil_list.append(generated_image_combined_segm_mask_pil)
+                            
+            skipped_random_gen = False
+            if use_random_mask:
+                type_mask = "random"
+                g_i = 0
+                if inpainting_model_name == "ps":
+                    gen_path = "%s/%d_mask_%s.png_%s_%d.png" % (skip_dir, imgId, type_mask, inpainting_model_name, 0) # Check if first one exists
+                else:
+                    gen_path = "%s/%d_mask_%s.png_%s-%d_%d.png" % (skip_dir, imgId, type_mask, inpainting_model_name, crop_size, g_i) # Check if first one exists
+                if skip_if_exists and os.path.exists(gen_path):
+                    skipped_random_gen = True
+                    print("ImageId %d random already found" % imgId)
+                    generated_image_512_random_np_list = []
+                    generated_image_combined_random_np_list = []
+                    for g_i in range(num_images_per_prompt):
+                        if inpainting_model_name == "ps":
+                            gen_path = "%s/%d_mask_%s.png_%s_%d.png" % (skip_dir, imgId, type_mask, inpainting_model_name, g_i)
+                            generated_image_combined_random_np = np.array(Image.open(gen_path))
+                            generated_image_combined_random_np_list.append(generated_image_combined_random_np)
+                            # Crop 512
+                            generated_image_512_random_np, bbox_512 = create_and_crop_larger_bbox_around_bbox(generated_image_combined_random_np, main_mask_bbox, crop_width, crop_height)
+                            generated_image_512_random_np_list.append(generated_image_512_random_np)
+                        else:
+                            # Read 512
+                            gen_path = "%s/%d_mask_%s.png_%s-%d_%d.png" % (skip_dir, imgId, type_mask, inpainting_model_name, crop_size, g_i)
+                            generated_image_512_random_np = np.array(Image.open(gen_path))
+                            generated_image_512_random_np_list.append(generated_image_512_random_np)
+                            # Also make combined version
+                            generated_image_combined_random_np = add_cropped_image_within_bbox(image_np, generated_image_512_random_np, bbox_512, padding=0)
+                            generated_image_combined_random_np_list.append(generated_image_combined_random_np)
+                    generated_image_512_random_nsfw_list = None
+                else:
+                    generated_image_512_random_pil_list, generated_image_512_random_nsfw_list = inpaint_with_prompt(pipe, inpainting_model_name, prompt, image_np_512, mask_random_np_512,
+                                                                    width=image_np_512.shape[1], height=image_np_512.shape[0],
+                                                                    num_inference_steps=num_inference_steps, num_images_per_prompt=num_images_per_prompt,
+                                                                    guidance_scale=guidance_scale, strength=strength,
+                                                                    negative_prompt=negative_prompt, seed=seed)
+                    generated_image_combined_random_np_list = []
+                    #generated_image_512_random_pil_list = generated_images_512_random.images
+                    #generated_image_512_random_nsfw_list = generated_images_512_random.nsfw_content_detected
+                    generated_image_512_random_np_list = []
+                    
+                    for generated_image_512_random_pil in generated_image_512_random_pil_list:
+                        generated_image_512_random_np = np.array(generated_image_512_random_pil)
+                        generated_image_512_random_np_list.append(generated_image_512_random_np)
+                        generated_image_combined_random_np = add_cropped_image_within_bbox(image_np, generated_image_512_random_np, bbox_512, padding=0)
+                        generated_image_combined_random_np_list.append(generated_image_combined_random_np)
+
+                if use_mask_for_splicing: # do regular splicing in the full-resolution image
+                    generated_image_spliced_random_pil_list = []
+                    for generated_image_combined_random_np in generated_image_combined_random_np_list:
+                        #generated_image_512_spliced_random_np = Image.composite(Image.fromarray(generated_image_512_random_np),
+                        #                                                         Image.fromarray(image_np_512), Image.fromarray(mask_random_np_512))
+                        #generated_image_spliced_random_np = add_cropped_image_within_bbox(image_np, generated_image_512_spliced_random_np, bbox_512, padding=0)
+                        #generated_image_spliced_random_np_list.append(generated_image_spliced_random_np)
+
+                        generated_image_spliced_random_pil = Image.composite(Image.fromarray(generated_image_combined_random_np),
+                                                                                 Image.fromarray(image_np), Image.fromarray(mask_random_np))
+                        generated_image_spliced_random_pil_list.append(generated_image_spliced_random_pil)
+                            
 
             #if skipped_bbox_gen or skipped_segm_gen:
             #    inpainted_images += 1
@@ -859,20 +1144,32 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                 writer.writerow(row)
 
                 # Save images
-                if not (skipped_bbox_gen or skipped_segm_gen):
+                if not (skipped_bbox_gen or skipped_segm_gen): # or skipped_random_gen
                     Image.fromarray(image_np).save("%s/%d_orig.png" % (save_orig_dir, imgId))
                     if use_bbox_mask:
                         Image.fromarray(mask_bbox_np).save("%s/%d_mask_bbox.png" % (save_orig_dir, imgId))
+                        if blur_mask:
+                            Image.fromarray(mask_bbox_np_blurred).save("%s/%d_mask_bbox.png_blur_%d_%d.png" % (save_orig_dir, imgId, blur_mask_dil_iter, blur_mask_ksize))
                     if use_segm_mask:
                         Image.fromarray(mask_segm_np).save("%s/%d_mask_segm.png" % (save_orig_dir, imgId))
+                        if blur_mask:
+                            Image.fromarray(mask_segm_np_blurred).save("%s/%d_mask_segm.png_blur_%d_%d.png" % (save_orig_dir, imgId, blur_mask_dil_iter, blur_mask_ksize))
+                    if use_random_mask:
+                        Image.fromarray(mask_random_np).save("%s/%d_mask_random.png" % (save_orig_dir, imgId))
                         
                     Image.fromarray(image_np_512).save("%s/%d_orig_%d.png" % (save_orig_dir, imgId, crop_size))
                     Image.fromarray(mask_np_512).save("%s/%d_mask_%d.png" % (save_orig_dir, imgId, crop_size))
             
                     if use_bbox_mask and not skipped_bbox_gen:
                         Image.fromarray(mask_bbox_np_512).save("%s/%d_mask_bbox_%d.png" % (save_orig_dir, imgId, crop_size))
+                        if blur_mask:
+                            Image.fromarray(mask_bbox_np_512_blurred).save("%s/%d_mask_bbox_%d.png_blur_%d_%d.png" % (save_orig_dir, imgId, crop_size, blur_mask_dil_iter, blur_mask_ksize))
                     if use_segm_mask and not skipped_segm_gen:
                         Image.fromarray(mask_segm_np_512).save("%s/%d_mask_segm_%s.png" % (save_orig_dir, imgId, crop_size))
+                        if blur_mask:
+                            Image.fromarray(mask_segm_np_512_blurred).save("%s/%d_mask_segm_%d.png_blur_%d_%d.png" % (save_orig_dir, imgId, crop_size, blur_mask_dil_iter, blur_mask_ksize))
+                    if use_random_mask: # and not skipped_random_gen:
+                        Image.fromarray(mask_random_np_512).save("%s/%d_mask_random_%s.png" % (save_orig_dir, imgId, crop_size))
                     
             if save_dir:
                 if use_bbox_mask:
@@ -886,7 +1183,7 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                             gen_512_path = "%s/%s" % (save_dir, gen_512_name)
                             if not skipped_bbox_gen:
                                 Image.fromarray(generated_image_512_bbox_np).save(gen_512_path)
-                                if inpainting_model_name == "sd2": # Don't have combined version with 512-splice
+                                if inpainting_model_name == "sd2": # Don't have combined version with 512-splice for sdxl
                                     Image.fromarray(generated_image_combined_bbox_np).save("%s/%d_mask_bbox.png_%s_%d.png" % (save_dir, imgId, inpainting_model_name, g_i))
                     
                         row_analysis = [gen_512_name]
@@ -902,6 +1199,10 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                             
                         if not skipped_bbox_gen and use_ps_mask_for_splicing and ps_mask_bbox_found:
                             generated_image_combined_bbox_ps_pil_list[g_i].save("%s/%d_mask_bbox.png_ps_mask.png_%s_%d.png" % (save_dir, imgId, inpainting_model_name, g_i))
+                        if not skipped_bbox_gen and use_mask_for_splicing:
+                            generated_image_combined_bbox_mask_pil_list[g_i].save("%s/%d_mask_bbox.png_blur_%d_%d.png_%s_%d.png" % (save_dir, imgId, blur_mask_dil_iter, blur_mask_ksize, inpainting_model_name, g_i))
+
+                
                                 
                 if use_segm_mask:
                     for g_i, generated_image_512_segm_np in enumerate(generated_image_512_segm_np_list):
@@ -931,6 +1232,33 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                             
                         if not skipped_segm_gen and use_ps_mask_for_splicing and ps_mask_segm_found:
                             generated_image_combined_segm_ps_pil_list[g_i].save("%s/%d_mask_segm.png_ps_mask.png_%s_%d.png" % (save_dir, imgId, inpainting_model_name, g_i))
+                        if not skipped_segm_gen and use_mask_for_splicing:
+                            generated_image_combined_segm_mask_pil_list[g_i].save("%s/%d_mask_segm.png_blur_%d_%d.png_%s_%d.png" % (save_dir, imgId, blur_mask_dil_iter, blur_mask_ksize, inpainting_model_name, g_i))
+                            
+                if use_random_mask:
+                    for g_i, generated_image_512_random_np in enumerate(generated_image_512_random_np_list):
+                        if inpainting_model_name == "ps":
+                            gen_512_name = "%d_mask_random.png_%s_%d.png" % (imgId, inpainting_model_name, g_i)
+                        else:
+                            gen_512_name = "%d_mask_random.png_%s-%d_%d.png" % (imgId, inpainting_model_name, crop_size, g_i)
+                        if not skipped_random_gen:
+                            generated_image_combined_random_np = generated_image_combined_random_np_list[g_i]
+                            gen_512_path = "%s/%s" % (save_dir, gen_512_name)
+                            if not skipped_random_gen:
+                                Image.fromarray(generated_image_512_random_np).save(gen_512_path)
+                                
+                                if inpainting_model_name == "sd2": # Don't have combined version with 512-splice for sdxl
+                                    Image.fromarray(generated_image_combined_random_np).save("%s/%d_mask_random.png_%s_%d.png" % (save_dir, imgId, inpainting_model_name, g_i))
+                    
+                        row_analysis = [gen_512_name]
+                        # NIMA / GIQA / ITM not supported
+                        nsfw_detected = generated_image_512_random_nsfw_list[g_i] if generated_image_512_random_nsfw_list and len(generated_image_512_random_nsfw_list) > 0 else "UNKNOWN"
+                        #row_analysis.append(nsfw_detected)
+                        writer_analysis.writerow(row_analysis)
+                        
+                        # PS mask not supported - do regular splicing instead
+                        if use_mask_for_splicing:
+                            generated_image_spliced_random_pil_list[g_i].save("%s/%d_mask_random.png_spliced_%s_%d.png" % (save_dir, imgId, inpainting_model_name, g_i))
                                 
             inpainted_images += 1
             print()
@@ -968,26 +1296,82 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
     if save_dir:
         csvfile_analysis.close()
 
-
 # Global variables
 pipe = None
-def load_pipeline(model_name, cache_dir="./checkpoints"):
-    if model_name == "sd2":
-        model_name_full = "stabilityai/stable-diffusion-2-inpainting"
-    elif model_name == "sdxl":
-        model_name_full = "diffusers/stable-diffusion-xl-1.0-inpainting-0.1"
-    else:
-        print("Model %s not supported" % model_name)
-        return None
+def load_pipeline(model_name, cache_dir="./checkpoints", huggingface_access_token=None):
     global pipe
-    pipe = AutoPipelineForInpainting.from_pretrained(
-    #pipe = StableDiffusionInpaintPipeline.from_pretrained(
-        model_name_full,
-        cache_dir=cache_dir,
-        torch_dtype=torch.float16,
-    )
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    pipe.to(device)
+    if model_name == "flux1filldev":
+        if huggingface_access_token is None:
+            print("Fill in your huggingface_access_token in inpaint-loop.py")
+            quit()
+        # This downloads ~32 of data
+        model_name_full = "black-forest-labs/FLUX.1-Fill-dev"
+        #torch_dtype = torch.bfloat16
+        torch_dtype = torch.float16
+
+        from diffusers import FluxFillPipeline
+        pipe = FluxFillPipeline.from_pretrained(
+            model_name_full,
+            cache_dir=cache_dir,
+            torch_dtype=torch_dtype,
+            token=huggingface_access_token,
+            device_map="balanced"
+        )
+    elif model_name == "flux1schnell":
+        # This downloads ~32GB of data
+        model_name_full = "black-forest-labs/FLUX.1-schnell"
+        #torch_dtype = torch.bfloat16
+        torch_dtype = torch.float16
+
+        # Requires 26GB+ GPU, or multiple GPUs
+        pipe = AutoPipelineForInpainting.from_pretrained(
+            model_name_full,
+            cache_dir=cache_dir,
+            torch_dtype=torch_dtype,
+            device_map="balanced" # split loading accross devices / GPUs
+        )
+        print(pipe.hf_device_map)
+    elif model_name == "flux1dev":
+        if huggingface_access_token is None:
+            print("Fill in your huggingface_access_token in inpaint-loop.py")
+            quit()
+        # This downloads ~32GB of data
+        model_name_full = "black-forest-labs/FLUX.1-dev"
+        #torch_dtype = torch.bfloat16
+        torch_dtype = torch.float16
+
+        # Requires 26GB+ GPU, or multiple GPUs
+        pipe = AutoPipelineForInpainting.from_pretrained(
+            model_name_full,
+            cache_dir=cache_dir,
+            torch_dtype=torch_dtype,
+            token=huggingface_access_token,
+            device_map="balanced" # split loading accross devices / GPUs
+        )
+        print(pipe.hf_device_map)
+
+    
+    else:
+        torch_dtype = torch.float16
+        if model_name == "sd2":
+            # This downloads ~4GB of data
+            model_name_full = "stabilityai/stable-diffusion-2-inpainting"
+        elif model_name == "sdxl":
+            # This downloads ~13GB of data (both sd xl and sd xl inpainting)
+            #model_name_full = "stabilityai/stable-diffusion-xl-base-1.0",
+            model_name_full = "diffusers/stable-diffusion-xl-1.0-inpainting-0.1"
+        else:
+            print("Model %s not supported" % model_name)
+            return None
+    
+        pipe = AutoPipelineForInpainting.from_pretrained(
+            model_name_full,
+            cache_dir=cache_dir,
+            torch_dtype=torch_dtype
+        )
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    
+        pipe.to(device)
     return pipe
 
 # Global variables
@@ -1026,6 +1410,7 @@ def load_blip_itm(cache_dir="./checkpoints"):
 def main():
     parser = argparse.ArgumentParser(description='Your description here')
     parser.add_argument('--inpainting_model_name', type=str, default='sd2')
+    parser.add_argument('--dont_load_inpainting_model', action='store_true', help="Don't load the inpainting model (e.g. to only do NIMA with --skip_existing)")
     parser.add_argument('--cache_dir', type=str, default='./checkpoints')
     parser.add_argument('--coco_data_dir', type=str, default='coco')
     parser.add_argument('--coco_data_type', type=str, default='val2017')
@@ -1044,17 +1429,28 @@ def main():
     parser.add_argument('--max_images', type=int, default=None, help='Maximum number of images')
     parser.add_argument('--use_bbox_mask', action='store_true', help='Use bounding box mask')
     parser.add_argument('--use_segm_mask', action='store_true', help='Use segm mask')
+    parser.add_argument('--use_random_mask', action='store_true', help='Use random mask (still uses bbox mask to center crop, though)')
+    parser.add_argument('--min_random_mask_size', type=float, default=64, help='Min. random mask size (if int: pixels, if float: as percentage)')
+    parser.add_argument('--max_random_mask_size', type=float, default=64, help='Max. random mask size (if int: pixels, if float: as percentage)')
     parser.add_argument('--use_all_masks', action='store_true', help='Use all masks')
-    parser.add_argument('--use_ps_mask_for_splicing', action='store_true', help='Use Photoshop mask for masking mask')
+    parser.add_argument('--use_ps_mask_for_splicing', action='store_true', help='Use Photoshop mask for splicing')
     parser.add_argument('--ps_mask_dir', type=str, help='Directory in which photoshop masks are given')
+    parser.add_argument('--use_mask_for_splicing', action='store_true', help='Use mask for splicing')
     parser.add_argument('--use_prompt_from_caption', type=int, default=1, help='Use prompt from caption (0 use caption, 1 use caption, 2 use both category and caption)')
     parser.add_argument('--use_negative_prompt', action='store_true', help='Use negative prompt (only when changing category)')
     parser.add_argument('--verbose', type=int, default=0, help='Verbosity level')
     parser.add_argument('--stop_on_exception', action='store_true', help='Stop on exception')
     parser.add_argument('--num_inference_steps_min', type=int, default=10, help='Min. Number of inference steps')
     parser.add_argument('--num_inference_steps_max', type=int, default=50, help='Max. Number of inference steps')
+    parser.add_argument('--guidance_scale_min', type=int, default=1, help='Min. guidance_scale')
+    parser.add_argument('--guidance_scale_max', type=int, default=10, help='Max. guidance_scale')
     parser.add_argument('--seed_num_inference_steps', type=int, default=26091993, help='Random seed for num_inference_steps (between min and max)')
     parser.add_argument('--num_images_per_prompt', type=int, default=3, help='Number of images per prompt')
+    parser.add_argument('--set_mask_to_noise', action='store_true', help='The mask area in the image will be set to random noise (before blurring)')
+    parser.add_argument('--blur_mask', action='store_true', help='Blur mask if activated, with blur_mask_dil_iter and blur_mask_ksize arguments')
+    parser.add_argument('--blur_mask_dil_iter', type=int, default=10, help='Number of iterations of the dilation in the blur mask')
+    parser.add_argument('--blur_mask_ksize', type=int, default=5, help='Kernel size of gaussian blur (must be odd)')
+    
     parser.add_argument('--do_nima', action='store_true', help='Do Aesthetic Assessment (default using only the bbox area)')
     parser.add_argument('--do_nima_on_full', action='store_true', help='Do Aesthetic Assessment using full 512 crop instead of only bbox area')
     parser.add_argument('--do_giqa', action='store_true', help='Do Aesthetic Assessment (default using only the bbox area)')
@@ -1071,8 +1467,14 @@ def main():
     print("Arguments:")
     print(args)
 
-    # Loadi inpainting model
-    load_pipeline(args.inpainting_model_name, cache_dir=args.cache_dir)
+    print("Random mask size min, max: %s, %s" % (args.min_random_mask_size, args.max_random_mask_size))
+    min_random_mask_size = int(args.min_random_mask_size) if float(args.min_random_mask_size).is_integer() else args.min_random_mask_size # Convert to int if float given as int
+    max_random_mask_size = int(args.max_random_mask_size) if float(args.max_random_mask_size).is_integer() else args.max_random_mask_size # Convert to int if float given as int
+    print("Random mask size min, max: %s, %s" % (min_random_mask_size, max_random_mask_size))
+    
+    # Load inpainting model
+    if not args.dont_load_inpainting_model:
+        load_pipeline(args.inpainting_model_name, cache_dir=args.cache_dir)
     
     # Load COCO
     load_coco_all(args.coco_data_dir, args.coco_data_type)
@@ -1122,11 +1524,15 @@ def main():
                            use_prompt_from_caption=args.use_prompt_from_caption, use_negative_prompt=args.use_negative_prompt,
                            max_images=args.max_images,
                            verbose=args.verbose, save_dir=save_dir, save_orig_dir=save_orig_dir, bak_orig_dir=bak_orig_dir,
-                           use_bbox_mask=args.use_bbox_mask, use_segm_mask=args.use_segm_mask,
+                           use_bbox_mask=args.use_bbox_mask, use_segm_mask=args.use_segm_mask, use_random_mask=args.use_random_mask,
+                           min_random_mask_size=min_random_mask_size, max_random_mask_size=max_random_mask_size, 
                            use_all_masks=args.use_all_masks,
                            use_ps_mask_for_splicing=args.use_ps_mask_for_splicing, ps_mask_dir=ps_mask_dir,
+                           use_mask_for_splicing=args.use_mask_for_splicing,
                            num_inference_steps_min=args.num_inference_steps_min, num_inference_steps_max=args.num_inference_steps_max,
+                           guidance_scale_min=args.guidance_scale_min, guidance_scale_max=args.guidance_scale_max,
                            num_images_per_prompt=args.num_images_per_prompt,
+                           set_mask_to_noise=args.set_mask_to_noise, blur_mask=args.blur_mask, blur_mask_dil_iter=args.blur_mask_dil_iter, blur_mask_ksize=args.blur_mask_ksize,
                            seed_num_inference_steps=args.seed_num_inference_steps, seed_gen=args.seed_gen, fix_seed_gen=args.fix_seed_gen,
                            do_nima=args.do_nima, do_itm=args.do_itm, do_nima_on_full=args.do_nima_on_full, do_giqa=args.do_giqa, do_giqa_on_full=args.do_giqa_on_full,
                            skip_if_exists=args.skip_if_exists, skip_dir=skip_dir,

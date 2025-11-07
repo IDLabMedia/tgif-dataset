@@ -1,0 +1,15 @@
+# torch assumed already installed
+huggingface-hub==0.29.3
+#diffusers==0.32.2
+diffusers==0.33.1
+transformers
+accelerate
+scipy
+safetensors
+pycocotools
+
+#NIMA
+torchvision
+
+#sentencepiece==0.2.0
+transformers[sentencepiece]
