@@ -37,6 +37,7 @@ def ensure_dir_from_file(file_path):
     directory = os.path.dirname(file_path)
     if directory and not os.path.exists(directory):
         os.makedirs(directory)
+        
 def create_mask_from_bbox(bbox, image_size):
     """
     Create a Luminance (1-channel) image with a white rectangle at the specified bounding box location.
@@ -366,6 +367,27 @@ def create_random_mask(
 
     return mask
 
+def create_upperleft_mask(width, height, mask_size):
+    # Convert relative sizes to absolute if needed
+    if isinstance(mask_size, float):
+        mask_width = int(width * mask_size)
+        mask_height = int(height * mask_size)
+    else:
+        mask_width = mask_size
+        mask_height = mask_size
+
+    # Initialize the mask with zeros
+    mask = np.zeros((height, width), dtype=np.uint8)
+
+    # Always upperleft corner
+    top_left_x = 0
+    top_left_y = 0
+
+    # Set the patch to 1
+    mask[top_left_y:top_left_y + mask_height, top_left_x:top_left_x + mask_width] = 1*255
+
+    return mask
+
 def apply_mask_zero(image: np.ndarray, mask: np.ndarray, fill_value=0, random_noise=False, seed=None) -> np.ndarray:
     """
     Sets pixels in `image` to `fill_value` or random noise where `mask` is nonzero.
@@ -666,7 +688,7 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                        use_prompt_from_caption=False, use_negative_prompt=0,
                        max_images=None,
                        verbose=0, save_dir="", save_orig_dir="", bak_orig_dir="",
-                       use_bbox_mask=True, use_segm_mask=True, use_random_mask=False, 
+                       use_bbox_mask=True, use_segm_mask=True, use_random_mask=False, use_upperleft_mask=False,
                        min_random_mask_size=64, max_random_mask_size=64,
                        use_all_masks=False, # TODO: enable to iteratively have more masks?
                        use_ps_mask_for_splicing=True, ps_mask_dir=None,
@@ -679,7 +701,7 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                        seed_num_inference_steps=26, seed_guidance_scale=9, seed_strength=1993, seed_gen=26091993, seed_mask=269, seed_mask_size=926, fix_seed_gen=False,
                        do_nima=False, do_itm=False, do_nima_on_full=False, do_giqa=False, do_giqa_on_full=False,
                        skip_if_exists=False, skip_dir="",
-                       stop_on_exception=False):   
+                       stop_on_exception=False):
 
     REQUIRED_IMAGE_WIDTH = 512
     REQUIRED_IMAGE_HEIGHT = 512
@@ -845,6 +867,9 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                 
                 
                 print(np.sum(mask_random_np_512))
+            if use_upperleft_mask:
+                mask_bbox_np_512, _ = create_and_crop_larger_bbox_around_bbox(mask_bbox_np, main_mask_bbox, crop_width, crop_height)
+                mask_random_np_512 = create_upperleft_mask(mask_bbox_np_512.shape[1], mask_bbox_np_512.shape[0], min_random_mask_size)
 
             # set_mask_to_noise
             if set_mask_to_noise:
@@ -990,8 +1015,8 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                             generated_image_combined_segm_mask_pil_list.append(generated_image_combined_segm_mask_pil)
                             
             skipped_random_gen = False
-            if use_random_mask:
-                type_mask = "random"
+            if use_random_mask or use_upperleft_mask:
+                type_mask = "random" if use_random_mask else "upperleft"
                 g_i = 0
                 if inpainting_model_name == "ps":
                     gen_path = "%s/%d_mask_%s.png_%s_%d.png" % (skip_dir, imgId, type_mask, inpainting_model_name, 0) # Check if first one exists
@@ -1039,11 +1064,6 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                 if use_mask_for_splicing: # do regular splicing in the full-resolution image
                     generated_image_spliced_random_pil_list = []
                     for generated_image_combined_random_np in generated_image_combined_random_np_list:
-                        #generated_image_512_spliced_random_np = Image.composite(Image.fromarray(generated_image_512_random_np),
-                        #                                                         Image.fromarray(image_np_512), Image.fromarray(mask_random_np_512))
-                        #generated_image_spliced_random_np = add_cropped_image_within_bbox(image_np, generated_image_512_spliced_random_np, bbox_512, padding=0)
-                        #generated_image_spliced_random_np_list.append(generated_image_spliced_random_np)
-
                         generated_image_spliced_random_pil = Image.composite(Image.fromarray(generated_image_combined_random_np),
                                                                                  Image.fromarray(image_np), Image.fromarray(mask_random_np))
                         generated_image_spliced_random_pil_list.append(generated_image_spliced_random_pil)
@@ -1133,7 +1153,6 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
             ###
             if save_orig_dir:
                 # Save metadata
-                #header =      ['imgId', 'width', 'height', 'prompt', 'bbox_512', 'num_inference_steps', 'seed']
                 row = [imgId, img_width, img_height, prompt, bbox_512, num_inference_steps, guidance_scale, seed]
                 if do_nima:
                     row.extend([nima_mean_orig, nima_std_orig])
@@ -1170,6 +1189,8 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                             Image.fromarray(mask_segm_np_512_blurred).save("%s/%d_mask_segm_%d.png_blur_%d_%d.png" % (save_orig_dir, imgId, crop_size, blur_mask_dil_iter, blur_mask_ksize))
                     if use_random_mask: # and not skipped_random_gen:
                         Image.fromarray(mask_random_np_512).save("%s/%d_mask_random_%s.png" % (save_orig_dir, imgId, crop_size))
+                    if use_upperleft_mask: # and not skipped_random_gen:
+                        Image.fromarray(mask_random_np_512).save("%s/%d_mask_upperleft_%s.png" % (save_orig_dir, imgId, crop_size))
                     
             if save_dir:
                 if use_bbox_mask:
@@ -1259,6 +1280,29 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                         # PS mask not supported - do regular splicing instead
                         if use_mask_for_splicing:
                             generated_image_spliced_random_pil_list[g_i].save("%s/%d_mask_random.png_spliced_%s_%d.png" % (save_dir, imgId, inpainting_model_name, g_i))
+                            
+                if use_upperleft_mask:
+                    for g_i, generated_image_512_random_np in enumerate(generated_image_512_random_np_list):
+                        if inpainting_model_name == "ps":
+                            gen_512_name = "%d_mask_upperleft.png_%s_%d.png" % (imgId, inpainting_model_name, g_i)
+                        else:
+                            gen_512_name = "%d_mask_upperleft.png_%s-%d_%d.png" % (imgId, inpainting_model_name, crop_size, g_i)
+                        if not skipped_random_gen:
+                            generated_image_combined_random_np = generated_image_combined_random_np_list[g_i]
+                            gen_512_path = "%s/%s" % (save_dir, gen_512_name)
+                            if not skipped_random_gen:
+                                Image.fromarray(generated_image_512_random_np).save(gen_512_path)
+                                
+                                if inpainting_model_name == "sd2": # Don't have combined version with 512-splice for sdxl
+                                    Image.fromarray(generated_image_combined_random_np).save("%s/%d_mask_upperleft.png_%s_%d.png" % (save_dir, imgId, inpainting_model_name, g_i))
+                    
+                        row_analysis = [gen_512_name]
+                        # NIMA / GIQA / ITM not supported
+                        nsfw_detected = generated_image_512_random_nsfw_list[g_i] if generated_image_512_random_nsfw_list and len(generated_image_512_random_nsfw_list) > 0 else "UNKNOWN"
+                        #row_analysis.append(nsfw_detected)
+                        writer_analysis.writerow(row_analysis)
+                        
+                        # PS mask not supported
                                 
             inpainted_images += 1
             print()
@@ -1290,6 +1334,8 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
                 traceback.print_exc()
                 print("Continuing...")
                 print()
+
+                #inpainted_images += 1
                 continue   
     if save_orig_dir:
         csvfile.close()
@@ -1298,12 +1344,9 @@ def do_inpainting_loop(inpainting_model_name, category, category_new,
 
 # Global variables
 pipe = None
-def load_pipeline(model_name, cache_dir="./checkpoints", huggingface_access_token=None):
+def load_pipeline(model_name, cache_dir="./checkpoints"):
     global pipe
     if model_name == "flux1filldev":
-        if huggingface_access_token is None:
-            print("Fill in your huggingface_access_token in inpaint-loop.py")
-            quit()
         # This downloads ~32 of data
         model_name_full = "black-forest-labs/FLUX.1-Fill-dev"
         #torch_dtype = torch.bfloat16
@@ -1332,9 +1375,6 @@ def load_pipeline(model_name, cache_dir="./checkpoints", huggingface_access_toke
         )
         print(pipe.hf_device_map)
     elif model_name == "flux1dev":
-        if huggingface_access_token is None:
-            print("Fill in your huggingface_access_token in inpaint-loop.py")
-            quit()
         # This downloads ~32GB of data
         model_name_full = "black-forest-labs/FLUX.1-dev"
         #torch_dtype = torch.bfloat16
@@ -1348,9 +1388,7 @@ def load_pipeline(model_name, cache_dir="./checkpoints", huggingface_access_toke
             token=huggingface_access_token,
             device_map="balanced" # split loading accross devices / GPUs
         )
-        print(pipe.hf_device_map)
-
-    
+        print(pipe.hf_device_map)    
     else:
         torch_dtype = torch.float16
         if model_name == "sd2":
@@ -1430,6 +1468,7 @@ def main():
     parser.add_argument('--use_bbox_mask', action='store_true', help='Use bounding box mask')
     parser.add_argument('--use_segm_mask', action='store_true', help='Use segm mask')
     parser.add_argument('--use_random_mask', action='store_true', help='Use random mask (still uses bbox mask to center crop, though)')
+    parser.add_argument('--use_upperleft_mask', action='store_true', help='Use upper-left mask (still uses bbox mask to center crop, though)')
     parser.add_argument('--min_random_mask_size', type=float, default=64, help='Min. random mask size (if int: pixels, if float: as percentage)')
     parser.add_argument('--max_random_mask_size', type=float, default=64, help='Max. random mask size (if int: pixels, if float: as percentage)')
     parser.add_argument('--use_all_masks', action='store_true', help='Use all masks')
@@ -1524,7 +1563,7 @@ def main():
                            use_prompt_from_caption=args.use_prompt_from_caption, use_negative_prompt=args.use_negative_prompt,
                            max_images=args.max_images,
                            verbose=args.verbose, save_dir=save_dir, save_orig_dir=save_orig_dir, bak_orig_dir=bak_orig_dir,
-                           use_bbox_mask=args.use_bbox_mask, use_segm_mask=args.use_segm_mask, use_random_mask=args.use_random_mask,
+                           use_bbox_mask=args.use_bbox_mask, use_segm_mask=args.use_segm_mask, use_random_mask=args.use_random_mask, use_upperleft_mask=args.use_upperleft_mask,
                            min_random_mask_size=min_random_mask_size, max_random_mask_size=max_random_mask_size, 
                            use_all_masks=args.use_all_masks,
                            use_ps_mask_for_splicing=args.use_ps_mask_for_splicing, ps_mask_dir=ps_mask_dir,

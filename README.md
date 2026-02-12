@@ -1,23 +1,27 @@
-# TGIF: Text-Guided Inpainting Forgery Dataset
+# TGIF & TGIF2: Text-Guided Inpainting Forgery Dataset
 
-This dataset contains approximately 75k fake images, manipulated by text-guided inpainting methods (SD2, SDXL, and Adobe Firefly).
+The **TGIF dataset** contains approximately 75k fake images, manipulated by text-guided inpainting methods (SD2, SDXL, and Adobe Firefly).
+Additionally, **TGIF2** extended TGIF by including 196k new fake images, manipulated with FLUX.1 models, and adding new random, non-semantic masks.
+In total, this results in 271k fake images.
+
 The authentic images originate from [MS-COCO](https://cocodataset.org/), with a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/), and have resolutions up to 1024x1024 px.
-We provide both the manipulated image where the inpainted area is spliced in the original image (SD2-sp, PS-sp), as well as the fully-regenerated image (SD2-fr, SDXL-fr), when possible.
+We provide both the manipulated image where the inpainted area is (sp) in the original image, as well as the fully-regenerated image (fr), when possible.
 
 The dataset corresponds to the paper "TGIF: Text-Guided Inpainting Forgery Dataset", which was accepted at the [IEEE International Workshop on Information Forensics & Security 2024](https://wifs2024.uniroma3.it/).
-
-An extended version (TGIF2) is currently under review.
+The extended version (TGIF2) is currently under review.
 
 We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
 
 
-## Visual explanation of our insights
+## Visual explanation of TGIF insights
 ![Authors on skis in Greece](./readme-images/fake-skis.png)<br>
 *Did the authors really go skiing on Greece's iconic Mt. Athos?*
 
 The image above is fake - the skis were added using text-guided inpainting. Can current forensic methods detect this manipulation?
 
-Find out in our [**blog post**](https://media.idlab.ugent.be/tgif-dataset), where we explain our insights in a simple and visual way.
+Find out in our [**TGIF blog post**](https://media.idlab.ugent.be/tgif-dataset), where we explain our insights in a simple and visual way.
+
+A blog post on the insights of TGIF2 will come after acceptance.
 
 
 ## Dataset specifications
@@ -25,7 +29,7 @@ Find out in our [**blog post**](https://media.idlab.ugent.be/tgif-dataset), wher
 ![TGIF Creation](./readme-images/TGIF_diagram.png)<br>
 *In TGIF, we created 75k fake images using SD2, SDXL, and Adobe Photoshop/Firefly. We used 2 types of masks, and differentiate between spliced and fully regenerated inpainted images. Not seen in the diagram: each inpainting operation creates 3 variations in batch.*
 
-*In TGIF2, we created an additional 140k fake images using FLUX.1 schnell, FLUX.1 dev, FLUX.1 filldev with the same 2 types of masks, as well as SD2 and SDXl with a random 64x64 px patch as mask.*
+*In TGIF2, we created an additional 196k fake images using FLUX.1 schnell, FLUX.1 dev, FLUX.1 filldev with the same 2 types of masks, as well as random, non-semantic rectangles as mask.*
 
 | **Manipulation types**                             |                                    |
 |----------------------------------------------------|------------------------------------|
@@ -54,9 +58,9 @@ For TGIF2 FLUX, the downloads are organized in flux1schnell-sp, flux1schnell-fr,
 For TGIF2 random, the downloads are organized in masks, masks-fr, sd2-sp, sd2-fr, sdxl-fr.
 Each of the directories mentioned above are separated in training, validation, and testing, respectively.
 
-Metadata (incl. NIMA, GIQA & ITM scores) is available in this repository (_metadata_, _metadata\_flux_, and _metadata\_random_). Benchmark results of TGIF (_benchmark-results_).
+Metadata and benchmark results (incl. generative quality scores) is available in this repository (_metadata_, _metadata\_flux_, and _metadata\_random_, and _benchmark-results_).
 
-Code to perform text-guided inpainting with SD2, SDXL, FLUX models, and Adobe Photoshop/Firefly is added in the _code_ folder of this repository, as well as code to calculate NIMA, GIQA, and ITM scores, and to compress images using JPEG and WEBP. Note that for the FLUX.1 dev and FLUX.1 Fill dev models, you should add your own huggingface access code in _code/inpaint-loop.py_.
+Code to perform text-guided inpainting with SD2, SDXL, FLUX models, and Adobe Photoshop/Firefly is added in the _code_ folder of this repository, as well as code to calculate generative quality scores, and to compress images using JPEG and WEBP. Note that for the FLUX.1 dev and FLUX.1 Fill dev models, you should add your own huggingface access code in _code/inpaint-loop.py_.
 
 The [NIMA](https://github.com/yunxiaoshi/Neural-IMage-Assessment) and [GIQA](https://github.com/cientgu/GIQA) checkpoints are archived [here](https://cloud.ilabt.imec.be/index.php/s/DQwTjE6A3ydgxjq). The ITM, SD2 and SDXL weights are downloaded automatically.
 
@@ -86,6 +90,8 @@ With
 
 ## Reference
 TGIF was presented in the [IEEE International Workshop on Information Forensics & Security 2024](https://wifs2024.uniroma3.it/). The preprint can be downloaded [on arXiv](https://arxiv.org/abs/2407.11566), and the published version on [IEEEXplore](https://ieeexplore.ieee.org/document/10810690).
+
+TGIF2 is currently under submission. A preprint is coming soon.
 
 ```js
 @InProceedings{mareen2024tgif,
