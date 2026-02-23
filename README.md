@@ -33,19 +33,19 @@ A blog post on the insights of TGIF2 will come after acceptance.
 
 | **Manipulation types**                             |                                    |
 |----------------------------------------------------|------------------------------------|
-| **# masks**                                        | 2 (segmentation & bounding box) or 1 (random 64x64 px patch)   |
+| **# masks**                                        | 2 (segmentation & bounding box) or 1 (random rectangle)   |
 | **# sub-datasets**                                 | 4 (SD2-sp, PS-sp, SD2-fr, SDXL-fr) |
-| **# sub-datasets (+TGIF2)**                                 | 6+3 (flux1schnell-sp, flux1schnell-fr, flux1dev-sp, flux1dev-fr, flux1filldev-sp, flux1filldev-fr) + (sd2-random-sp, sd2-random-fr, sdxl-random-fr) |
+| **# sub-datasets (+TGIF2)**                                 | 6+9 (flux1schnell-sp, flux1schnell-fr, flux1dev-sp, flux1dev-fr, flux1filldev-sp, flux1filldev-fr) + (sd2-random-sp, sd2-random-fr, sdxl-random-fr, flux1schnell-random-sp, flux1schnell-random-fr, flux1dev-random-sp, flux1dev-random-fr, flux1filldev-random-sp, flux1filldev-random-fr) |
 | **# variations** (num_images_per_prompt)           | 3 per generation (in batch)        |
 | **Total # manipulated images per authentic image (TGIF)** | 2 * 4 * 3 = 24                     |
-| **Total # manipulated images per authentic image (+TGIF2)** | (2 * 6 * 3) + (1 * 3 * 3) = 45                     |
+| **Total # manipulated images per authentic image (+TGIF2)** | (2 * 6 * 3) + (1 * 9 * 3) = 36 + 27 = 63                     |
 
 | **Dataset size**         | **Training** | **Validation** | **Testing** | **Total** |
 |--------------------------|--------------|----------------|-------------|-----------|
 | **# authentic images**   | 2 440        | 341            | 343         | 3 124     |
 | **# manipulated images (TGIF)** | 58 560       | 8 184          | 8 232       | 74 976    |
-| **# manipulated images (+TGIF2)** | 109 800       | 15 345          | 15 435       | 140 580    |
-| **# manipulated images (TGIF+TGIF2)** | 168 360       | 23 529          | 23 667       | 215 556    |
+| **# manipulated images (+TGIF2)** | 153 720       | 21 483          | 21 609       | 196 812    |
+| **# manipulated images (TGIF+TGIF2)** | 212 280       | 29 667          | 29 841       | 271 788    |
 
 
 ## Download
