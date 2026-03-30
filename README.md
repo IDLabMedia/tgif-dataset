@@ -8,7 +8,7 @@ The authentic images originate from [MS-COCO](https://cocodataset.org/), with a 
 We provide both the manipulated image where the inpainted area is (sp) in the original image, as well as the fully-regenerated image (fr), when possible.
 
 The dataset corresponds to the paper "TGIF: Text-Guided Inpainting Forgery Dataset", which was accepted at the [IEEE International Workshop on Information Forensics & Security 2024](https://wifs2024.uniroma3.it/).
-The extended version (TGIF2) is currently under review.
+The extended version (TGIF2) corresponds to the paper "TGIF2: Extended Text-Guided Inpainting Forgery Dataset & Benchmark", which was accepted at the [Journal on Information Security](https://link.springer.com/journal/13635).
 
 We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -21,7 +21,7 @@ The image above is fake - the skis were added using text-guided inpainting. Can 
 
 Find out in our [**TGIF blog post**](https://media.idlab.ugent.be/tgif-dataset), where we explain our insights in a simple and visual way.
 
-A blog post on the insights of TGIF2 will come after acceptance.
+A blog post on the additional insights of TGIF2 will come soon.
 
 
 ## Dataset specifications
@@ -51,11 +51,11 @@ A blog post on the insights of TGIF2 will come after acceptance.
 ## Download
 * [Download all TGIF images](https://cloud.ilabt.imec.be/index.php/s/xEeAzrY7ES9KA8o)
 * [Download all TGIF2 FLUX images](https://cloud.ilabt.imec.be/index.php/s/KG48tLZZzifC5WE)
-* [Download all TGIF2 random images](https://cloud.ilabt.imec.be/index.php/s/CyPBBQPiFM55JRF)
+* [Download all TGIF2 random images](https://cloud.ilabt.imec.be/index.php/s/GDGewtTFcHccaNj)
 
-For TGIF, the downloads are organized in masks, original, SD2-sp, PS-sp, SD2-fr, SDXL-fr. 
-For TGIF2 FLUX, the downloads are organized in flux1schnell-sp, flux1schnell-fr, flux1dev-sp, flux1dev-fr, flux1filldev-sp, flux1filldev-fr. They additionally contain masks-flux and original-flux, as slightly different crops may be taken than in TGIF (FLUX requires divisibility by 16px instead of 8px). The *ps_mask.png masks of the *-sp subsets can still be found in the masks folder in the original TGIF dataset.
-For TGIF2 random, the downloads are organized in masks, masks-fr, sd2-sp, sd2-fr, sdxl-fr.
+For TGIF, the downloads are organized in masks, original, SD2-sp, PS-sp, SD2-fr, and SDXL-fr. 
+For TGIF2 FLUX, the downloads are organized in flux1schnell-sp, flux1schnell-fr, flux1dev-sp, flux1dev-fr, flux1filldev-sp, and flux1filldev-fr. They additionally contain masks-flux and original-flux, as slightly different crops may be taken than in TGIF (FLUX requires divisibility by 16px instead of 8px). The *ps_mask.png masks of the *-sp subsets can still be found in the masks folder in the original TGIF dataset.
+For TGIF2 random, the downloads are organized in masks-sd2, masks-sdxl, masks-flux, sd2-sp, sd2-fr, sdxl-fr, flux1schnell-sp, flux1schnell-fr, flux1dev-sp, flux1dev-fr, flux1filldev-sp, and flux1filldev-fr.
 Each of the directories mentioned above are separated in training, validation, and testing, respectively.
 
 Metadata and benchmark results (incl. generative quality scores) is available in this repository (_metadata_, _metadata\_flux_, and _metadata\_random_, and _benchmark-results_).
@@ -78,9 +78,9 @@ The files are named as follows:
 * PS-sp: {coco_id}\_mask\_{mask_type}.png_ps_{var_id}.png (i.e., no extra ps_mask.png in filename)
 * SD2-fr: {coco_id}\_mask\_{mask_type}.png_sd2-512_{var_id}.png  (i.e., 512 instead of 1024)
 * SDXL-fr, flux1schnell-fr, flux1dev-fr, flux1filldev-fr: {coco_id}\_mask\_{mask_type}.png_{gen_model}-1024_{var_id}.png (i.e., 1024 instead of 512)
-* SD2-random-sp: {coco_id}\_mask\_random.png_sd2_{var_id}.png
+* SD2-random-sp, flux1schnell-sp, flux1dev-sp, flux1filldev-sp: {coco_id}\_mask\_random.png_{gen_model}_{var_id}.png
 * SD2-random-fr: {coco_id}\_mask\_random.png_sd2-512_{var_id}.png
-* SDXL-random-fr: {coco_id}\_mask\_random.png_sd2-1024_{var_id}.png
+* SDXL-random-fr, flux1schnell-fr, flux1dev-fr, flux1filldev-fr: {coco_id}\_mask\_random.png_sd2-1024_{var_id}.png
 
 With
 * crop_size: 512 or 1024
@@ -91,13 +91,23 @@ With
 ## Reference
 TGIF was presented in the [IEEE International Workshop on Information Forensics & Security 2024](https://wifs2024.uniroma3.it/). The preprint can be downloaded [on arXiv](https://arxiv.org/abs/2407.11566), and the published version on [IEEEXplore](https://ieeexplore.ieee.org/document/10810690).
 
-TGIF2 is currently under submission. A preprint is coming soon.
+TGIF2 was accepted for publication at the [Journal on Information Security](https://link.springer.com/journal/13635), as part of the collection [Advances in Information Forensics and Security](https://link.springer.com/collections/icejghjehj). Preprint will be available for download soon.
 
 ```js
 @InProceedings{mareen2024tgif,
-  author="Mareen, Hannes and Karageorgiou, Dimitrios and Van Wallendael, Glenn and Lambert, Peter and Papadopoulos, Symeon",
-  title="TGIF: Text-Guided Inpainting Forgery Dataset",
-  booktitle="Proc. Int. Workshop on Information Forensics and Security (WIFS) 2024",
-  year="2024"
+  author={Mareen, Hannes and Karageorgiou, Dimitrios and Van Wallendael, Glenn and Lambert, Peter and Papadopoulos, Symeon},
+  title={{TGIF}: Text-Guided Inpainting Forgery Dataset},
+  booktitle={Proc. Int. Workshop on Information Forensics and Security (WIFS) 2024},
+  year={2024}
+}
+```
+
+```js
+@article{mareen2026tgif2,
+  author={Mareen, Hannes and Karageorgiou, Dimitrios and Giakoumoglou, Paschalis and Lambert, Peter and Papadopoulos, Symeon and Van Wallendael, Glenn},
+  title={{TGIF2}: Extended Text-Guided Inpainting Forgery Dataset \& Benchmark},
+  journal={Journal on Information Security},
+  year={2026},
+  publisher={Springer}
 }
 ```
