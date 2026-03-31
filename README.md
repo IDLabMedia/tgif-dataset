@@ -7,8 +7,8 @@ In total, this results in 271k fake images.
 The authentic images originate from [MS-COCO](https://cocodataset.org/), with a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/), and have resolutions up to 1024x1024 px.
 We provide both the manipulated image where the inpainted area is (sp) in the original image, as well as the fully-regenerated image (fr), when possible.
 
-The dataset corresponds to the paper "TGIF: Text-Guided Inpainting Forgery Dataset", which was accepted at the [IEEE International Workshop on Information Forensics & Security 2024](https://wifs2024.uniroma3.it/).
-The extended version (TGIF2) corresponds to the paper "TGIF2: Extended Text-Guided Inpainting Forgery Dataset & Benchmark", which was accepted at the [Journal on Information Security](https://link.springer.com/journal/13635).
+The dataset corresponds to the paper "TGIF: Text-Guided Inpainting Forgery Dataset", which was accepted at the IEEE International Workshop on Information Forensics & Security 2024.
+The extended version (TGIF2) corresponds to the paper "[TGIF2: Extended Text-Guided Inpainting Forgery Dataset & Benchmark](https://arxiv.org/abs/2603.28613)", which was accepted at the Journal on Information Security.
 
 We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -88,10 +88,10 @@ With
 * var_id: 0, 1, or 2
 * gen_model: sd2, sdxl, flux1schnell, flux1dev, flux1filldev
 
-## Reference
+## References
 TGIF was presented in the [IEEE International Workshop on Information Forensics & Security 2024](https://wifs2024.uniroma3.it/). The preprint can be downloaded [on arXiv](https://arxiv.org/abs/2407.11566), and the published version on [IEEEXplore](https://ieeexplore.ieee.org/document/10810690).
 
-TGIF2 was accepted for publication at the [Journal on Information Security](https://link.springer.com/journal/13635), as part of the collection [Advances in Information Forensics and Security](https://link.springer.com/collections/icejghjehj). Preprint will be available for download soon.
+TGIF2 was accepted for publication at the [Journal on Information Security](https://link.springer.com/journal/13635), as part of the collection [Advances in Information Forensics and Security](https://link.springer.com/collections/icejghjehj). The preprint can be downloaded [on arXiv](https://arxiv.org/abs/2603.28613).
 
 ```js
 @InProceedings{mareen2024tgif,
