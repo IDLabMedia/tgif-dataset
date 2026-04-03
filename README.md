@@ -21,15 +21,16 @@ The image above is fake - the skis were added using text-guided inpainting. Can 
 
 Find out in our [**TGIF blog post**](https://media.idlab.ugent.be/tgif-dataset), where we explain our insights in a simple and visual way.
 
-A blog post on the additional insights of TGIF2 will come soon.
+Additionally, our [**TGIF2 blog post**](https://media.idlab.ugent.be/tgif2-dataset) explains our new insights, e.g. related to fine-tuning for localization in fully regenerated images and the impact of AI-based superresolution.
 
 
 ## Dataset specifications
-
-![TGIF Creation](./readme-images/TGIF_diagram.png)<br>
 *In TGIF, we created 75k fake images using SD2, SDXL, and Adobe Photoshop/Firefly. We used 2 types of masks, and differentiate between spliced and fully regenerated inpainted images. Not seen in the diagram: each inpainting operation creates 3 variations in batch.*
+![TGIF Creation](./readme-images/TGIF_diagram.png)<br>
 
 *In TGIF2, we created an additional 196k fake images using FLUX.1 schnell, FLUX.1 dev, FLUX.1 filldev with the same 2 types of masks, as well as random, non-semantic rectangles as mask.*
+![TGIF2 Creation - Inpainting methods](./readme-images/inpainting-methods.jpg)<br>
+![TGIF Creation - Masks](./readme-images/masks.jpg)<br>
 
 | **Manipulation types**                             |                                    |
 |----------------------------------------------------|------------------------------------|
