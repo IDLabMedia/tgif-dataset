@@ -7,7 +7,7 @@ In total, this results in 271k fake images.
 The authentic images originate from [MS-COCO](https://cocodataset.org/), with a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/), and have resolutions up to 1024x1024 px.
 We provide both the manipulated image where the inpainted area is (sp) in the original image, as well as the fully-regenerated image (fr), when possible.
 
-The dataset corresponds to the paper "TGIF: Text-Guided Inpainting Forgery Dataset", which was accepted at the IEEE International Workshop on Information Forensics & Security 2024.
+The dataset corresponds to the paper "[TGIF: Text-Guided Inpainting Forgery Dataset](https://arxiv.org/abs/2407.11566)", which was accepted at the IEEE International Workshop on Information Forensics & Security 2024.
 The extended version (TGIF2) corresponds to the paper "[TGIF2: Extended Text-Guided Inpainting Forgery Dataset & Benchmark](https://arxiv.org/abs/2603.28613)", which was accepted at the Journal on Information Security.
 
 We distribute this dataset under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
