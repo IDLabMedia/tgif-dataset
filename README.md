@@ -92,7 +92,7 @@ With
 ## References
 TGIF was presented in the [IEEE International Workshop on Information Forensics & Security 2024](https://wifs2024.uniroma3.it/). The preprint can be downloaded [on arXiv](https://arxiv.org/abs/2407.11566), and the published version on [IEEEXplore](https://ieeexplore.ieee.org/document/10810690).
 
-TGIF2 was accepted for publication at the [Journal on Information Security](https://link.springer.com/journal/13635), as part of the collection [Advances in Information Forensics and Security](https://link.springer.com/collections/icejghjehj). The preprint can be downloaded [on arXiv](https://arxiv.org/abs/2603.28613).
+TGIF2 was accepted for publication at the [Journal on Information Security](https://link.springer.com/journal/13635), as part of the collection [Advances in Information Forensics and Security](https://link.springer.com/collections/icejghjehj). The preprint can be downloaded [on arXiv](https://arxiv.org/abs/2603.28613), and the published version on [Springer Nature](https://doi.org/10.1186/s13635-026-00235-9).
 
 ```js
 @InProceedings{mareen2024tgif,
